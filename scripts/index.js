@@ -7,6 +7,7 @@ var
     , rows = file.split('\n')
     , header = []
     , finalJSON = {}
+    , promises = []
 
 
 rows.forEach(function (row, index) {
@@ -18,13 +19,13 @@ rows.forEach(function (row, index) {
         return
     }
 
-
     if (header) {
 
         var cells = row.split('\t')
             , ipaSymbol = cells[header.indexOf('ipa')]
             , name = cells[header.indexOf('name')]
-            , audioRoot = `../assets/audio/consonants/${name.replace(/\s/g, '-').toLowerCase()}/`
+            , audioName = name.replace(/\s/g, '-').toLowerCase()
+            , audioRoot = `../assets/audio/consonants/${audioName}/`
 
         finalJSON[ipaSymbol] = {}
         finalJSON[ipaSymbol].examples = {}
@@ -40,10 +41,18 @@ rows.forEach(function (row, index) {
                         pathToSave = audioRoot + 'sound.mp3'
                         , url = value
 
-                    downloadAudio({ url, pathToSave }, function (error) {
-                        if (error) console.log(error)
-                        finalJSON[ipaSymbol][key] = pathToSave
+                    var downloadIPASound = new Promise(function (resolve, reject) {
+
+                        downloadAudio({ url, pathToSave }, function (error) {
+                            if (error) console.log(error)
+                            finalJSON[ipaSymbol][key] = pathToSave
+                            resolve()
+                        })
+
                     })
+
+                    promises.push(downloadIPASound)
+
 
                 } else if (languages.indexOf(key) > -1) {
                     var
@@ -59,7 +68,21 @@ rows.forEach(function (row, index) {
                             pathToSave = audioRoot + 'examples/' + language + '/' + example + '.mp3'
                             , url = value
 
-                        finalJSON[ipaSymbol].examples[language].push({ word: example, audio: pathToSave })
+                        if (example) {
+
+                            var downloadExample = new Promise(function (resolve, reject) {
+
+                                downloadAudioExample({ word: example, pathToSave, language, audioRoot }, function (error) {
+                                    if (error) { console.log(error); return }
+                                    finalJSON[ipaSymbol].examples[language].push({ word: example, audio: pathToSave })
+                                    resolve()
+                                })
+
+                            })
+
+                            promises.push(downloadExample)
+
+                        }
                     })
 
                 } else {
@@ -70,20 +93,50 @@ rows.forEach(function (row, index) {
 
         })
 
-
-
-
     }
-
-
-
-
-
 
 })
 
+Promise.all(promises).then(() => {
+    fs.writeFile('consonants.json', JSON.stringify(finalJSON, null, 4))
+})
 
-fs.writeFile('consonants.json', JSON.stringify(finalJSON, null, 4))
+
+
+
+function downloadAudioExample({word, pathToSave, language}, callback) {
+
+    requestWordToForvo({word, pathToSave, language}, function (error) {
+        if (error) console.log(error)
+        callback(null)
+    })
+}
+
+
+function requestWordToForvo({word, language, audioRoot}, callback) {
+
+    var apiKey = '5cd8ecd7ad6b916127af0a60f41e4ab0'
+        , url = `https://apifree.forvo.com/key/${apiKey}/format/json/action/word-pronunciations/word/${word}/language/${language}`
+
+    request(url, function (error, response, body) {  
+
+        if (!error && response.statusCode == 200) {
+
+            var item = JSON.parse(body).items[0]
+
+            if(item){
+
+                var pathmp3 = JSON.parse(body).items[0].pathmp3
+                    , pathToSave = audioRoot + `${language}`
+
+                downloadAudio({ url: pathmp3, pathToSave }, callback)
+            
+                console.log(pathmp3)
+            }
+            
+        }
+    })
+}
 
 
 function downloadAudio({url, pathToSave}, callback) {
@@ -91,10 +144,14 @@ function downloadAudio({url, pathToSave}, callback) {
     var path;
 
 
-    if (callback) callback(null)
-
-
-    return path
+    // request
+    //     .get(url)
+        
+    //     .on('error', function (err) {
+    //         if (callback) callback(err)
+    //     })
+        
+    //     .on('response', function())        
 }
 
 function isValid(value) {
