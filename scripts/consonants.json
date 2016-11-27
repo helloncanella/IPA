@@ -1,409 +1,159 @@
 {
     "b": {
         "examples": {
-            "english": [
-                {
-                    "word": "buy",
-                    "audio": "../assets/audio/consonants/voiced-bilabial-stop/examples/english/buy.mp3"
-                },
-                {
-                    "word": "cab",
-                    "audio": "../assets/audio/consonants/voiced-bilabial-stop/examples/english/cab.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "bei",
-                    "audio": "../assets/audio/consonants/voiced-bilabial-stop/examples/german/bei.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "bon",
-                    "audio": "../assets/audio/consonants/voiced-bilabial-stop/examples/french/bon.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "b",
         "name": "voiced bilabial stop",
-        "sound": "../assets/audio/consonants/voiced-bilabial-stop/sound.mp3",
         "phonation": "voiced",
         "place_of_articulation": "bilabial",
-        "manner_of_articulation": "stop"
+        "manner_of_articulation": "stop",
+        "sound": "/assets/audio/consonants/voiced-bilabial-stop/sound"
     },
     "ç": {
         "examples": {
-            "german": [
-                {
-                    "word": "ich",
-                    "audio": "../assets/audio/consonants/voiceless-palatal-fricative/examples/german/ich.mp3"
-                },
-                {
-                    "word": "durch",
-                    "audio": "../assets/audio/consonants/voiceless-palatal-fricative/examples/german/durch.mp3"
-                },
-                {
-                    "word": "China",
-                    "audio": "../assets/audio/consonants/voiceless-palatal-fricative/examples/german/China.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "ç",
         "name": "voiceless palatal fricative",
-        "sound": "../assets/audio/consonants/voiceless-palatal-fricative/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "palatal",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiceless-palatal-fricative/sound"
     },
     "ð": {
         "examples": {
-            "english": [
-                {
-                    "word": "thy",
-                    "audio": "../assets/audio/consonants/voiced-dental-fricative/examples/english/thy.mp3"
-                },
-                {
-                    "word": "breathe",
-                    "audio": "../assets/audio/consonants/voiced-dental-fricative/examples/english/breathe.mp3"
-                },
-                {
-                    "word": "father",
-                    "audio": "../assets/audio/consonants/voiced-dental-fricative/examples/english/father.mp3"
-                }
-            ]
+            "english": []
         },
         "ipa": "ð",
         "name": "voiced dental fricative",
-        "sound": "../assets/audio/consonants/voiced-dental-fricative/sound.mp3",
         "phonation": "voiced",
         "place_of_articulation": "dental",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiced-dental-fricative/sound"
     },
     "d": {
         "examples": {
-            "english": [
-                {
-                    "word": "dye",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-stop/examples/english/dye.mp3"
-                },
-                {
-                    "word": "cad",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-stop/examples/english/cad.mp3"
-                },
-                {
-                    "word": "do",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-stop/examples/english/do.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "dann",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-stop/examples/german/dann.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "deux",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-stop/examples/french/deux.mp3"
-                },
-                {
-                    "word": "grande",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-stop/examples/french/grande.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "d",
         "name": "voiced alveolar stop",
-        "sound": "../assets/audio/consonants/voiced-alveolar-stop/sound.mp3",
         "phonation": "voiced",
         "place_of_articulation": "alveolar",
-        "manner_of_articulation": "stop"
+        "manner_of_articulation": "stop",
+        "sound": "/assets/audio/consonants/voiced-alveolar-stop/sound"
     },
     "f": {
         "examples": {
-            "english": [
-                {
-                    "word": "fan",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-fricative/examples/english/fan.mp3"
-                },
-                {
-                    "word": "caff",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-fricative/examples/english/caff.mp3"
-                },
-                {
-                    "word": "phi",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-fricative/examples/english/phi.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "für",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-fricative/examples/german/für.mp3"
-                },
-                {
-                    "word": "von",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-fricative/examples/german/von.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "faire",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-fricative/examples/french/faire.mp3"
-                },
-                {
-                    "word": "vif",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-fricative/examples/french/vif.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "f",
         "name": "voiceless labiodental fricative",
-        "sound": "../assets/audio/consonants/voiceless-labiodental-fricative/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "labiodental",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiceless-labiodental-fricative/sound"
     },
     "ɡ": {
         "examples": {
-            "english": [
-                {
-                    "word": "guy",
-                    "audio": "../assets/audio/consonants/voiced-velar-stop/examples/english/guy.mp3"
-                },
-                {
-                    "word": "bag",
-                    "audio": "../assets/audio/consonants/voiced-velar-stop/examples/english/bag.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "gut",
-                    "audio": "../assets/audio/consonants/voiced-velar-stop/examples/german/gut.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "garçon",
-                    "audio": "../assets/audio/consonants/voiced-velar-stop/examples/french/garçon.mp3"
-                },
-                {
-                    "word": "longue",
-                    "audio": "../assets/audio/consonants/voiced-velar-stop/examples/french/longue.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "ɡ",
         "name": "voiced velar stop",
-        "sound": "../assets/audio/consonants/voiced-velar-stop/sound.mp3",
         "phonation": "voiced",
         "place_of_articulation": "velar",
-        "manner_of_articulation": "stop"
+        "manner_of_articulation": "stop",
+        "sound": "/assets/audio/consonants/voiced-velar-stop/sound"
     },
     "h": {
         "examples": {
-            "english": [
-                {
-                    "word": "high",
-                    "audio": "../assets/audio/consonants/voiceless-glottal-fricative/examples/english/high.mp3"
-                },
-                {
-                    "word": "ahead",
-                    "audio": "../assets/audio/consonants/voiceless-glottal-fricative/examples/english/ahead.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "hat",
-                    "audio": "../assets/audio/consonants/voiceless-glottal-fricative/examples/german/hat.mp3"
-                }
-            ]
+            "english": [],
+            "german": []
         },
         "ipa": "h",
         "name": "voiceless glottal fricative",
-        "sound": "../assets/audio/consonants/voiceless-glottal-fricative/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "glottal",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiceless-glottal-fricative/sound"
     },
     "hw": {
         "examples": {
-            "english": [
-                {
-                    "word": "why",
-                    "audio": "../assets/audio/consonants/-/examples/english/why.mp3"
-                }
-            ]
+            "english": []
         },
         "ipa": "hw"
     },
     "j": {
         "examples": {
-            "english": [
-                {
-                    "word": "yes",
-                    "audio": "../assets/audio/consonants/palatal-approximant/examples/english/yes.mp3"
-                },
-                {
-                    "word": "hallelujah",
-                    "audio": "../assets/audio/consonants/palatal-approximant/examples/english/hallelujah.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Jahr",
-                    "audio": "../assets/audio/consonants/palatal-approximant/examples/german/Jahr.mp3"
-                }
-            ]
+            "english": [],
+            "german": []
         },
         "ipa": "j",
         "name": "palatal approximant",
-        "sound": "../assets/audio/consonants/palatal-approximant/sound.mp3",
         "phonation": "voiced",
         "place_of_articulation": "palatal",
-        "manner_of_articulation": "approximant"
+        "manner_of_articulation": "approximant",
+        "sound": "/assets/audio/consonants/palatal-approximant/sound"
     },
     "k": {
         "examples": {
-            "english": [
-                {
-                    "word": "sky",
-                    "audio": "../assets/audio/consonants/voiceless-velar-stop/examples/english/sky.mp3"
-                },
-                {
-                    "word": "crack",
-                    "audio": "../assets/audio/consonants/voiceless-velar-stop/examples/english/crack.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "kann",
-                    "audio": "../assets/audio/consonants/voiceless-velar-stop/examples/german/kann.mp3"
-                },
-                {
-                    "word": "Tag",
-                    "audio": "../assets/audio/consonants/voiceless-velar-stop/examples/german/Tag.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "corps",
-                    "audio": "../assets/audio/consonants/voiceless-velar-stop/examples/french/corps.mp3"
-                },
-                {
-                    "word": "avec",
-                    "audio": "../assets/audio/consonants/voiceless-velar-stop/examples/french/avec.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "k",
         "name": "voiceless velar stop",
-        "sound": "../assets/audio/consonants/voiceless-velar-stop/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "velar",
-        "manner_of_articulation": "stop"
+        "manner_of_articulation": "stop",
+        "sound": "/assets/audio/consonants/voiceless-velar-stop/sound"
     },
     "l": {
         "examples": {
-            "english": [
-                {
-                    "word": "lie",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/english/lie.mp3"
-                },
-                {
-                    "word": "sly",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/english/sly.mp3"
-                },
-                {
-                    "word": "gal",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/english/gal.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Leben",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/german/Leben.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "laisser",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/french/laisser.mp3"
-                },
-                {
-                    "word": "possible",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/french/possible.mp3"
-                },
-                {
-                    "word": "seul",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/french/seul.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "l",
         "name": "alveolar lateral approximant",
-        "sound": "../assets/audio/consonants/alveolar-lateral-approximant/sound.mp3",
         "place_of_articulation": "alveolar",
-        "manner_of_articulation": "lateral approximant"
+        "manner_of_articulation": "lateral approximant",
+        "sound": "/assets/audio/consonants/alveolar-lateral-approximant/sound"
     },
     "l̩": {
         "examples": {
-            "german": [
-                {
-                    "word": "Mantel",
-                    "audio": "../assets/audio/consonants/alveolar-lateral-approximant/examples/german/Mantel.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "l̩",
         "name": "alveolar lateral approximant",
-        "sound": "../assets/audio/consonants/alveolar-lateral-approximant/sound.mp3",
         "place_of_articulation": "alveolar",
         "manner_of_articulation": "lateral approximant",
-        "phonetic_detail": "syllabic consonant"
+        "phonetic_detail": "syllabic consonant",
+        "sound": "/assets/audio/consonants/alveolar-lateral-approximant/sound"
     },
     "m": {
         "examples": {
-            "english": [
-                {
-                    "word": "my",
-                    "audio": "../assets/audio/consonants/bilabial-nasal/examples/english/my.mp3"
-                },
-                {
-                    "word": "smile",
-                    "audio": "../assets/audio/consonants/bilabial-nasal/examples/english/smile.mp3"
-                },
-                {
-                    "word": "cam",
-                    "audio": "../assets/audio/consonants/bilabial-nasal/examples/english/cam.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Mann",
-                    "audio": "../assets/audio/consonants/bilabial-nasal/examples/german/Mann.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "même",
-                    "audio": "../assets/audio/consonants/bilabial-nasal/examples/french/même.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "m",
         "name": "bilabial nasal",
-        "sound": "../assets/audio/consonants/bilabial-nasal/sound.mp3",
         "place_of_articulation": "bilabial",
-        "manner_of_articulation": "nasal"
+        "manner_of_articulation": "nasal",
+        "sound": "/assets/audio/consonants/bilabial-nasal/sound"
     },
     "m̩": {
         "examples": {
-            "german": [
-                {
-                    "word": "Atem",
-                    "audio": "../assets/audio/consonants/-/examples/german/Atem.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "m̩",
         "place_of_articulation": "bilabial",
@@ -412,70 +162,29 @@
     },
     "n": {
         "examples": {
-            "english": [
-                {
-                    "word": "nigh",
-                    "audio": "../assets/audio/consonants/alveolar-nasal/examples/english/nigh.mp3"
-                },
-                {
-                    "word": "snide",
-                    "audio": "../assets/audio/consonants/alveolar-nasal/examples/english/snide.mp3"
-                },
-                {
-                    "word": "can",
-                    "audio": "../assets/audio/consonants/alveolar-nasal/examples/english/can.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Name",
-                    "audio": "../assets/audio/consonants/alveolar-nasal/examples/german/Name.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "nous",
-                    "audio": "../assets/audio/consonants/alveolar-nasal/examples/french/nous.mp3"
-                },
-                {
-                    "word": "bonne",
-                    "audio": "../assets/audio/consonants/alveolar-nasal/examples/french/bonne.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "n",
         "name": "alveolar nasal",
-        "sound": "../assets/audio/consonants/alveolar-nasal/sound.mp3",
         "place_of_articulation": "alveolar",
-        "manner_of_articulation": "nasal"
+        "manner_of_articulation": "nasal",
+        "sound": "/assets/audio/consonants/alveolar-nasal/sound"
     },
     "ɲ": {
         "examples": {
-            "french": [
-                {
-                    "word": "gagner",
-                    "audio": "../assets/audio/consonants/palatal-nasal/examples/french/gagner.mp3"
-                },
-                {
-                    "word": "champagne",
-                    "audio": "../assets/audio/consonants/palatal-nasal/examples/french/champagne.mp3"
-                }
-            ]
+            "french": []
         },
         "ipa": "ɲ",
         "name": "palatal nasal",
-        "sound": "../assets/audio/consonants/palatal-nasal/sound.mp3",
         "place_of_articulation": "palatal",
-        "manner_of_articulation": "nasal"
+        "manner_of_articulation": "nasal",
+        "sound": "/assets/audio/consonants/palatal-nasal/sound"
     },
     "n̩": {
         "examples": {
-            "german": [
-                {
-                    "word": "beiden",
-                    "audio": "../assets/audio/consonants//examples/german/beiden.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "n̩",
         "place_of_articulation": "alveolar",
@@ -484,61 +193,29 @@
     },
     "ŋ": {
         "examples": {
-            "english": [
-                {
-                    "word": "sang",
-                    "audio": "../assets/audio/consonants/velar-nasal/examples/english/sang.mp3"
-                },
-                {
-                    "word": "sink",
-                    "audio": "../assets/audio/consonants/velar-nasal/examples/english/sink.mp3"
-                },
-                {
-                    "word": "singer",
-                    "audio": "../assets/audio/consonants/velar-nasal/examples/english/singer.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "lang",
-                    "audio": "../assets/audio/consonants/velar-nasal/examples/german/lang.mp3"
-                }
-            ]
+            "english": [],
+            "german": []
         },
         "ipa": "ŋ",
         "name": "velar nasal",
-        "sound": "../assets/audio/consonants/velar-nasal/sound.mp3",
         "place_of_articulation": "velar",
-        "manner_of_articulation": "nasal"
+        "manner_of_articulation": "nasal",
+        "sound": "/assets/audio/consonants/velar-nasal/sound"
     },
     "θ": {
         "examples": {
-            "english": [
-                {
-                    "word": "thigh",
-                    "audio": "../assets/audio/consonants/voiceless-dental-fricative/examples/english/thigh.mp3"
-                },
-                {
-                    "word": "math",
-                    "audio": "../assets/audio/consonants/voiceless-dental-fricative/examples/english/math.mp3"
-                }
-            ]
+            "english": []
         },
         "ipa": "θ",
         "name": "voiceless dental fricative",
-        "sound": "../assets/audio/consonants/voiceless-dental-fricative/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "dental",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiceless-dental-fricative/sound"
     },
     "ŋ̍": {
         "examples": {
-            "german": [
-                {
-                    "word": "wenigen",
-                    "audio": "../assets/audio/consonants/-/examples/german/wenigen.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "ŋ̍",
         "place_of_articulation": "velar",
@@ -547,492 +224,183 @@
     },
     "p": {
         "examples": {
-            "english": [
-                {
-                    "word": "pie",
-                    "audio": "../assets/audio/consonants/voiceless-bilabial-stop/examples/english/pie.mp3"
-                },
-                {
-                    "word": "spy",
-                    "audio": "../assets/audio/consonants/voiceless-bilabial-stop/examples/english/spy.mp3"
-                },
-                {
-                    "word": "cap",
-                    "audio": "../assets/audio/consonants/voiceless-bilabial-stop/examples/english/cap.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Person",
-                    "audio": "../assets/audio/consonants/voiceless-bilabial-stop/examples/german/Person.mp3"
-                },
-                {
-                    "word": "ab",
-                    "audio": "../assets/audio/consonants/voiceless-bilabial-stop/examples/german/ab.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "père",
-                    "audio": "../assets/audio/consonants/voiceless-bilabial-stop/examples/french/père.mp3"
-                },
-                {
-                    "word": "groupe",
-                    "audio": "../assets/audio/consonants/voiceless-bilabial-stop/examples/french/groupe.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "p",
         "name": "voiceless bilabial stop",
-        "sound": "../assets/audio/consonants/voiceless-bilabial-stop/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "bilabial",
-        "manner_of_articulation": "stop"
+        "manner_of_articulation": "stop",
+        "sound": "/assets/audio/consonants/voiceless-bilabial-stop/sound"
     },
     "pf": {
         "examples": {
-            "german": [
-                {
-                    "word": "Pfeffer",
-                    "audio": "../assets/audio/consonants/voiceless-labiodental-affricate/examples/german/Pfeffer.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "pf",
         "name": "voiceless labiodental affricate",
-        "sound": "../assets/audio/consonants/voiceless-labiodental-affricate/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "labiodental",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiceless-labiodental-affricate/sound"
     },
     "ʁ": {
         "examples": {
-            "german": [
-                {
-                    "word": "reden",
-                    "audio": "../assets/audio/consonants/voiced-uvular-fricative/examples/german/reden.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "regarder",
-                    "audio": "../assets/audio/consonants/voiced-uvular-fricative/examples/french/regarder.mp3"
-                },
-                {
-                    "word": "nôtre",
-                    "audio": "../assets/audio/consonants/voiced-uvular-fricative/examples/french/nôtre.mp3"
-                }
-            ]
+            "german": [],
+            "french": []
         },
         "ipa": "ʁ",
         "name": "voiced uvular fricative",
-        "sound": "../assets/audio/consonants/voiced-uvular-fricative/sound.mp3",
         "phonation": "voiced ",
         "place_of_articulation": "uvular ",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiced-uvular-fricative/sound"
     },
     "r": {
         "examples": {
-            "english": [
-                {
-                    "word": "rye",
-                    "audio": "../assets/audio/consonants/alveolar-trill/examples/english/rye.mp3"
-                },
-                {
-                    "word": "try",
-                    "audio": "../assets/audio/consonants/alveolar-trill/examples/english/try.mp3"
-                },
-                {
-                    "word": "very",
-                    "audio": "../assets/audio/consonants/alveolar-trill/examples/english/very.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "reden",
-                    "audio": "../assets/audio/consonants/alveolar-trill/examples/german/reden.mp3"
-                }
-            ]
+            "english": [],
+            "german": []
         },
         "ipa": "r",
         "name": "alveolar trill",
-        "sound": "../assets/audio/consonants/alveolar-trill/sound.mp3",
         "place_of_articulation": "alveolar",
-        "manner_of_articulation": "trill"
+        "manner_of_articulation": "trill",
+        "sound": "/assets/audio/consonants/alveolar-trill/sound"
     },
     "s": {
         "examples": {
-            "english": [
-                {
-                    "word": "sigh",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/english/sigh.mp3"
-                },
-                {
-                    "word": "mass",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/english/mass.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "lassen",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/german/lassen.mp3"
-                },
-                {
-                    "word": "Haus",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/german/Haus.mp3"
-                },
-                {
-                    "word": "groß",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/german/groß.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "sans",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/french/sans.mp3"
-                },
-                {
-                    "word": "ça",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/french/ça.mp3"
-                },
-                {
-                    "word": "assez",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-fricative/examples/french/assez.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "s",
         "name": "voiceless alveolar fricative",
-        "sound": "../assets/audio/consonants/voiceless-alveolar-fricative/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "alveolar",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiceless-alveolar-fricative/sound"
     },
     "ʃ": {
         "examples": {
-            "english": [
-                {
-                    "word": "shy",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/english/shy.mp3"
-                },
-                {
-                    "word": "cash",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/english/cash.mp3"
-                },
-                {
-                    "word": "emotion",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/english/emotion.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "schon",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/german/schon.mp3"
-                },
-                {
-                    "word": "Stadt",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/german/Stadt.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "chance",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/french/chance.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "ʃ",
         "name": "voiceless palato-alveolar sibilant",
-        "sound": "../assets/audio/consonants/voiceless-palato-alveolar-sibilant/sound.mp3",
         "phonation": "voiceless ",
         "place_of_articulation": "palato-alveolar",
-        "manner_of_articulation": "sibilant"
+        "manner_of_articulation": "sibilant",
+        "sound": "/assets/audio/consonants/voiceless-palato-alveolar-sibilant/sound"
     },
     "t": {
         "examples": {
-            "english": [
-                {
-                    "word": "tie",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/english/tie.mp3"
-                },
-                {
-                    "word": "sty",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/english/sty.mp3"
-                },
-                {
-                    "word": "cat",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/english/cat.mp3"
-                },
-                {
-                    "word": "atom",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/english/atom.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Tag",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/german/Tag.mp3"
-                },
-                {
-                    "word": "und",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/german/und.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "tout",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/french/tout.mp3"
-                },
-                {
-                    "word": "thé",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/french/thé.mp3"
-                },
-                {
-                    "word": "grand-oncle",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-stop/examples/french/grand-oncle.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "t",
         "name": "voiceless alveolar stop",
-        "sound": "../assets/audio/consonants/voiceless-alveolar-stop/sound.mp3",
         "phonation": "voiceless ",
         "place_of_articulation": "alveolar",
-        "manner_of_articulation": "stop"
+        "manner_of_articulation": "stop",
+        "sound": "/assets/audio/consonants/voiceless-alveolar-stop/sound"
     },
     "ts": {
         "examples": {
-            "german": [
-                {
-                    "word": "Zeit",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-affricate/examples/german/Zeit.mp3"
-                },
-                {
-                    "word": "Platz",
-                    "audio": "../assets/audio/consonants/voiceless-alveolar-affricate/examples/german/Platz.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "ts",
         "name": "voiceless alveolar affricate",
-        "sound": "../assets/audio/consonants/voiceless-alveolar-affricate/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "alveolar",
-        "manner_of_articulation": "affricate"
+        "manner_of_articulation": "affricate",
+        "sound": "/assets/audio/consonants/voiceless-alveolar-affricate/sound"
     },
     "tʃ": {
         "examples": {
-            "english": [
-                {
-                    "word": "china",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-affricate/examples/english/china.mp3"
-                },
-                {
-                    "word": "catch",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-affricate/examples/english/catch.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Matsch",
-                    "audio": "../assets/audio/consonants/voiceless-palato-alveolar-affricate/examples/german/Matsch.mp3"
-                }
-            ]
+            "english": [],
+            "german": []
         },
         "ipa": "tʃ",
         "name": "voiceless palato-alveolar affricate",
-        "sound": "../assets/audio/consonants/voiceless-palato-alveolar-affricate/sound.mp3",
         "phonation": "voiceless ",
         "place_of_articulation": "palato-alveolar",
-        "manner_of_articulation": "affricate"
+        "manner_of_articulation": "affricate",
+        "sound": "/assets/audio/consonants/voiceless-palato-alveolar-affricate/sound"
     },
     "v": {
         "examples": {
-            "english": [
-                {
-                    "word": "vie",
-                    "audio": "../assets/audio/consonants/voiced-labiodental-fricative/examples/english/vie.mp3"
-                },
-                {
-                    "word": "have",
-                    "audio": "../assets/audio/consonants/voiced-labiodental-fricative/examples/english/have.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "was",
-                    "audio": "../assets/audio/consonants/voiced-labiodental-fricative/examples/german/was.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "vous",
-                    "audio": "../assets/audio/consonants/voiced-labiodental-fricative/examples/french/vous.mp3"
-                },
-                {
-                    "word": "wagon",
-                    "audio": "../assets/audio/consonants/voiced-labiodental-fricative/examples/french/wagon.mp3"
-                },
-                {
-                    "word": "neuf heures",
-                    "audio": "../assets/audio/consonants/voiced-labiodental-fricative/examples/french/neuf heures.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "v",
         "name": "voiced labiodental fricative",
-        "sound": "../assets/audio/consonants/voiced-labiodental-fricative/sound.mp3",
-        "phonation": "voiced ",
+        "phonation": "v ",
         "place_of_articulation": "labiodental",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiced-labiodental-fricative/sound"
     },
     "x": {
         "examples": {
-            "german": [
-                {
-                    "word": "nach",
-                    "audio": "../assets/audio/consonants/voiceless-velar-fricative/examples/german/nach.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "x",
         "name": "voiceless velar fricative",
-        "sound": "../assets/audio/consonants/voiceless-velar-fricative/sound.mp3",
         "phonation": "voiceless",
         "place_of_articulation": "velar",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiceless-velar-fricative/sound"
     },
     "z": {
         "examples": {
-            "english": [
-                {
-                    "word": "zoo",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-fricative/examples/english/zoo.mp3"
-                },
-                {
-                    "word": "has",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-fricative/examples/english/has.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Sie",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-fricative/examples/german/Sie.mp3"
-                },
-                {
-                    "word": "diese",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-fricative/examples/german/diese.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "zéro",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-fricative/examples/french/zéro.mp3"
-                },
-                {
-                    "word": "raison",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-fricative/examples/french/raison.mp3"
-                },
-                {
-                    "word": "chose",
-                    "audio": "../assets/audio/consonants/voiced-alveolar-fricative/examples/french/chose.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "z",
         "name": "voiced alveolar fricative",
-        "sound": "../assets/audio/consonants/voiced-alveolar-fricative/sound.mp3",
         "phonation": "voiced",
         "place_of_articulation": "alveolar ",
-        "manner_of_articulation": "fricative"
+        "manner_of_articulation": "fricative",
+        "sound": "/assets/audio/consonants/voiced-alveolar-fricative/sound"
     },
     "ʔ": {
         "examples": {
-            "german": [
-                {
-                    "word": "beamtet",
-                    "audio": "../assets/audio/consonants/glottal-stop/examples/german/beamtet.mp3"
-                }
-            ]
+            "german": []
         },
         "ipa": "ʔ",
         "name": "glottal stop",
-        "sound": "../assets/audio/consonants/glottal-stop/sound.mp3",
         "place_of_articulation": "glottal",
-        "manner_of_articulation": "stop"
+        "manner_of_articulation": "stop",
+        "sound": "/assets/audio/consonants/glottal-stop/sound"
     },
     "dʒ": {
         "examples": {
-            "english": [
-                {
-                    "word": "giant",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-affricate/examples/english/giant.mp3"
-                },
-                {
-                    "word": "badge",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-affricate/examples/english/badge.mp3"
-                },
-                {
-                    "word": "jam",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-affricate/examples/english/jam.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Dschungel",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-affricate/examples/german/Dschungel.mp3"
-                }
-            ]
+            "english": [],
+            "german": []
         },
         "ipa": "dʒ",
         "name": "voiced palato-alveolar affricate",
-        "sound": "../assets/audio/consonants/voiced-palato-alveolar-affricate/sound.mp3",
         "phonation": " voiced",
         "place_of_articulation": " post-alveolar",
-        "manner_of_articulation": "affricate"
+        "manner_of_articulation": "affricate",
+        "sound": "/assets/audio/consonants/voiced-palato-alveolar-affricate/sound"
     },
     "ʒ": {
         "examples": {
-            "english": [
-                {
-                    "word": "equation",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/equation.mp3"
-                },
-                {
-                    "word": "pleasure",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/pleasure.mp3"
-                },
-                {
-                    "word": "vision",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/vision.mp3"
-                },
-                {
-                    "word": "beige",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/beige.mp3"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Genie",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/german/Genie.mp3"
-                }
-            ],
-            "french": [
-                {
-                    "word": "jamais",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/french/jamais.mp3"
-                },
-                {
-                    "word": "visage",
-                    "audio": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/french/visage.mp3"
-                }
-            ]
+            "english": [],
+            "german": [],
+            "french": []
         },
         "ipa": "ʒ",
         "name": "voiced palato-alveolar sibilant",
-        "sound": "../assets/audio/consonants/voiced-palato-alveolar-sibilant/sound.mp3",
         "phonation": "voiced",
         "place_of_articulation": "palato-alveolar",
-        "manner_of_articulation": "sibilant"
+        "manner_of_articulation": "sibilant",
+        "sound": "/assets/audio/consonants/voiced-palato-alveolar-sibilant/sound"
     }
 }
