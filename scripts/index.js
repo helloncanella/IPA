@@ -12,7 +12,7 @@ var
     , promises = []
 
 
-var oldJSON = fs.existsSync('consonants.json') ? JSON.parse(fs.readFileSync('consonants.json')) : {}
+var oldJSON = fs.existsSync('../data/consonants.json') ? JSON.parse(fs.readFileSync('../data/consonants.json')) : {}
 
 
 rows.forEach(function (row, index) {
@@ -77,7 +77,7 @@ rows.forEach(function (row, index) {
                             wordWasDownloaded = !!_.find(oldJSON[ipaSymbol].examples[language], function (o) { return o.word === word })
                         }
                         
-                        finalJSON[ipaSymbol].examples[language] = oldJSON[ipaSymbol].examples[language] || []
+                        finalJSON[ipaSymbol].examples[language] = oldJSON[ipaSymbol] ? (oldJSON[ipaSymbol].examples[language] || []) : []
 
                         if (word && !wordWasDownloaded) {
 
@@ -115,7 +115,7 @@ rows.forEach(function (row, index) {
 
 Promise.all(promises).then(() => {
     var consonants = Object.assign({}, oldJSON, finalJSON)
-    fs.writeFile('consonants.json', JSON.stringify(consonants, null, 4))
+    fs.writeFile('../data/consonants.json', JSON.stringify(consonants, null, 4))
 })
 
 

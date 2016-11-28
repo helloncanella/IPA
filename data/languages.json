@@ -1,0 +1,16 @@
+{
+    "languages": [
+        {
+            "name": "german",
+            "flag": "/assets/images/flags/germany.png"
+        },
+        {
+            "name": "french",
+            "flag": "/assets/images/flags/france.png"
+        },
+        {
+            "name": "english",
+            "flag": "/assets/images/flags/uk.png"
+        }
+    ]
+}
