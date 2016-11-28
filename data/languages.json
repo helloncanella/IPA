@@ -1,16 +1,17 @@
 {
     "languages": [
         {
-            "name": "german",
-            "flag": "/assets/images/flags/germany.png"
+            "name": "German",
+            "flag": "http://flaglane.com/download/german-flag/german-flag-graphic.png"
         },
         {
-            "name": "french",
-            "flag": "/assets/images/flags/france.png"
+            "name": "French",
+            "flag": "http://flaglane.com/download/french-flag/french-flag-graphic.png"
         },
         {
-            "name": "english",
-            "flag": "/assets/images/flags/uk.png"
+            "name": "English",
+            "flag": "http://wiki.ifmsa.org/scope/images/archive/4/42/20100604200547!UK_flag.jpg"
         }
     ]
 }
+

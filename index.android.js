@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, View, Navigator } from 'react-native';
-import {LanguageSelector} from './components/language-selector.js'
-import {IPAChart} from './components/ipa-chart.js'
+import {LanguageSelector} from 'components/language-selector.js'
+import {IPAChart} from 'components/ipa-chart.js'
 
 const routes = [
     { id: 'language-selector' },
