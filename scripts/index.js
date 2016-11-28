@@ -140,7 +140,7 @@ function downloadAudioExample({word, language, pathToSave}, callback) {
                 var pathmp3 = JSON.parse(body).items[0].pathmp3
                 downloadAudio({ url: pathmp3, pathToSave, fileName: word }, callback)
             } else {
-                callback('Reached diary limit')
+                callback('The word is not available or forvo requests daily limit reached')
             }
 
         }
@@ -162,7 +162,7 @@ function downloadAudio({url, pathToSave, fileName}, callback) {
         .on('error', function (err) {
             if (callback) callback(err)
         })
-        .pipe(fs.createWriteStream(pathToSave + fileName))
+        .pipe(fs.createWriteStream(pathToSave +'/'+ fileName))
         .on('finish', function () {
             callback(null)
             console.log('downloaded file ' + fileName)
