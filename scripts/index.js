@@ -65,7 +65,6 @@ rows.forEach(function (row, index) {
                             return example.replace(/\s/, '')
                         })
 
-                    finalJSON[ipaSymbol].examples[language] = []
 
                     examples.forEach(function (word, index) {
                         var
@@ -77,6 +76,8 @@ rows.forEach(function (row, index) {
                         if (oldJSON[ipaSymbol]) {
                             wordWasDownloaded = !!_.find(oldJSON[ipaSymbol].examples[language], function (o) { return o.word === word })
                         }
+                        
+                        finalJSON[ipaSymbol].examples[language] = oldJSON[ipaSymbol].examples[language] || []
 
                         if (word && !wordWasDownloaded) {
 
