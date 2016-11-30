@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, TouchableHighlight } from 'react-native'
 
 export class IPAChart extends Component {
     render() {
+
+        const {navigator} = this.props
+
         return (
-            <View className="ipa-chart"><Text>IPA</Text></View>
+            <View className="ipa-chart">
+                <TouchableHighlight onPress={()=>{navigator.push({id:'language-selector'})}}><Text>adfsda</Text></TouchableHighlight>
+            </View>
         )
     }
 }

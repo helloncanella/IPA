@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Container, Content, Thumbnail, Text, List, ListItem } from 'native-base'
+import { View, Text, TouchableHighlight } from 'react-native'
+import {Thumbnail} from 'native-base'
+
 
 var languagesJSON = require('data/languages.json')
 
@@ -15,27 +17,26 @@ export class LanguageSelector extends Component {
                 , {navigator} = this.props
 
             return (
-                <ListItem button onPress={()=>{navigator.push({id:'ipa-chart'})}} key={name}>
-                    <Thumbnail source={{ uri: flag }} />
-                    <Text>{name}</Text>
-                </ListItem>
+                <TouchableHighlight onPress={()=>{navigator.push({id:'ipa-chart'})}} key={name}>
+                    <View>
+                        <Thumbnail source={{ uri: flag }} />
+                        <Text>{name}  oi</Text>
+                    </View>
+                 </TouchableHighlight>
             )
         })
 
     }
 
     render() {
-
-        let languageList = this.languageList()
-
-        console.log(languageList)
+        const {navigator} = this.props
 
         return (
-            <Container className="language-selector">
-                <Content>
-                    {languageList}
-                </Content>
-            </Container>
+            <View>
+                {this.languageList()}
+            </View>
         )
+
+
     }
 }
