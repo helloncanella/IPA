@@ -30,7 +30,7 @@ rows.forEach(function (row, index) {
             , ipaSymbol = cells[header.indexOf('ipa')]
             , name = cells[header.indexOf('name')]
             , audioName = name.replace(/\s/g, '-').toLowerCase()
-            , audioRoot = `/assets/audio/consonants/${audioName}/`
+            , audioRoot = `assets/audio/consonants/${audioName}/`
 
         finalJSON[ipaSymbol] = {}
         finalJSON[ipaSymbol].examples = {}
@@ -47,7 +47,7 @@ rows.forEach(function (row, index) {
 
                     var downloadIPASound = new Promise(function (resolve, reject) {
 
-                        downloadAudio({ url, pathToSave: '..' + audioRoot, fileName }, function (error) {
+                        downloadAudio({ url, pathToSave: '../' + audioRoot, fileName }, function (error) {
                             if (error) console.log(error)
                             finalJSON[ipaSymbol][key] = audioRoot + fileName
                             resolve()
@@ -83,7 +83,7 @@ rows.forEach(function (row, index) {
 
                             var downloadExample = new Promise(function (resolve, reject) {
 
-                                downloadAudioExample({ word, pathToSave: '..' + pathToSave, language }, function (error) {
+                                downloadAudioExample({ word, pathToSave: '../' + pathToSave, language }, function (error) {
                                     if (error) {
                                         console.log(error);
                                         resolve();

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text, TouchableHighlight } from 'react-native'
-import {Thumbnail} from 'native-base'
+import { Thumbnail } from 'native-base'
 
 
 var languagesJSON = require('data/languages.json')
@@ -13,24 +13,24 @@ export class LanguageSelector extends Component {
 
         return languages.map((language) => {
 
-            let {flag, name} = language
+            let
+                {flag, name} = language
                 , {navigator} = this.props
+                , route = { id: 'ipa-chart', language: name.toLowerCase() }
 
             return (
-                <TouchableHighlight onPress={()=>{navigator.push({id:'ipa-chart'})}} key={name}>
+                <TouchableHighlight key={name} onPress={() => { navigator.push(route) } }>
                     <View>
                         <Thumbnail source={{ uri: flag }} />
-                        <Text>{name}  oi</Text>
+                        <Text>{name}</Text>
                     </View>
-                 </TouchableHighlight>
+                </TouchableHighlight>
             )
         })
 
     }
 
     render() {
-        const {navigator} = this.props
-
         return (
             <View>
                 {this.languageList()}
