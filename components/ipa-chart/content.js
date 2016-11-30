@@ -54,11 +54,15 @@ class IPASymbols extends Component {
 
             //if there the sound (IPASymbol) in the currentLanguage, render it.
             if (content[IPASymbol].examples[currentLanguage]) {
+                
                 let ipaSound = (
-                    <TouchableHighlight key={IPASymbol} style={style}><Text style={{ fontSize: 25, textAlign: 'center' }}>{IPASymbol}</Text></TouchableHighlight>
+                    <TouchableHighlight key={IPASymbol} style={style}>
+                        <Text style={{ fontSize: 25, textAlign: 'center' }}>{IPASymbol}</Text>
+                    </TouchableHighlight>
                 )
 
                 symbols.push(ipaSound)
+            
             }
 
         }
