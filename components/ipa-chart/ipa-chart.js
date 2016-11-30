@@ -23,11 +23,12 @@ export class IPAChart extends Component {
 
         return (
             <View style={layout}>
-                <Header navigator={navigator} currentLanguage={language} />
                 <Content selectedContent={selectedContent} currentLanguage={language} />
-                <Footer selectContent={this.onSelectContent.bind(this)} selectedContent={selectedContent} />
             </View>
         )
     }
 }
 
+
+// <Footer selectContent={this.onSelectContent.bind(this)} selectedContent={selectedContent} />
+// <Header navigator={navigator} currentLanguage={language} />

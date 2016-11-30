@@ -3,18 +3,33 @@ import { View, Text, TouchableHighlight } from 'react-native'
 
 const consonants = require('data/consonants.json')
     , vowels = require('data/vowels.json')
-    , objectContent = {consonants, vowels}
+    , objectContent = { consonants, vowels }
 
 export class Content extends Component {
-
+   
     render() {
 
-        const {selectedContent} = this.props
+        const {selectedContent, currentLanguage} = this.props
+
+        let component
+
+        switch (selectedContent) {
+            case 'vowels':
+                component = <Vowels currentLanguage={currentLanguage} />
+                break;
+            case 'consonants':
+                component = <Consonants currentLanguage={currentLanguage} />
+                break;
+            default:
+                component = null
+                break;
+        }
+
+        
 
         return (
             <View>
-                <Vowels show={selectedContent === 'vowels'} />
-                <Consonants show={selectedContent === 'consonants'} />
+                {component}
             </View>
         )
 
@@ -28,18 +43,31 @@ Content.propTypes = {
 
 class IPASymbols extends Component {
 
-    content() {
-        
-    }
-
     render() {
 
-        const visibility = { display: this.props.show ? 'block' : 'none' }
-            , layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap' }
+         const content = objectContent[this.speechSound]
+            , style = { padding: 10, borderWidth: 1, borderColor: 'black', width: 60, height:60 }
+            , symbols = []
+            , {currentLanguage} = this.props
+
+        for (var IPASymbol in content) {
+
+            //if there the sound (IPASymbol) in the currentLanguage, render it.
+            if (content[IPASymbol].examples[currentLanguage]) {
+                let ipaSound = (
+                    <TouchableHighlight key={IPASymbol} style={style}><Text style={{ fontSize: 25, textAlign: 'center' }}>{IPASymbol}</Text></TouchableHighlight>
+                )
+
+                symbols.push(ipaSound)
+            }
+
+        }
+
+        const layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap',  }
 
         return (
-            <View style={[visibility, layout]}>
-                {this.content()}
+            <View style={layout}>
+                {symbols}
             </View>
         )
     }
@@ -48,14 +76,14 @@ class IPASymbols extends Component {
 class Vowels extends IPASymbols {
     constructor() {
         super()
-        this.sound = 'vowels'
+        this.speechSound = 'vowels'
     }
 }
 
 class Consonants extends IPASymbols {
     constructor() {
         super()
-        this.sound = 'consonants'
+        this.speechSound = 'consonants'
     }
 }
 
