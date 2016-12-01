@@ -6,30 +6,19 @@ const consonants = require('data/consonants.json')
     , objectContent = { consonants, vowels }
 
 export class Content extends Component {
-   
+
     render() {
 
         const {selectedContent, currentLanguage} = this.props
 
-        let component
-
-        switch (selectedContent) {
-            case 'vowels':
-                component = <Vowels currentLanguage={currentLanguage} />
-                break;
-            case 'consonants':
-                component = <Consonants currentLanguage={currentLanguage} />
-                break;
-            default:
-                component = null
-                break;
-        }
-
-        
+            , properties = {
+                speechSound: selectedContent,
+                currentLanguage
+            }
 
         return (
             <View>
-                {component}
+                <IPASymbols {...properties} />
             </View>
         )
 
@@ -43,18 +32,18 @@ Content.propTypes = {
 
 class IPASymbols extends Component {
 
-    render() {
+    content() {
 
-         const content = objectContent[this.speechSound]
-            , style = { padding: 10, borderWidth: 1, borderColor: 'black', width: 60, height:60 }
+        const {currentLanguage, speechSound} = this.props
+            , content = objectContent[speechSound]
+            , style = { padding: 10, borderWidth: 1, borderColor: 'black', width: 60, height: 60 }
             , symbols = []
-            , {currentLanguage} = this.props
 
         for (var IPASymbol in content) {
 
             //if there the sound (IPASymbol) in the currentLanguage, render it.
             if (content[IPASymbol].examples[currentLanguage]) {
-                
+
                 let ipaSound = (
                     <TouchableHighlight key={IPASymbol} style={style}>
                         <Text style={{ fontSize: 25, textAlign: 'center' }}>{IPASymbol}</Text>
@@ -62,32 +51,25 @@ class IPASymbols extends Component {
                 )
 
                 symbols.push(ipaSound)
-            
+
             }
 
         }
 
-        const layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap',  }
+        return symbols
+
+    }
+
+    render() {
+
+        const layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap', }
 
         return (
             <View style={layout}>
-                {symbols}
+                {this.content()}
             </View>
         )
-    }
-}
 
-class Vowels extends IPASymbols {
-    constructor() {
-        super()
-        this.speechSound = 'vowels'
-    }
-}
-
-class Consonants extends IPASymbols {
-    constructor() {
-        super()
-        this.speechSound = 'consonants'
     }
 }
 
