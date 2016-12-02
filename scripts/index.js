@@ -161,8 +161,6 @@ function downloadAudioExample({word, language, pathToSave, fileName}, callback) 
                 var pathmp3 = JSON.parse(body).items[0].pathmp3
                 downloadAudio({ url: pathmp3, pathToSave, fileName }, callback)
             } else {
-                if(word === 'fútbol'){console.log(JSON.parse(body))}
-
                 let missingWord =  {word, language, fileName}
                 callback('The word is not available or forvo requests daily limit reached', missingWord)
             }
