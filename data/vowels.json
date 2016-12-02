@@ -11,6 +11,10 @@
                 {
                     "word": "patte",
                     "audio": "vowels_open_central_unrounded_vowel_examples_french_patte"
+                },
+                {
+                    "word": "là",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_french_la"
                 }
             ],
             "portuguese": [
@@ -37,6 +41,22 @@
                 {
                     "word": "da",
                     "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_da"
+                },
+                {
+                    "word": "àquele",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_aquele"
+                },
+                {
+                    "word": "lámen",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_lamen"
+                },
+                {
+                    "word": "Camões",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_camoes"
+                },
+                {
+                    "word": "dá",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_da"
                 }
             ],
             "italian": [
@@ -51,6 +71,10 @@
                 {
                     "word": "alto",
                     "audio": "vowels_open_central_unrounded_vowel_examples_italian_alto"
+                },
+                {
+                    "word": "sarà",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_italian_sara"
                 }
             ],
             "spanish": [
@@ -118,7 +142,12 @@
                     "audio": "vowels_near_open_front_unrounded_vowel_examples_english_pad"
                 }
             ],
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "ärt",
+                    "audio": "vowels_near_open_front_unrounded_vowel_examples_swedish_art"
+                }
+            ]
         },
         "ipa": "æ",
         "name": "near-open front unrounded vowel",
@@ -126,7 +155,12 @@
     },
     "æː": {
         "examples": {
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "ära",
+                    "audio": "vowels_near_open_front_unrounded_vowel_examples_swedish_ara"
+                }
+            ]
         },
         "ipa": "æː",
         "name": "near-open front unrounded vowel",
@@ -145,6 +179,18 @@
                 {
                     "word": "falamos",
                     "audio": "vowels_near_open_central_vowel_examples_portuguese_falamos"
+                },
+                {
+                    "word": "taça",
+                    "audio": "vowels_near_open_central_vowel_examples_portuguese_taca"
+                },
+                {
+                    "word": "manhã",
+                    "audio": "vowels_near_open_central_vowel_examples_portuguese_manha"
+                },
+                {
+                    "word": "câmera",
+                    "audio": "vowels_near_open_central_vowel_examples_portuguese_camera"
                 }
             ]
         },
@@ -158,6 +204,10 @@
                 {
                     "word": "glas",
                     "audio": "vowels_open_back_unrounded_vowel_examples_french_glas"
+                },
+                {
+                    "word": "pâte",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_pate"
                 }
             ]
         },
@@ -254,6 +304,10 @@
                 {
                     "word": "Ende",
                     "audio": "vowels_open_mid_front_unrounded_vowel_examples_german_ende"
+                },
+                {
+                    "word": "hätte",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_german_hatte"
                 }
             ],
             "french": [
@@ -276,6 +330,10 @@
                 {
                     "word": "peine",
                     "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_peine"
+                },
+                {
+                    "word": "crème",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_creme"
                 }
             ],
             "portuguese": [
@@ -286,6 +344,14 @@
                 {
                     "word": "meta",
                     "audio": "vowels_open_mid_front_unrounded_vowel_examples_portuguese_meta"
+                },
+                {
+                    "word": "Émerson",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_portuguese_emerson"
+                },
+                {
+                    "word": "sé",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_portuguese_se"
                 }
             ],
             "italian": [
@@ -304,9 +370,18 @@
                 {
                     "word": "play",
                     "audio": "vowels_open_mid_front_unrounded_vowel_examples_italian_play"
+                },
+                {
+                    "word": "cioè",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_italian_cioe"
                 }
             ],
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "häll",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_swedish_hall"
+                }
+            ]
         },
         "ipa": "ɛ",
         "name": "open-mid front unrounded vowel",
@@ -314,7 +389,16 @@
     },
     "ɛː": {
         "examples": {
-            "german": [],
+            "german": [
+                {
+                    "word": "wählen",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_german_wahlen"
+                },
+                {
+                    "word": "spät",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_german_spat"
+                }
+            ],
             "french": [
                 {
                     "word": "Lemaistre",
@@ -331,9 +415,34 @@
                 {
                     "word": "presse",
                     "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_presse"
+                },
+                {
+                    "word": "mètre",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_metre"
+                },
+                {
+                    "word": "reître",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_reitre"
+                },
+                {
+                    "word": "fête",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_fete"
+                },
+                {
+                    "word": "Lévesque",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_levesque"
+                },
+                {
+                    "word": "maître",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_maitre"
                 }
             ],
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "häl",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_swedish_hal"
+                }
+            ]
         },
         "ipa": "ɛː",
         "name": "open-mid front unrounded vowel",
@@ -380,6 +489,10 @@
                 {
                     "word": "bien",
                     "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_bien"
+                },
+                {
+                    "word": "synthèse",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_synthese"
                 }
             ]
         },
@@ -412,6 +525,14 @@
                 {
                     "word": "chez",
                     "audio": "vowels_close_mid_front_unrounded_vowel_examples_french_chez"
+                },
+                {
+                    "word": "clé",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_french_cle"
+                },
+                {
+                    "word": "journée",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_french_journee"
                 }
             ],
             "portuguese": [
@@ -422,6 +543,22 @@
                 {
                     "word": "meto",
                     "audio": "vowels_close_mid_front_unrounded_vowel_examples_portuguese_meto"
+                },
+                {
+                    "word": "incrível",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_portuguese_incrivel"
+                },
+                {
+                    "word": "prémio",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_portuguese_premio"
+                },
+                {
+                    "word": "prêmio",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_portuguese_premio"
+                },
+                {
+                    "word": "sê",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_portuguese_se"
                 }
             ],
             "italian": [
@@ -432,6 +569,10 @@
                 {
                     "word": "vero",
                     "audio": "vowels_close_mid_front_unrounded_vowel_examples_italian_vero"
+                },
+                {
+                    "word": "perché",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_italian_perche"
                 }
             ],
             "spanish": [
@@ -585,6 +726,14 @@
                 {
                     "word": "si",
                     "audio": "vowels_close_front_unrounded_vowel_examples_french_si"
+                },
+                {
+                    "word": "île",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_french_ile"
+                },
+                {
+                    "word": "régie",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_french_regie"
                 }
             ],
             "portuguese": [
@@ -603,6 +752,14 @@
                 {
                     "word": "si",
                     "audio": "vowels_close_front_unrounded_vowel_examples_portuguese_si"
+                },
+                {
+                    "word": "suíço",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_portuguese_suico"
+                },
+                {
+                    "word": "país",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_portuguese_pais"
                 }
             ],
             "italian": [
@@ -625,6 +782,10 @@
                 {
                     "word": "zia",
                     "audio": "vowels_close_front_unrounded_vowel_examples_italian_zia"
+                },
+                {
+                    "word": "sì",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_italian_si"
                 }
             ],
             "spanish": [
@@ -635,6 +796,10 @@
                 {
                     "word": "y",
                     "audio": "vowels_close_front_unrounded_vowel_examples_spanish_y"
+                },
+                {
+                    "word": "mío",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_spanish_mio"
                 }
             ]
         },
@@ -731,6 +896,10 @@
                 {
                     "word": "formosa",
                     "audio": "vowels_open_mid_back_rounded_vowel_examples_portuguese_formosa"
+                },
+                {
+                    "word": "avó",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_portuguese_avo"
                 }
             ],
             "italian": [
@@ -741,6 +910,10 @@
                 {
                     "word": "Sean",
                     "audio": "vowels_open_mid_back_rounded_vowel_examples_italian_sean"
+                },
+                {
+                    "word": "sarò",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_italian_saro"
                 }
             ],
             "swedish": [
@@ -836,6 +1009,18 @@
                 {
                     "word": "sortudo",
                     "audio": "vowels_close_mid_back_rounded_vowel_examples_portuguese_sortudo"
+                },
+                {
+                    "word": "António",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_portuguese_antonio"
+                },
+                {
+                    "word": "Antônio",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_portuguese_antonio"
+                },
+                {
+                    "word": "avô",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_portuguese_avo"
                 }
             ],
             "italian": [
@@ -879,7 +1064,12 @@
                     "audio": "vowels_close_mid_back_rounded_vowel_examples_german_oder"
                 }
             ],
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "mål",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_swedish_mal"
+                }
+            ]
         },
         "ipa": "oː",
         "name": "close-mid back rounded vowel",
@@ -888,7 +1078,12 @@
     },
     "õ": {
         "examples": {
-            "german": []
+            "german": [
+                {
+                    "word": "foncé",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_german_fonce"
+                }
+            ]
         },
         "ipa": "õ",
         "name": "close-mid back rounded vowel",
@@ -897,14 +1092,28 @@
     },
     "œ": {
         "examples": {
-            "german": [],
+            "german": [
+                {
+                    "word": "öffnen",
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_german_offnen"
+                }
+            ],
             "french": [
                 {
                     "word": "jeune",
                     "audio": "vowels_open_mid_front_rounded_vowel_examples_french_jeune"
+                },
+                {
+                    "word": "sœur",
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_french_sœur"
                 }
             ],
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "nött",
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_swedish_nott"
+                }
+            ]
         },
         "ipa": "œ",
         "name": "open-mid front rounded vowel",
@@ -912,7 +1121,12 @@
     },
     "œː": {
         "examples": {
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "öra",
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_swedish_ora"
+                }
+            ]
         },
         "ipa": "œː",
         "name": "open-mid front rounded vowel",
@@ -970,7 +1184,12 @@
     },
     "ø": {
         "examples": {
-            "german": [],
+            "german": [
+                {
+                    "word": "Ökonom",
+                    "audio": "vowels_close_mid_front_rounded_vowel_examples_german_okonom"
+                }
+            ],
             "french": [
                 {
                     "word": "ceux",
@@ -979,6 +1198,10 @@
                 {
                     "word": "queue",
                     "audio": "vowels_close_mid_front_rounded_vowel_examples_french_queue"
+                },
+                {
+                    "word": "jeûner",
+                    "audio": "vowels_close_mid_front_rounded_vowel_examples_french_jeuner"
                 }
             ]
         },
@@ -988,8 +1211,18 @@
     },
     "øː": {
         "examples": {
-            "german": [],
-            "swedish": []
+            "german": [
+                {
+                    "word": "Österreich",
+                    "audio": "vowels_close_mid_front_rounded_vowel_examples_german_osterreich"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "nöt",
+                    "audio": "vowels_close_mid_front_rounded_vowel_examples_swedish_not"
+                }
+            ]
         },
         "ipa": "øː",
         "name": "close-mid front rounded vowel",
@@ -1037,7 +1270,12 @@
                     "audio": "vowels_close_back_rounded_vowel_examples_english_situation"
                 }
             ],
-            "german": [],
+            "german": [
+                {
+                    "word": "Universität",
+                    "audio": "vowels_close_back_rounded_vowel_examples_german_universitat"
+                }
+            ],
             "french": [
                 {
                     "word": "coup",
@@ -1082,12 +1320,20 @@
                 {
                     "word": "usi",
                     "audio": "vowels_close_back_rounded_vowel_examples_italian_usi"
+                },
+                {
+                    "word": "ragù",
+                    "audio": "vowels_close_back_rounded_vowel_examples_italian_ragu"
                 }
             ],
             "spanish": [
                 {
                     "word": "cucurucho",
                     "audio": "vowels_close_back_rounded_vowel_examples_spanish_cucurucho"
+                },
+                {
+                    "word": "dúo",
+                    "audio": "vowels_close_back_rounded_vowel_examples_spanish_duo"
                 }
             ]
         },
@@ -1160,6 +1406,10 @@
                 {
                     "word": "duell",
                     "audio": "vowels_close_central_rounded_vowel_examples_swedish_duell"
+                },
+                {
+                    "word": " känguru",
+                    "audio": "vowels_close_central_rounded_vowel_examples_swedish__kanguru"
                 }
             ]
         },
@@ -1169,7 +1419,12 @@
     },
     "ʏ": {
         "examples": {
-            "german": [],
+            "german": [
+                {
+                    "word": "müssen",
+                    "audio": "vowels_near_close_near_front_rounded_vowel_examples_german_mussen"
+                }
+            ],
             "swedish": [
                 {
                     "word": "syll",
@@ -1197,6 +1452,10 @@
                 {
                     "word": "tu",
                     "audio": "vowels_close_front_rounded_vowel_examples_french_tu"
+                },
+                {
+                    "word": "sûr",
+                    "audio": "vowels_close_front_rounded_vowel_examples_french_sur"
                 }
             ]
         },
@@ -1206,7 +1465,12 @@
     },
     "yː": {
         "examples": {
-            "german": [],
+            "german": [
+                {
+                    "word": "über",
+                    "audio": "vowels_close_front_rounded_vowel_examples_german_uber"
+                }
+            ],
             "swedish": [
                 {
                     "word": "syl",
@@ -1242,5 +1506,22 @@
         "ipa": "ʌ",
         "name": "open-mid back unrounded vowel",
         "sound": "vowels_open_mid_back_unrounded_vowel"
-    }
+    },
+    "missingWords": [
+        {
+            "word": "formosos",
+            "language": "portuguese",
+            "fileName": "vowels_open_mid_back_rounded_vowel_examples_portuguese_formosos"
+        },
+        {
+            "word": "vi-o",
+            "language": "portuguese",
+            "fileName": "vowels_close_back_rounded_vowel_examples_portuguese_vi_o"
+        },
+        {
+            "word": "Lundist",
+            "language": "german",
+            "fileName": "vowels_open_mid_front_rounded_vowel_examples_german_lundist"
+        }
+    ]
 }

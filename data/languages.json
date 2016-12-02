@@ -9,8 +9,24 @@
             "flag": "http://flaglane.com/download/french-flag/french-flag-graphic.png"
         },
         {
+            "name": "Portuguese",
+            "flag": "http://www.brazil.org.za/brazil-images/brazil-flag.png"
+        },
+        {
+            "name": "Italian",
+            "flag": "http://hz5m11s95uy3wtavm1hkpiw1.wpengine.netdna-cdn.com/files/2009/01/italyflag.jpg"
+        },
+        {
             "name": "English",
             "flag": "http://wiki.ifmsa.org/scope/images/archive/4/42/20100604200547!UK_flag.jpg"
+        },
+        {
+            "name": "Spanish",
+            "flag": "http://static.donquijote.org/images/culture/spanish_flag2.jpg"
+        },
+        {
+            "name": "Swedish",
+            "flag": "http://flaglane.com/download/swedish-flag/swedish-flag-medium.gif"
         }
     ]
 }

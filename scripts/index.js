@@ -7,6 +7,7 @@ var
     , mkdirp = require('mkdirp')
     , files = ['consonants', 'vowels']
 
+
 files.forEach((speechSounds) => {
 
     var file = fs.readFileSync(`${speechSounds}.tsv`).toString('utf8')
@@ -14,7 +15,8 @@ files.forEach((speechSounds) => {
         , header = []
         , finalJSON = {}
         , promises = []
-
+    
+    finalJSON.missingWords = []
 
     var oldJSON = fs.existsSync(`../data/${speechSounds}.json`) ? JSON.parse(fs.readFileSync(`../data/${speechSounds}.json`)) : {}
 
@@ -39,6 +41,7 @@ files.forEach((speechSounds) => {
 
             finalJSON[ipaSymbol] = {}
             finalJSON[ipaSymbol].examples = {}
+            
 
             cells.forEach(function (cell, i) {
 
@@ -53,7 +56,7 @@ files.forEach((speechSounds) => {
                         var downloadIPASound = new Promise(function (resolve, reject) {
 
                             downloadAudio({ url, pathToSave: audioRoot, fileName }, function (error) {
-                                if (error) console.log(error)
+                                // if (error) console.log(error)
                                 finalJSON[ipaSymbol][key] = fileName
                                 resolve()
                             })
@@ -88,13 +91,18 @@ files.forEach((speechSounds) => {
 
                                 var downloadExample = new Promise(function (resolve, reject) {
 
-                                    downloadAudioExample({ word, pathToSave: audioRoot, fileName:normalizedFileName, language }, function (error) {
+                                    downloadAudioExample({ word, pathToSave: audioRoot, fileName:normalizedFileName, language }, function (error, missingWord) {
                                         if (error) {
+                                            
                                             console.log(error);
+                                            
+                                            if(missingWord){
+                                                finalJSON.missingWords.push(missingWord)
+                                            }
+
                                             resolve();
                                             return
                                         }
-
                                         finalJSON[ipaSymbol].examples[language].push({ word, audio: normalizedFileName })
                                         resolve()
                                     })
@@ -108,6 +116,7 @@ files.forEach((speechSounds) => {
 
                     } else {
                         finalJSON[ipaSymbol][key] = value.toLowerCase()
+                        
                     }
                 }
 
@@ -120,7 +129,8 @@ files.forEach((speechSounds) => {
 
     Promise.all(promises).then(() => {
         var object = Object.assign({}, oldJSON, finalJSON)
-        fs.writeFile(`../data/${speechSounds}.json`, JSON.stringify(object, null, 4))
+        fs.writeFile(`../data/${speechSounds}.json`, JSON.stringify(object, null, 4))        
+        
     })
 
 })
@@ -130,12 +140,10 @@ files.forEach((speechSounds) => {
 
 function downloadAudioExample({word, language, pathToSave, fileName}, callback) {
 
-    console.log(word)
-
     var apiKey = '3cdf9af00cb2273d48dc993b77f3f499'
         , additionalUrl = language === 'portuguese' ? 'country/brazil' : '' //TODO: remove the condition (Now I'm tired)
-        , url = `https://apicommercial.forvo.com/key/${apiKey}/format/json/action/word-pronunciations/word/${word}/language/${language}/${additionalUrl}`
-
+        , encondedWord = encodeURI(word)
+        , url = `https://apicommercial.forvo.com/key/${apiKey}/format/json/action/word-pronunciations/word/${encondedWord}/language/${language}/${additionalUrl}`
 
     request(url, function (error, response, body) {
 
@@ -147,15 +155,16 @@ function downloadAudioExample({word, language, pathToSave, fileName}, callback) 
 
         if (response.statusCode == 200) {
 
-            var item = JSON.parse(body).items ? JSON.parse(body).items[0] : ''
-
-            
+            var item = JSON.parse(body).items ? JSON.parse(body).items[0] : ''            
 
             if (item) {
                 var pathmp3 = JSON.parse(body).items[0].pathmp3
                 downloadAudio({ url: pathmp3, pathToSave, fileName }, callback)
             } else {
-                callback('The word is not available or forvo requests daily limit reached')
+                if(word === 'fútbol'){console.log(JSON.parse(body))}
+
+                let missingWord =  {word, language, fileName}
+                callback('The word is not available or forvo requests daily limit reached', missingWord)
             }
 
         }

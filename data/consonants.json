@@ -31,6 +31,18 @@
                 {
                     "word": "sobre",
                     "audio": "consonants_voiced_bilabial_stop_examples_portuguese_sobre"
+                },
+                {
+                    "word": "cabeça",
+                    "audio": "consonants_voiced_bilabial_stop_examples_portuguese_cabeca"
+                },
+                {
+                    "word": "beiço",
+                    "audio": "consonants_voiced_bilabial_stop_examples_portuguese_beico"
+                },
+                {
+                    "word": "âmbar",
+                    "audio": "consonants_voiced_bilabial_stop_examples_portuguese_ambar"
                 }
             ],
             "italian": [
@@ -59,6 +71,10 @@
                 {
                     "word": "envidia",
                     "audio": "consonants_voiced_bilabial_stop_examples_spanish_envidia"
+                },
+                {
+                    "word": "fútbol",
+                    "audio": "consonants_voiced_bilabial_stop_examples_spanish_futbol"
                 }
             ],
             "swedish": [
@@ -93,6 +109,10 @@
                 {
                     "word": "curva",
                     "audio": "consonants_voiced_bilabial_fricative_examples_spanish_curva"
+                },
+                {
+                    "word": "bebé",
+                    "audio": "consonants_voiced_bilabial_fricative_examples_spanish_bebe"
                 }
             ]
         },
@@ -145,6 +165,10 @@
                 {
                     "word": "arder",
                     "audio": "consonants_voiced_dental_fricative_examples_spanish_arder"
+                },
+                {
+                    "word": "dádiva",
+                    "audio": "consonants_voiced_dental_fricative_examples_spanish_dadiva"
                 }
             ]
         },
@@ -309,6 +333,10 @@
                 {
                     "word": "von",
                     "audio": "consonants_voiceless_labiodental_fricative_examples_german_von"
+                },
+                {
+                    "word": "für",
+                    "audio": "consonants_voiceless_labiodental_fricative_examples_german_fur"
                 }
             ],
             "french": [
@@ -325,6 +353,10 @@
                 {
                     "word": "fado",
                     "audio": "consonants_voiceless_labiodental_fricative_examples_portuguese_fado"
+                },
+                {
+                    "word": "café",
+                    "audio": "consonants_voiceless_labiodental_fricative_examples_portuguese_cafe"
                 }
             ],
             "italian": [
@@ -341,6 +373,10 @@
                 {
                     "word": "fase",
                     "audio": "consonants_voiceless_labiodental_fricative_examples_spanish_fase"
+                },
+                {
+                    "word": "café",
+                    "audio": "consonants_voiceless_labiodental_fricative_examples_spanish_cafe"
                 }
             ],
             "swedish": [
@@ -383,6 +419,10 @@
                 {
                     "word": "longue",
                     "audio": "consonants_voiced_velar_stop_examples_french_longue"
+                },
+                {
+                    "word": "garçon",
+                    "audio": "consonants_voiced_velar_stop_examples_french_garcon"
                 }
             ],
             "portuguese": [
@@ -508,6 +548,10 @@
                 {
                     "word": "abyecto",
                     "audio": "consonants_voiced_palatal_affricate_examples_spanish_abyecto"
+                },
+                {
+                    "word": "cónyuge",
+                    "audio": "consonants_voiced_palatal_affricate_examples_spanish_conyuge"
                 }
             ]
         },
@@ -623,6 +667,10 @@
                 {
                     "word": "quei",
                     "audio": "consonants_voiceless_velar_stop_examples_italian_quei"
+                },
+                {
+                    "word": "finché",
+                    "audio": "consonants_voiceless_velar_stop_examples_italian_finche"
                 }
             ],
             "spanish": [
@@ -637,6 +685,10 @@
                 {
                     "word": "laca",
                     "audio": "consonants_voiceless_velar_stop_examples_spanish_laca"
+                },
+                {
+                    "word": "caña",
+                    "audio": "consonants_voiceless_velar_stop_examples_spanish_cana"
                 }
             ],
             "swedish": [
@@ -701,6 +753,10 @@
                 {
                     "word": "mal",
                     "audio": "consonants_alveolar_lateral_approximant_examples_portuguese_mal"
+                },
+                {
+                    "word": "alô",
+                    "audio": "consonants_alveolar_lateral_approximant_examples_portuguese_alo"
                 }
             ],
             "italian": [
@@ -761,7 +817,12 @@
     },
     "ɭ": {
         "examples": {
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "kärl",
+                    "audio": "consonants_retroflex_lateral_approximant_examples_swedish_karl"
+                }
+            ]
         },
         "ipa": "ɭ",
         "name": "retroflex lateral approximant",
@@ -830,11 +891,20 @@
                     "audio": "consonants_bilabial_nasal_examples_german_mann"
                 }
             ],
-            "french": [],
+            "french": [
+                {
+                    "word": "même",
+                    "audio": "consonants_bilabial_nasal_examples_french_meme"
+                }
+            ],
             "portuguese": [
                 {
                     "word": "somo",
                     "audio": "consonants_bilabial_nasal_examples_portuguese_somo"
+                },
+                {
+                    "word": "mês",
+                    "audio": "consonants_bilabial_nasal_examples_portuguese_mes"
                 }
             ],
             "italian": [
@@ -941,6 +1011,10 @@
                 {
                     "word": "sono",
                     "audio": "consonants_alveolar_nasal_examples_portuguese_sono"
+                },
+                {
+                    "word": "não",
+                    "audio": "consonants_alveolar_nasal_examples_portuguese_nao"
                 }
             ],
             "italian": [
@@ -973,6 +1047,10 @@
                 {
                     "word": "sin",
                     "audio": "consonants_alveolar_nasal_examples_spanish_sin"
+                },
+                {
+                    "word": "álbum",
+                    "audio": "consonants_alveolar_nasal_examples_spanish_album"
                 }
             ],
             "swedish": [
@@ -1046,6 +1124,14 @@
                 {
                     "word": "enyesar",
                     "audio": "consonants_palatal_nasal_examples_spanish_enyesar"
+                },
+                {
+                    "word": "cañón",
+                    "audio": "consonants_palatal_nasal_examples_spanish_canon"
+                },
+                {
+                    "word": "ñandú",
+                    "audio": "consonants_palatal_nasal_examples_spanish_nandu"
                 }
             ]
         },
@@ -1103,7 +1189,12 @@
                     "audio": "consonants_velar_nasal_examples_spanish_venga"
                 }
             ],
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "lång",
+                    "audio": "consonants_velar_nasal_examples_swedish_lang"
+                }
+            ]
         },
         "ipa": "ŋ",
         "name": "velar nasal",
@@ -1165,6 +1256,10 @@
                 {
                     "word": "groupe",
                     "audio": "consonants_voiceless_bilabial_stop_examples_french_groupe"
+                },
+                {
+                    "word": "père",
+                    "audio": "consonants_voiceless_bilabial_stop_examples_french_pere"
                 }
             ],
             "portuguese": [
@@ -1175,6 +1270,10 @@
                 {
                     "word": "apto",
                     "audio": "consonants_voiceless_bilabial_stop_examples_portuguese_apto"
+                },
+                {
+                    "word": "pó",
+                    "audio": "consonants_voiceless_bilabial_stop_examples_portuguese_po"
                 }
             ],
             "italian": [
@@ -1241,6 +1340,10 @@
                 {
                     "word": "regarder",
                     "audio": "consonants_voiced_uvular_fricative_examples_french_regarder"
+                },
+                {
+                    "word": "nôtre",
+                    "audio": "consonants_voiced_uvular_fricative_examples_french_notre"
                 }
             ],
             "portuguese": [
@@ -1267,6 +1370,10 @@
                 {
                     "word": "por favor",
                     "audio": "consonants_voiced_uvular_fricative_examples_portuguese_por_favor"
+                },
+                {
+                    "word": "pôr",
+                    "audio": "consonants_voiced_uvular_fricative_examples_portuguese_por"
                 }
             ]
         },
@@ -1398,6 +1505,10 @@
                 {
                     "word": "Haus",
                     "audio": "consonants_voiceless_alveolar_fricative_examples_german_haus"
+                },
+                {
+                    "word": "groß",
+                    "audio": "consonants_voiceless_alveolar_fricative_examples_german_groß"
                 }
             ],
             "french": [
@@ -1408,6 +1519,10 @@
                 {
                     "word": "assez",
                     "audio": "consonants_voiceless_alveolar_fricative_examples_french_assez"
+                },
+                {
+                    "word": "ça",
+                    "audio": "consonants_voiceless_alveolar_fricative_examples_french_ca"
                 }
             ],
             "portuguese": [
@@ -1418,6 +1533,14 @@
                 {
                     "word": "saco",
                     "audio": "consonants_voiceless_alveolar_fricative_examples_portuguese_saco"
+                },
+                {
+                    "word": "máximo",
+                    "audio": "consonants_voiceless_alveolar_fricative_examples_portuguese_maximo"
+                },
+                {
+                    "word": "braço",
+                    "audio": "consonants_voiceless_alveolar_fricative_examples_portuguese_braco"
                 }
             ],
             "italian": [
@@ -1446,6 +1569,10 @@
                 {
                     "word": "espita",
                     "audio": "consonants_voiceless_alveolar_fricative_examples_spanish_espita"
+                },
+                {
+                    "word": "xenón",
+                    "audio": "consonants_voiceless_alveolar_fricative_examples_spanish_xenon"
                 }
             ],
             "swedish": [
@@ -1604,6 +1731,10 @@
                 {
                     "word": "pesci",
                     "audio": "consonants_voiceless_palato_alveolar_sibilant_examples_italian_pesci"
+                },
+                {
+                    "word": "scià",
+                    "audio": "consonants_voiceless_palato_alveolar_sibilant_examples_italian_scia"
                 }
             ],
             "spanish": [
@@ -1659,12 +1790,20 @@
                 {
                     "word": "tout",
                     "audio": "consonants_voiceless_alveolar_stop_examples_french_tout"
+                },
+                {
+                    "word": "thé",
+                    "audio": "consonants_voiceless_alveolar_stop_examples_french_the"
                 }
             ],
             "portuguese": [
                 {
                     "word": "tempo",
                     "audio": "consonants_voiceless_alveolar_stop_examples_portuguese_tempo"
+                },
+                {
+                    "word": "átomo",
+                    "audio": "consonants_voiceless_alveolar_stop_examples_portuguese_atomo"
                 }
             ],
             "italian": [
@@ -1689,6 +1828,10 @@
                 {
                     "word": "tamiz",
                     "audio": "consonants_voiceless_alveolar_stop_examples_spanish_tamiz"
+                },
+                {
+                    "word": "átomo",
+                    "audio": "consonants_voiceless_alveolar_stop_examples_spanish_atomo"
                 }
             ],
             "swedish": [
@@ -1749,6 +1892,10 @@
                 {
                     "word": "abertzale",
                     "audio": "consonants_voiceless_alveolar_affricate_examples_spanish_abertzale"
+                },
+                {
+                    "word": "Pátzcuaro",
+                    "audio": "consonants_voiceless_alveolar_affricate_examples_spanish_patzcuaro"
                 }
             ]
         },
@@ -1881,7 +2028,12 @@
                     "audio": "consonants_voiced_labiodental_fricative_examples_spanish_afgano"
                 }
             ],
-            "swedish": []
+            "swedish": [
+                {
+                    "word": "våt",
+                    "audio": "consonants_voiced_labiodental_fricative_examples_swedish_vat"
+                }
+            ]
         },
         "ipa": "v",
         "name": "voiced labiodental fricative",
@@ -1910,6 +2062,14 @@
                 {
                     "word": "general",
                     "audio": "consonants_voiceless_velar_fricative_examples_spanish_general"
+                },
+                {
+                    "word": "jamón",
+                    "audio": "consonants_voiceless_velar_fricative_examples_spanish_jamon"
+                },
+                {
+                    "word": "México",
+                    "audio": "consonants_voiceless_velar_fricative_examples_spanish_mexico"
                 }
             ]
         },
@@ -1953,6 +2113,10 @@
                 {
                     "word": "raison",
                     "audio": "consonants_voiced_alveolar_fricative_examples_french_raison"
+                },
+                {
+                    "word": "zéro",
+                    "audio": "consonants_voiced_alveolar_fricative_examples_french_zero"
                 }
             ],
             "portuguese": [
@@ -2086,6 +2250,10 @@
                 {
                     "word": "magia",
                     "audio": "consonants_voiced_palato_alveolar_affricate_examples_italian_magia"
+                },
+                {
+                    "word": "giù",
+                    "audio": "consonants_voiced_palato_alveolar_affricate_examples_italian_giu"
                 }
             ]
         },
@@ -2133,6 +2301,10 @@
                 {
                     "word": "gente",
                     "audio": "consonants_voiced_palato_alveolar_sibilant_examples_portuguese_gente"
+                },
+                {
+                    "word": "já",
+                    "audio": "consonants_voiced_palato_alveolar_sibilant_examples_portuguese_ja"
                 }
             ]
         },
@@ -2193,6 +2365,14 @@
                 {
                     "word": "mau",
                     "audio": "consonants_voiced_labio_velar_approximant_examples_portuguese_mau"
+                },
+                {
+                    "word": "Cauã",
+                    "audio": "consonants_voiced_labio_velar_approximant_examples_portuguese_caua"
+                },
+                {
+                    "word": "quão",
+                    "audio": "consonants_voiced_labio_velar_approximant_examples_portuguese_quao"
                 }
             ],
             "italian": [
@@ -2272,6 +2452,10 @@
                 {
                     "word": "pais",
                     "audio": "consonants_palatal_approximant_examples_portuguese_pais"
+                },
+                {
+                    "word": "cães",
+                    "audio": "consonants_palatal_approximant_examples_portuguese_caes"
                 }
             ],
             "italian": [
@@ -2294,6 +2478,10 @@
                 {
                     "word": "Jesi",
                     "audio": "consonants_palatal_approximant_examples_italian_jesi"
+                },
+                {
+                    "word": "più",
+                    "audio": "consonants_palatal_approximant_examples_italian_piu"
                 }
             ],
             "spanish": [
@@ -2328,5 +2516,32 @@
         "ipa": "j",
         "name": "palatal approximant",
         "sound": "consonants_palatal_approximant"
-    }
+    },
+    "missingWords": [
+        {
+            "word": "phon",
+            "language": "italian",
+            "fileName": "consonants_voiceless_labiodental_fricative_examples_italian_phon"
+        },
+        {
+            "word": "por acaso",
+            "language": "portuguese",
+            "fileName": "consonants_alveolar_tap_examples_portuguese_por_acaso"
+        },
+        {
+            "word": "grand-oncle",
+            "language": "french",
+            "fileName": "consonants_voiceless_alveolar_stop_examples_french_grand_oncle"
+        },
+        {
+            "word": "atchim",
+            "language": "portuguese",
+            "fileName": "consonants_voiceless_palato_alveolar_affricate_examples_portuguese_atchim"
+        },
+        {
+            "word": "os amigos",
+            "language": "portuguese",
+            "fileName": "consonants_voiced_alveolar_fricative_examples_portuguese_os_amigos"
+        }
+    ]
 }
