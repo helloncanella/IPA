@@ -7,7 +7,6 @@
         },
         {
             "word": "Lundist",
-            "language": "german",
             "fileName": "vowels_open_mid_front_rounded_vowel_examples_german_lundist"
         },
         {
@@ -1122,7 +1121,7 @@
                 },
                 {
                     "word": "sœur",
-                    "audio": "vowels_open_mid_front_rounded_vowel_examples_french_sœur"
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_french_sour"
                 }
             ],
             "swedish": [
