@@ -53,7 +53,7 @@ class IPASymbols extends Component {
 
         // Load the sound file 'whoosh.mp3' from the app bundle
         // See notes below about preloading sounds within initialization code below.
-        var whoosh = new Sound('teste.mp3', '', (error) => {
+        var whoosh = new Sound('consonants_voiceless_labiodental_fricative_examples_english_facebook', '', (error) => {
             if (error) {
                 console.log('failed to load the sound', error);
             } else { // loaded successfully
