@@ -1,1001 +1,1246 @@
 {
-    "b": {
+    "a": {
         "examples": {
-            "english": [
-                {
-                    "word": "cab",
-                    "audio": "assets/audio/consonants/voiced-bilabial-stop/examples/english/cab"
-                },
-                {
-                    "word": "buy",
-                    "audio": "assets/audio/consonants/voiced-bilabial-stop/examples/english/buy"
-                }
-            ],
             "german": [
                 {
-                    "word": "bei",
-                    "audio": "assets/audio/consonants/voiced-bilabial-stop/examples/german/bei"
+                    "word": "alles",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_german_alles"
                 }
             ],
             "french": [
                 {
-                    "word": "bon",
-                    "audio": "assets/audio/consonants/voiced-bilabial-stop/examples/french/bon"
+                    "word": "patte",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_french_patte"
+                }
+            ],
+            "portuguese": [
+                {
+                    "word": "aquele",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_aquele"
+                },
+                {
+                    "word": "alzheimer",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_alzheimer"
+                },
+                {
+                    "word": "caveira",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_caveira"
+                },
+                {
+                    "word": "maior",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_maior"
+                },
+                {
+                    "word": "Jaime",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_jaime"
+                },
+                {
+                    "word": "da",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_portuguese_da"
+                }
+            ],
+            "italian": [
+                {
+                    "word": "clown",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_italian_clown"
+                },
+                {
+                    "word": "must",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_italian_must"
+                },
+                {
+                    "word": "alto",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_italian_alto"
+                }
+            ],
+            "spanish": [
+                {
+                    "word": "azahar",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_spanish_azahar"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "matt",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_swedish_matt"
                 }
             ]
         },
-        "ipa": "b",
-        "name": "voiced bilabial stop",
-        "phonation": "voiced",
-        "place_of_articulation": "bilabial",
-        "manner_of_articulation": "stop",
-        "sound": "assets/audio/consonants/voiced-bilabial-stop/sound"
+        "ipa": "a",
+        "name": "open central unrounded vowel",
+        "sound": "vowels_open_central_unrounded_vowel"
     },
-    "ç": {
+    "aː": {
         "examples": {
             "german": [
                 {
-                    "word": "durch",
-                    "audio": "assets/audio/consonants/voiceless-palatal-fricative/examples/german/durch"
+                    "word": "sah",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_german_sah"
                 },
                 {
-                    "word": "China",
-                    "audio": "assets/audio/consonants/voiceless-palatal-fricative/examples/german/China"
-                },
-                {
-                    "word": "ich",
-                    "audio": "assets/audio/consonants/voiceless-palatal-fricative/examples/german/ich"
+                    "word": "aber",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_german_aber"
                 }
             ]
         },
-        "ipa": "ç",
-        "name": "voiceless palatal fricative",
-        "phonation": "voiceless",
-        "place_of_articulation": "palatal",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiceless-palatal-fricative/sound"
+        "ipa": "aː",
+        "name": "open central unrounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_open_central_unrounded_vowel"
     },
-    "ð": {
+    "ã": {
+        "examples": {
+            "german": [
+                {
+                    "word": "engagieren",
+                    "audio": "vowels_open_central_unrounded_vowel_examples_german_engagieren"
+                }
+            ]
+        },
+        "ipa": "ã",
+        "name": "open central unrounded vowel",
+        "phonetic_detail": "nasal",
+        "sound": "vowels_open_central_unrounded_vowel"
+    },
+    "æ": {
         "examples": {
             "english": [
                 {
-                    "word": "thy",
-                    "audio": "assets/audio/consonants/voiced-dental-fricative/examples/english/thy"
+                    "word": "trap",
+                    "audio": "vowels_near_open_front_unrounded_vowel_examples_english_trap"
                 },
                 {
-                    "word": "breathe",
-                    "audio": "assets/audio/consonants/voiced-dental-fricative/examples/english/breathe"
+                    "word": "ban",
+                    "audio": "vowels_near_open_front_unrounded_vowel_examples_english_ban"
                 },
+                {
+                    "word": "pad",
+                    "audio": "vowels_near_open_front_unrounded_vowel_examples_english_pad"
+                }
+            ],
+            "swedish": []
+        },
+        "ipa": "æ",
+        "name": "near-open front unrounded vowel",
+        "sound": "vowels_near_open_front_unrounded_vowel"
+    },
+    "æː": {
+        "examples": {
+            "swedish": []
+        },
+        "ipa": "æː",
+        "name": "near-open front unrounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_near_open_front_unrounded_vowel"
+    },
+    "ɐ": {
+        "examples": {
+            "german": [
+                {
+                    "word": "immer",
+                    "audio": "vowels_near_open_central_vowel_examples_german_immer"
+                }
+            ],
+            "portuguese": [
+                {
+                    "word": "falamos",
+                    "audio": "vowels_near_open_central_vowel_examples_portuguese_falamos"
+                }
+            ]
+        },
+        "ipa": "ɐ",
+        "name": "near-open central vowel",
+        "sound": "vowels_near_open_central_vowel"
+    },
+    "ɑ": {
+        "examples": {
+            "french": [
+                {
+                    "word": "glas",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_glas"
+                }
+            ]
+        },
+        "ipa": "ɑ",
+        "name": "open back unrounded vowel",
+        "sound": "vowels_open_back_unrounded_vowel"
+    },
+    "ɑː": {
+        "examples": {
+            "english": [
                 {
                     "word": "father",
-                    "audio": "assets/audio/consonants/voiced-dental-fricative/examples/english/father"
+                    "audio": "vowels_open_back_unrounded_vowel_examples_english_father"
+                },
+                {
+                    "word": "palm",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_english_palm"
+                },
+                {
+                    "word": "bra",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_english_bra"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "mat",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_swedish_mat"
                 }
             ]
         },
-        "ipa": "ð",
-        "name": "voiced dental fricative",
-        "phonation": "voiced",
-        "place_of_articulation": "dental",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiced-dental-fricative/sound"
+        "ipa": "ɑː",
+        "name": "open back unrounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_open_back_unrounded_vowel"
     },
-    "d": {
+    "ɑ̃": {
+        "examples": {
+            "french": [
+                {
+                    "word": "vent",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_vent"
+                },
+                {
+                    "word": "temps",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_temps"
+                },
+                {
+                    "word": "sans",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_sans"
+                },
+                {
+                    "word": "taon",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_taon"
+                },
+                {
+                    "word": "champ",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_champ"
+                },
+                {
+                    "word": "Jean",
+                    "audio": "vowels_open_back_unrounded_vowel_examples_french_jean"
+                }
+            ]
+        },
+        "ipa": "ɑ̃",
+        "name": "open back unrounded vowel",
+        "phonetic_detail": "nasal",
+        "sound": "vowels_open_back_unrounded_vowel"
+    },
+    "ɒ": {
         "examples": {
             "english": [
                 {
-                    "word": "dye",
-                    "audio": "assets/audio/consonants/voiced-alveolar-stop/examples/english/dye"
+                    "word": "John",
+                    "audio": "vowels_open_back_rounded_vowel_examples_english_john"
                 },
                 {
-                    "word": "cad",
-                    "audio": "assets/audio/consonants/voiced-alveolar-stop/examples/english/cad"
+                    "word": "lot",
+                    "audio": "vowels_open_back_rounded_vowel_examples_english_lot"
                 },
                 {
-                    "word": "do",
-                    "audio": "assets/audio/consonants/voiced-alveolar-stop/examples/english/do"
+                    "word": "pod",
+                    "audio": "vowels_open_back_rounded_vowel_examples_english_pod"
                 }
-            ],
+            ]
+        },
+        "ipa": "ɒ",
+        "name": "open back rounded vowel",
+        "sound": "vowels_open_back_rounded_vowel"
+    },
+    "ɛ": {
+        "examples": {
             "german": [
                 {
-                    "word": "dann",
-                    "audio": "assets/audio/consonants/voiced-alveolar-stop/examples/german/dann"
+                    "word": "Ende",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_german_ende"
                 }
             ],
             "french": [
                 {
-                    "word": "deux",
-                    "audio": "assets/audio/consonants/voiced-alveolar-stop/examples/french/deux"
+                    "word": "baie",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_baie"
                 },
                 {
-                    "word": "grande",
-                    "audio": "assets/audio/consonants/voiced-alveolar-stop/examples/french/grande"
-                }
-            ]
-        },
-        "ipa": "d",
-        "name": "voiced alveolar stop",
-        "phonation": "voiced",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "stop",
-        "sound": "assets/audio/consonants/voiced-alveolar-stop/sound"
-    },
-    "f": {
-        "examples": {
-            "english": [
-                {
-                    "word": "phi",
-                    "audio": "assets/audio/consonants/voiceless-labiodental-fricative/examples/english/phi"
+                    "word": "renne",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_renne"
                 },
                 {
-                    "word": "caff",
-                    "audio": "assets/audio/consonants/voiceless-labiodental-fricative/examples/english/caff"
+                    "word": "faite",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_faite"
                 },
                 {
-                    "word": "fan",
-                    "audio": "assets/audio/consonants/voiceless-labiodental-fricative/examples/english/fan"
+                    "word": "mettre",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_mettre"
+                },
+                {
+                    "word": "peine",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_peine"
                 }
             ],
+            "portuguese": [
+                {
+                    "word": "cafezinho",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_portuguese_cafezinho"
+                },
+                {
+                    "word": "meta",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_portuguese_meta"
+                }
+            ],
+            "italian": [
+                {
+                    "word": "cash",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_italian_cash"
+                },
+                {
+                    "word": "spread",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_italian_spread"
+                },
+                {
+                    "word": "elica",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_italian_elica"
+                },
+                {
+                    "word": "play",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_italian_play"
+                }
+            ],
+            "swedish": []
+        },
+        "ipa": "ɛ",
+        "name": "open-mid front unrounded vowel",
+        "sound": "vowels_open_mid_front_unrounded_vowel"
+    },
+    "ɛː": {
+        "examples": {
+            "german": [],
+            "french": [
+                {
+                    "word": "Lemaistre",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_lemaistre"
+                },
+                {
+                    "word": "reine",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_reine"
+                },
+                {
+                    "word": "caisse",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_caisse"
+                },
+                {
+                    "word": "presse",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_presse"
+                }
+            ],
+            "swedish": []
+        },
+        "ipa": "ɛː",
+        "name": "open-mid front unrounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_open_mid_front_unrounded_vowel"
+    },
+    "ɛ̃": {
+        "examples": {
             "german": [
                 {
-                    "word": "von",
-                    "audio": "assets/audio/consonants/voiceless-labiodental-fricative/examples/german/von"
+                    "word": "impair",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_german_impair"
                 }
             ],
             "french": [
                 {
-                    "word": "faire",
-                    "audio": "assets/audio/consonants/voiceless-labiodental-fricative/examples/french/faire"
+                    "word": "daim",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_daim"
                 },
                 {
-                    "word": "vif",
-                    "audio": "assets/audio/consonants/voiceless-labiodental-fricative/examples/french/vif"
+                    "word": "Reims",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_reims"
+                },
+                {
+                    "word": "pain",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_pain"
+                },
+                {
+                    "word": "plein",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_plein"
+                },
+                {
+                    "word": "impair",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_impair"
+                },
+                {
+                    "word": "sympa",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_sympa"
+                },
+                {
+                    "word": "vin",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_vin"
+                },
+                {
+                    "word": "bien",
+                    "audio": "vowels_open_mid_front_unrounded_vowel_examples_french_bien"
                 }
             ]
         },
-        "ipa": "f",
-        "name": "voiceless labiodental fricative",
-        "phonation": "voiceless",
-        "place_of_articulation": "labiodental",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiceless-labiodental-fricative/sound"
+        "ipa": "ɛ̃",
+        "name": "open-mid front unrounded vowel",
+        "phonetic_detail": "nasal",
+        "sound": "vowels_open_mid_front_unrounded_vowel"
     },
-    "ɡ": {
+    "e": {
         "examples": {
-            "english": [
-                {
-                    "word": "guy",
-                    "audio": "assets/audio/consonants/voiced-velar-stop/examples/english/guy"
-                },
-                {
-                    "word": "bag",
-                    "audio": "assets/audio/consonants/voiced-velar-stop/examples/english/bag"
-                },
-                {
-                    "word": "gut",
-                    "audio": "assets/audio/consonants/voiced-velar-stop/examples/english/gut"
-                }
-            ],
             "german": [
                 {
-                    "word": "gut",
-                    "audio": "assets/audio/consonants/voiced-velar-stop/examples/german/gut"
+                    "word": "Element",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_german_element"
                 }
             ],
             "french": [
                 {
-                    "word": "longue",
-                    "audio": "assets/audio/consonants/voiced-velar-stop/examples/french/longue"
+                    "word": "pied",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_french_pied"
+                },
+                {
+                    "word": "aller",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_french_aller"
+                },
+                {
+                    "word": "les",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_french_les"
+                },
+                {
+                    "word": "chez",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_french_chez"
+                }
+            ],
+            "portuguese": [
+                {
+                    "word": "segmento",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_portuguese_segmento"
+                },
+                {
+                    "word": "meto",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_portuguese_meto"
+                }
+            ],
+            "italian": [
+                {
+                    "word": "liaison",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_italian_liaison"
+                },
+                {
+                    "word": "vero",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_italian_vero"
+                }
+            ],
+            "spanish": [
+                {
+                    "word": "vehemente",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_spanish_vehemente"
                 }
             ]
         },
-        "ipa": "ɡ",
-        "name": "voiced velar stop",
-        "phonation": "voiced",
-        "place_of_articulation": "velar",
-        "manner_of_articulation": "stop",
-        "sound": "assets/audio/consonants/voiced-velar-stop/sound"
+        "ipa": "e",
+        "name": "close-mid front unrounded vowel",
+        "sound": "vowels_close_mid_front_unrounded_vowel"
     },
-    "h": {
-        "examples": {
-            "english": [
-                {
-                    "word": "high",
-                    "audio": "assets/audio/consonants/voiceless-glottal-fricative/examples/english/high"
-                },
-                {
-                    "word": "ahead",
-                    "audio": "assets/audio/consonants/voiceless-glottal-fricative/examples/english/ahead"
-                }
-            ],
-            "german": [
-                {
-                    "word": "hat",
-                    "audio": "assets/audio/consonants/voiceless-glottal-fricative/examples/german/hat"
-                }
-            ]
-        },
-        "ipa": "h",
-        "name": "voiceless glottal fricative",
-        "phonation": "voiceless",
-        "place_of_articulation": "glottal",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiceless-glottal-fricative/sound"
-    },
-    "hw": {
-        "examples": {
-            "english": [
-                {
-                    "word": "why",
-                    "audio": "assets/audio/consonants/-/examples/english/why"
-                }
-            ]
-        },
-        "ipa": "hw"
-    },
-    "j": {
-        "examples": {
-            "english": [
-                {
-                    "word": "hallelujah",
-                    "audio": "assets/audio/consonants/palatal-approximant/examples/english/hallelujah"
-                },
-                {
-                    "word": "yes",
-                    "audio": "assets/audio/consonants/palatal-approximant/examples/english/yes"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Jahr",
-                    "audio": "assets/audio/consonants/palatal-approximant/examples/german/Jahr"
-                }
-            ]
-        },
-        "ipa": "j",
-        "name": "palatal approximant",
-        "phonation": "voiced",
-        "place_of_articulation": "palatal",
-        "manner_of_articulation": "approximant",
-        "sound": "assets/audio/consonants/palatal-approximant/sound"
-    },
-    "k": {
-        "examples": {
-            "english": [
-                {
-                    "word": "sky",
-                    "audio": "assets/audio/consonants/voiceless-velar-stop/examples/english/sky"
-                },
-                {
-                    "word": "crack",
-                    "audio": "assets/audio/consonants/voiceless-velar-stop/examples/english/crack"
-                }
-            ],
-            "german": [
-                {
-                    "word": "kann",
-                    "audio": "assets/audio/consonants/voiceless-velar-stop/examples/german/kann"
-                },
-                {
-                    "word": "Tag",
-                    "audio": "assets/audio/consonants/voiceless-velar-stop/examples/german/Tag"
-                }
-            ],
-            "french": [
-                {
-                    "word": "avec",
-                    "audio": "assets/audio/consonants/voiceless-velar-stop/examples/french/avec"
-                },
-                {
-                    "word": "corps",
-                    "audio": "assets/audio/consonants/voiceless-velar-stop/examples/french/corps"
-                }
-            ]
-        },
-        "ipa": "k",
-        "name": "voiceless velar stop",
-        "phonation": "voiceless",
-        "place_of_articulation": "velar",
-        "manner_of_articulation": "stop",
-        "sound": "assets/audio/consonants/voiceless-velar-stop/sound"
-    },
-    "l": {
-        "examples": {
-            "english": [
-                {
-                    "word": "sly",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/english/sly"
-                },
-                {
-                    "word": "gal",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/english/gal"
-                },
-                {
-                    "word": "lie",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/english/lie"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Leben",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/german/Leben"
-                }
-            ],
-            "french": [
-                {
-                    "word": "laisser",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/french/laisser"
-                },
-                {
-                    "word": "possible",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/french/possible"
-                },
-                {
-                    "word": "seul",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/french/seul"
-                }
-            ]
-        },
-        "ipa": "l",
-        "name": "alveolar lateral approximant",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "lateral approximant",
-        "sound": "assets/audio/consonants/alveolar-lateral-approximant/sound"
-    },
-    "l̩": {
+    "eː": {
         "examples": {
             "german": [
                 {
-                    "word": "Mantel",
-                    "audio": "assets/audio/consonants/alveolar-lateral-approximant/examples/german/Mantel"
+                    "word": "eben",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_german_eben"
+                },
+                {
+                    "word": "gehen",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_german_gehen"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "hel",
+                    "audio": "vowels_close_mid_front_unrounded_vowel_examples_swedish_hel"
                 }
             ]
         },
-        "ipa": "l̩",
-        "name": "alveolar lateral approximant",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "lateral approximant",
-        "phonetic_detail": "syllabic consonant",
-        "sound": "assets/audio/consonants/alveolar-lateral-approximant/sound"
+        "ipa": "eː",
+        "name": "close-mid front unrounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_close_mid_front_unrounded_vowel"
     },
-    "m": {
+    "ə": {
         "examples": {
             "english": [
                 {
-                    "word": "smile",
-                    "audio": "assets/audio/consonants/bilabial-nasal/examples/english/smile"
+                    "word": "ago",
+                    "audio": "vowels_mid_central_vowel_examples_english_ago"
                 },
                 {
-                    "word": "my",
-                    "audio": "assets/audio/consonants/bilabial-nasal/examples/english/my"
+                    "word": "comma",
+                    "audio": "vowels_mid_central_vowel_examples_english_comma"
                 },
                 {
-                    "word": "cam",
-                    "audio": "assets/audio/consonants/bilabial-nasal/examples/english/cam"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Mann",
-                    "audio": "assets/audio/consonants/bilabial-nasal/examples/german/Mann"
-                }
-            ],
-            "french": []
-        },
-        "ipa": "m",
-        "name": "bilabial nasal",
-        "place_of_articulation": "bilabial",
-        "manner_of_articulation": "nasal",
-        "sound": "assets/audio/consonants/bilabial-nasal/sound"
-    },
-    "m̩": {
-        "examples": {
-            "german": [
-                {
-                    "word": "Atem",
-                    "audio": "assets/audio/consonants/-/examples/german/Atem"
-                }
-            ]
-        },
-        "ipa": "m̩",
-        "place_of_articulation": "bilabial",
-        "manner_of_articulation": "nasal",
-        "phonetic_detail": "syllabic consonant"
-    },
-    "n": {
-        "examples": {
-            "english": [
-                {
-                    "word": "snide",
-                    "audio": "assets/audio/consonants/alveolar-nasal/examples/english/snide"
+                    "word": "quiet",
+                    "audio": "vowels_mid_central_vowel_examples_english_quiet"
                 },
                 {
-                    "word": "nigh",
-                    "audio": "assets/audio/consonants/alveolar-nasal/examples/english/nigh"
-                },
-                {
-                    "word": "can",
-                    "audio": "assets/audio/consonants/alveolar-nasal/examples/english/can"
+                    "word": "focus",
+                    "audio": "vowels_mid_central_vowel_examples_english_focus"
                 }
             ],
             "german": [
                 {
                     "word": "Name",
-                    "audio": "assets/audio/consonants/alveolar-nasal/examples/german/Name"
+                    "audio": "vowels_mid_central_vowel_examples_german_name"
                 }
             ],
             "french": [
                 {
-                    "word": "nous",
-                    "audio": "assets/audio/consonants/alveolar-nasal/examples/french/nous"
+                    "word": "monsieur",
+                    "audio": "vowels_mid_central_vowel_examples_french_monsieur"
                 },
                 {
-                    "word": "bonne",
-                    "audio": "assets/audio/consonants/alveolar-nasal/examples/french/bonne"
-                }
-            ]
-        },
-        "ipa": "n",
-        "name": "alveolar nasal",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "nasal",
-        "sound": "assets/audio/consonants/alveolar-nasal/sound"
-    },
-    "ɲ": {
-        "examples": {
-            "french": [
-                {
-                    "word": "champagne",
-                    "audio": "assets/audio/consonants/palatal-nasal/examples/french/champagne"
+                    "word": "faisons",
+                    "audio": "vowels_mid_central_vowel_examples_french_faisons"
                 },
                 {
-                    "word": "gagner",
-                    "audio": "assets/audio/consonants/palatal-nasal/examples/french/gagner"
-                }
-            ]
-        },
-        "ipa": "ɲ",
-        "name": "palatal nasal",
-        "place_of_articulation": "palatal",
-        "manner_of_articulation": "nasal",
-        "sound": "assets/audio/consonants/palatal-nasal/sound"
-    },
-    "n̩": {
-        "examples": {
-            "german": [
+                    "word": "reposer",
+                    "audio": "vowels_mid_central_vowel_examples_french_reposer"
+                },
                 {
-                    "word": "beiden",
-                    "audio": "assets/audio/consonants//examples/german/beiden"
+                    "word": "le",
+                    "audio": "vowels_mid_central_vowel_examples_french_le"
                 }
             ]
         },
-        "ipa": "n̩",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "nasal",
-        "phonetic_detail": "syllabic consonant"
+        "ipa": "ə",
+        "name": "mid central vowel",
+        "sound": "vowels_mid_central_vowel"
     },
-    "ŋ": {
+    "ɪ": {
         "examples": {
             "english": [
                 {
-                    "word": "sink",
-                    "audio": "assets/audio/consonants/velar-nasal/examples/english/sink"
+                    "word": "lid",
+                    "audio": "vowels_near_close_near_front_unrounded_vowel_examples_english_lid"
                 },
                 {
-                    "word": "singer",
-                    "audio": "assets/audio/consonants/velar-nasal/examples/english/singer"
+                    "word": "kit",
+                    "audio": "vowels_near_close_near_front_unrounded_vowel_examples_english_kit"
                 },
                 {
-                    "word": "sang",
-                    "audio": "assets/audio/consonants/velar-nasal/examples/english/sang"
+                    "word": "fill",
+                    "audio": "vowels_near_close_near_front_unrounded_vowel_examples_english_fill"
+                },
+                {
+                    "word": "bin",
+                    "audio": "vowels_near_close_near_front_unrounded_vowel_examples_english_bin"
                 }
             ],
             "german": [
                 {
-                    "word": "lang",
-                    "audio": "assets/audio/consonants/velar-nasal/examples/german/lang"
+                    "word": "ist",
+                    "audio": "vowels_near_close_near_front_unrounded_vowel_examples_german_ist"
+                },
+                {
+                    "word": "bitte",
+                    "audio": "vowels_near_close_near_front_unrounded_vowel_examples_german_bitte"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "sill",
+                    "audio": "vowels_near_close_near_front_unrounded_vowel_examples_swedish_sill"
                 }
             ]
         },
-        "ipa": "ŋ",
-        "name": "velar nasal",
-        "place_of_articulation": "velar",
-        "manner_of_articulation": "nasal",
-        "sound": "assets/audio/consonants/velar-nasal/sound"
+        "ipa": "ɪ",
+        "name": "near-close near-front unrounded vowel",
+        "sound": "vowels_near_close_near_front_unrounded_vowel"
     },
-    "θ": {
+    "i": {
         "examples": {
             "english": [
                 {
-                    "word": "thigh",
-                    "audio": "assets/audio/consonants/voiceless-dental-fricative/examples/english/thigh"
+                    "word": "happy",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_english_happy"
                 },
                 {
-                    "word": "math",
-                    "audio": "assets/audio/consonants/voiceless-dental-fricative/examples/english/math"
-                }
-            ]
-        },
-        "ipa": "θ",
-        "name": "voiceless dental fricative",
-        "phonation": "voiceless",
-        "place_of_articulation": "dental",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiceless-dental-fricative/sound"
-    },
-    "ŋ̍": {
-        "examples": {
-            "german": [
-                {
-                    "word": "wenigen",
-                    "audio": "assets/audio/consonants/-/examples/german/wenigen"
-                }
-            ]
-        },
-        "ipa": "ŋ̍",
-        "place_of_articulation": "velar",
-        "manner_of_articulation": "nasal",
-        "phonetic_detail": "syllabic consonant"
-    },
-    "p": {
-        "examples": {
-            "english": [
-                {
-                    "word": "pie",
-                    "audio": "assets/audio/consonants/voiceless-bilabial-stop/examples/english/pie"
-                },
-                {
-                    "word": "spy",
-                    "audio": "assets/audio/consonants/voiceless-bilabial-stop/examples/english/spy"
-                },
-                {
-                    "word": "cap",
-                    "audio": "assets/audio/consonants/voiceless-bilabial-stop/examples/english/cap"
+                    "word": "serious",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_english_serious"
                 }
             ],
             "german": [
                 {
-                    "word": "Person",
-                    "audio": "assets/audio/consonants/voiceless-bilabial-stop/examples/german/Person"
-                },
-                {
-                    "word": "ab",
-                    "audio": "assets/audio/consonants/voiceless-bilabial-stop/examples/german/ab"
+                    "word": "Italien",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_german_italien"
                 }
             ],
             "french": [
                 {
-                    "word": "groupe",
-                    "audio": "assets/audio/consonants/voiceless-bilabial-stop/examples/french/groupe"
+                    "word": "y",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_french_y"
+                },
+                {
+                    "word": "si",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_french_si"
+                }
+            ],
+            "portuguese": [
+                {
+                    "word": "dia",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_portuguese_dia"
+                },
+                {
+                    "word": "rainha",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_portuguese_rainha"
+                },
+                {
+                    "word": "diesel",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_portuguese_diesel"
+                },
+                {
+                    "word": "si",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_portuguese_si"
+                }
+            ],
+            "italian": [
+                {
+                    "word": "viso",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_italian_viso"
+                },
+                {
+                    "word": "sexy",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_italian_sexy"
+                },
+                {
+                    "word": "feed",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_italian_feed"
+                },
+                {
+                    "word": "team",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_italian_team"
+                },
+                {
+                    "word": "zia",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_italian_zia"
+                }
+            ],
+            "spanish": [
+                {
+                    "word": "dimitir",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_spanish_dimitir"
+                },
+                {
+                    "word": "y",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_spanish_y"
                 }
             ]
         },
-        "ipa": "p",
-        "name": "voiceless bilabial stop",
-        "phonation": "voiceless",
-        "place_of_articulation": "bilabial",
-        "manner_of_articulation": "stop",
-        "sound": "assets/audio/consonants/voiceless-bilabial-stop/sound"
+        "ipa": "i",
+        "name": "close front unrounded vowel",
+        "sound": "vowels_close_front_unrounded_vowel"
     },
-    "pf": {
+    "iː": {
         "examples": {
+            "english": [
+                {
+                    "word": "mean",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_english_mean"
+                },
+                {
+                    "word": "fleece",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_english_fleece"
+                },
+                {
+                    "word": "feel",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_english_feel"
+                },
+                {
+                    "word": "sea",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_english_sea"
+                },
+                {
+                    "word": "seed",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_english_seed"
+                }
+            ],
             "german": [
                 {
-                    "word": "Pfeffer",
-                    "audio": "assets/audio/consonants/voiceless-labiodental-affricate/examples/german/Pfeffer"
+                    "word": "Berlin",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_german_berlin"
+                },
+                {
+                    "word": "viel",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_german_viel"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "sil",
+                    "audio": "vowels_close_front_unrounded_vowel_examples_swedish_sil"
                 }
             ]
         },
-        "ipa": "pf",
-        "name": "voiceless labiodental affricate",
-        "phonation": "voiceless",
-        "place_of_articulation": "labiodental",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiceless-labiodental-affricate/sound"
+        "ipa": "iː",
+        "name": "close front unrounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_close_front_unrounded_vowel"
     },
-    "ʁ": {
+    "i̥": {
+        "examples": {},
+        "ipa": "i̥",
+        "name": "close central unrounded vowel",
+        "phonetic_detail": "with voicelessness",
+        "sound": "vowels_close_central_unrounded_vowel"
+    },
+    "ɨ": {
+        "examples": {},
+        "ipa": "ɨ",
+        "name": "close central unrounded vowel",
+        "sound": "vowels_close_central_unrounded_vowel"
+    },
+    "ɔ": {
         "examples": {
             "german": [
                 {
-                    "word": "reden",
-                    "audio": "assets/audio/consonants/voiced-uvular-fricative/examples/german/reden"
+                    "word": "Osten",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_german_osten"
+                },
+                {
+                    "word": "kommen",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_german_kommen"
                 }
             ],
             "french": [
                 {
-                    "word": "regarder",
-                    "audio": "assets/audio/consonants/voiced-uvular-fricative/examples/french/regarder"
+                    "word": "sort",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_french_sort"
+                },
+                {
+                    "word": "minimum",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_french_minimum"
+                }
+            ],
+            "portuguese": [
+                {
+                    "word": "somente",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_portuguese_somente"
+                },
+                {
+                    "word": "formosa",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_portuguese_formosa"
+                }
+            ],
+            "italian": [
+                {
+                    "word": "otto",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_italian_otto"
+                },
+                {
+                    "word": "Sean",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_italian_sean"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "moll",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_swedish_moll"
                 }
             ]
         },
-        "ipa": "ʁ",
-        "name": "voiced uvular fricative",
-        "phonation": "voiced ",
-        "place_of_articulation": "uvular ",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiced-uvular-fricative/sound"
+        "ipa": "ɔ",
+        "name": "open-mid back rounded vowel",
+        "sound": "vowels_open_mid_back_rounded_vowel"
     },
-    "r": {
+    "ɔː": {
         "examples": {
             "english": [
                 {
-                    "word": "rye",
-                    "audio": "assets/audio/consonants/alveolar-trill/examples/english/rye"
+                    "word": "dawn",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_english_dawn"
                 },
                 {
-                    "word": "try",
-                    "audio": "assets/audio/consonants/alveolar-trill/examples/english/try"
+                    "word": "straw",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_english_straw"
                 },
                 {
-                    "word": "very",
-                    "audio": "assets/audio/consonants/alveolar-trill/examples/english/very"
-                }
-            ],
-            "german": [
+                    "word": "Maud",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_english_maud"
+                },
                 {
-                    "word": "reden",
-                    "audio": "assets/audio/consonants/alveolar-trill/examples/german/reden"
+                    "word": "fall",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_english_fall"
+                },
+                {
+                    "word": "thought",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_english_thought"
                 }
             ]
         },
-        "ipa": "r",
-        "name": "alveolar trill",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "trill",
-        "sound": "assets/audio/consonants/alveolar-trill/sound"
+        "ipa": "ɔː",
+        "name": "open-mid back rounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_open_mid_back_rounded_vowel"
     },
-    "s": {
+    "ɔ̃": {
         "examples": {
-            "english": [
+            "french": [
                 {
-                    "word": "mass",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-fricative/examples/english/mass"
+                    "word": "nom",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_french_nom"
                 },
                 {
-                    "word": "sigh",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-fricative/examples/english/sigh"
+                    "word": "son",
+                    "audio": "vowels_open_mid_back_rounded_vowel_examples_french_son"
                 }
-            ],
+            ]
+        },
+        "ipa": "ɔ̃",
+        "name": "open-mid back rounded vowel",
+        "phonetic_detail": "nasal",
+        "sound": "vowels_open_mid_back_rounded_vowel"
+    },
+    "o": {
+        "examples": {
             "german": [
                 {
-                    "word": "lassen",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-fricative/examples/german/lassen"
-                },
-                {
-                    "word": "Haus",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-fricative/examples/german/Haus"
+                    "word": "originell",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_german_originell"
                 }
             ],
             "french": [
                 {
-                    "word": "sans",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-fricative/examples/french/sans"
+                    "word": "bureau",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_french_bureau"
                 },
                 {
-                    "word": "assez",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-fricative/examples/french/assez"
+                    "word": "sot",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_french_sot"
+                },
+                {
+                    "word": "haut",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_french_haut"
+                }
+            ],
+            "portuguese": [
+                {
+                    "word": "formoso",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_portuguese_formoso"
+                },
+                {
+                    "word": "hospital",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_portuguese_hospital"
+                },
+                {
+                    "word": "sortudo",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_portuguese_sortudo"
+                }
+            ],
+            "italian": [
+                {
+                    "word": "ombra",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_italian_ombra"
+                },
+                {
+                    "word": "show",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_italian_show"
+                },
+                {
+                    "word": "otto",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_italian_otto"
+                },
+                {
+                    "word": "coach",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_italian_coach"
+                }
+            ],
+            "spanish": [
+                {
+                    "word": "boscoso",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_spanish_boscoso"
                 }
             ]
         },
-        "ipa": "s",
-        "name": "voiceless alveolar fricative",
-        "phonation": "voiceless",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiceless-alveolar-fricative/sound"
+        "ipa": "o",
+        "name": "close-mid back rounded vowel",
+        "sound": "vowels_close_mid_back_rounded_vowel"
     },
-    "ʃ": {
+    "oː": {
         "examples": {
-            "english": [
-                {
-                    "word": "shy",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/english/shy"
-                },
-                {
-                    "word": "emotion",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/english/emotion"
-                },
-                {
-                    "word": "cash",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/english/cash"
-                }
-            ],
             "german": [
                 {
-                    "word": "Stadt",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/german/Stadt"
+                    "word": "hohe",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_german_hohe"
                 },
                 {
-                    "word": "schon",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/german/schon"
+                    "word": "oder",
+                    "audio": "vowels_close_mid_back_rounded_vowel_examples_german_oder"
                 }
             ],
+            "swedish": []
+        },
+        "ipa": "oː",
+        "name": "close-mid back rounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_close_mid_back_rounded_vowel"
+    },
+    "õ": {
+        "examples": {
+            "german": []
+        },
+        "ipa": "õ",
+        "name": "close-mid back rounded vowel",
+        "phonetic_detail": "nasal",
+        "sound": "vowels_close_mid_back_rounded_vowel"
+    },
+    "œ": {
+        "examples": {
+            "german": [],
             "french": [
                 {
-                    "word": "chance",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-sibilant/examples/french/chance"
+                    "word": "jeune",
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_french_jeune"
+                }
+            ],
+            "swedish": []
+        },
+        "ipa": "œ",
+        "name": "open-mid front rounded vowel",
+        "sound": "vowels_open_mid_front_rounded_vowel"
+    },
+    "œː": {
+        "examples": {
+            "swedish": []
+        },
+        "ipa": "œː",
+        "name": "open-mid front rounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_open_mid_front_rounded_vowel"
+    },
+    "œ̃": {
+        "examples": {
+            "german": [],
+            "french": [
+                {
+                    "word": "un",
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_french_un"
+                },
+                {
+                    "word": "parfum",
+                    "audio": "vowels_open_mid_front_rounded_vowel_examples_french_parfum"
                 }
             ]
         },
-        "ipa": "ʃ",
-        "name": "voiceless palato-alveolar sibilant",
-        "phonation": "voiceless ",
-        "place_of_articulation": "palato-alveolar",
-        "manner_of_articulation": "sibilant",
-        "sound": "assets/audio/consonants/voiceless-palato-alveolar-sibilant/sound"
+        "ipa": "œ̃",
+        "name": "open-mid front rounded vowel",
+        "phonetic_detail": "nasal",
+        "sound": "vowels_open_mid_front_rounded_vowel"
     },
-    "t": {
+    "ɵ": {
+        "examples": {
+            "swedish": [
+                {
+                    "word": "full",
+                    "audio": "vowels_close_mid_central_rounded_vowel_examples_swedish_full"
+                },
+                {
+                    "word": " musik",
+                    "audio": "vowels_close_mid_central_rounded_vowel_examples_swedish__musik"
+                }
+            ]
+        },
+        "ipa": "ɵ",
+        "name": "close-mid central rounded vowel",
+        "sound": "vowels_close_mid_central_rounded_vowel"
+    },
+    "ɯ": {
+        "examples": {},
+        "ipa": "ɯ",
+        "name": "close back unrounded vowel",
+        "sound": "vowels_close_back_unrounded_vowel"
+    },
+    "ɯ̥": {
+        "examples": {},
+        "ipa": "ɯ̥",
+        "name": "close back unrounded vowel",
+        "phonetic_detail": "with voicelessness",
+        "sound": "vowels_close_back_unrounded_vowel"
+    },
+    "ø": {
+        "examples": {
+            "german": [],
+            "french": [
+                {
+                    "word": "ceux",
+                    "audio": "vowels_close_mid_front_rounded_vowel_examples_french_ceux"
+                },
+                {
+                    "word": "queue",
+                    "audio": "vowels_close_mid_front_rounded_vowel_examples_french_queue"
+                }
+            ]
+        },
+        "ipa": "ø",
+        "name": "close-mid front rounded vowel",
+        "sound": "vowels_close_mid_front_rounded_vowel"
+    },
+    "øː": {
+        "examples": {
+            "german": [],
+            "swedish": []
+        },
+        "ipa": "øː",
+        "name": "close-mid front rounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_close_mid_front_rounded_vowel"
+    },
+    "ʊ": {
         "examples": {
             "english": [
                 {
-                    "word": "tie",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-stop/examples/english/tie"
+                    "word": "woman",
+                    "audio": "vowels_near_close_near_back_rounded_vowel_examples_english_woman"
                 },
                 {
-                    "word": "sty",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-stop/examples/english/sty"
+                    "word": "foot",
+                    "audio": "vowels_near_close_near_back_rounded_vowel_examples_english_foot"
                 },
                 {
-                    "word": "atom",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-stop/examples/english/atom"
-                },
-                {
-                    "word": "cat",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-stop/examples/english/cat"
+                    "word": "full",
+                    "audio": "vowels_near_close_near_back_rounded_vowel_examples_english_full"
                 }
             ],
             "german": [
                 {
                     "word": "und",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-stop/examples/german/und"
+                    "audio": "vowels_near_close_near_back_rounded_vowel_examples_german_und"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "bott",
+                    "audio": "vowels_near_close_near_back_rounded_vowel_examples_swedish_bott"
+                }
+            ]
+        },
+        "ipa": "ʊ",
+        "name": "near-close near-back rounded vowel",
+        "sound": "vowels_near_close_near_back_rounded_vowel"
+    },
+    "u": {
+        "examples": {
+            "english": [
+                {
+                    "word": "situation",
+                    "audio": "vowels_close_back_rounded_vowel_examples_english_situation"
+                }
+            ],
+            "german": [],
+            "french": [
+                {
+                    "word": "coup",
+                    "audio": "vowels_close_back_rounded_vowel_examples_french_coup"
                 },
                 {
-                    "word": "Tag",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-stop/examples/german/Tag"
+                    "word": "roue",
+                    "audio": "vowels_close_back_rounded_vowel_examples_french_roue"
+                }
+            ],
+            "portuguese": [
+                {
+                    "word": "voo",
+                    "audio": "vowels_close_back_rounded_vowel_examples_portuguese_voo"
+                },
+                {
+                    "word": "frio",
+                    "audio": "vowels_close_back_rounded_vowel_examples_portuguese_frio"
+                },
+                {
+                    "word": "evacuar",
+                    "audio": "vowels_close_back_rounded_vowel_examples_portuguese_evacuar"
+                },
+                {
+                    "word": "boneco",
+                    "audio": "vowels_close_back_rounded_vowel_examples_portuguese_boneco"
+                }
+            ],
+            "italian": [
+                {
+                    "word": "tour",
+                    "audio": "vowels_close_back_rounded_vowel_examples_italian_tour"
+                },
+                {
+                    "word": "look",
+                    "audio": "vowels_close_back_rounded_vowel_examples_italian_look"
+                },
+                {
+                    "word": "tuo",
+                    "audio": "vowels_close_back_rounded_vowel_examples_italian_tuo"
+                },
+                {
+                    "word": "usi",
+                    "audio": "vowels_close_back_rounded_vowel_examples_italian_usi"
+                }
+            ],
+            "spanish": [
+                {
+                    "word": "cucurucho",
+                    "audio": "vowels_close_back_rounded_vowel_examples_spanish_cucurucho"
+                }
+            ]
+        },
+        "ipa": "u",
+        "name": "close back rounded vowel",
+        "sound": "vowels_close_back_rounded_vowel"
+    },
+    "uː": {
+        "examples": {
+            "english": [
+                {
+                    "word": "fool",
+                    "audio": "vowels_close_back_rounded_vowel_examples_english_fool"
+                },
+                {
+                    "word": "goose",
+                    "audio": "vowels_close_back_rounded_vowel_examples_english_goose"
+                },
+                {
+                    "word": "soon",
+                    "audio": "vowels_close_back_rounded_vowel_examples_english_soon"
+                },
+                {
+                    "word": "chew",
+                    "audio": "vowels_close_back_rounded_vowel_examples_english_chew"
+                },
+                {
+                    "word": "food",
+                    "audio": "vowels_close_back_rounded_vowel_examples_english_food"
+                },
+                {
+                    "word": "do",
+                    "audio": "vowels_close_back_rounded_vowel_examples_english_do"
+                }
+            ],
+            "german": [
+                {
+                    "word": "Hut",
+                    "audio": "vowels_close_back_rounded_vowel_examples_german_hut"
+                }
+            ],
+            "swedish": [
+                {
+                    "word": "bot",
+                    "audio": "vowels_close_back_rounded_vowel_examples_swedish_bot"
+                }
+            ]
+        },
+        "ipa": "uː",
+        "name": "close back rounded vowel",
+        "phonetic_detail": "long",
+        "sound": "vowels_close_back_rounded_vowel"
+    },
+    "ʉ": {
+        "examples": {
+            "swedish": [
+                {
+                    "word": "ful",
+                    "audio": "vowels_close_central_rounded_vowel_examples_swedish_ful"
+                }
+            ]
+        },
+        "ipa": "ʉ",
+        "name": "close central rounded vowel",
+        "sound": "vowels_close_central_rounded_vowel"
+    },
+    "ʉː": {
+        "examples": {
+            "swedish": [
+                {
+                    "word": "duell",
+                    "audio": "vowels_close_central_rounded_vowel_examples_swedish_duell"
+                }
+            ]
+        },
+        "ipa": "ʉː",
+        "name": "close central rounded vowel",
+        "sound": "vowels_close_central_rounded_vowel"
+    },
+    "ʏ": {
+        "examples": {
+            "german": [],
+            "swedish": [
+                {
+                    "word": "syll",
+                    "audio": "vowels_near_close_near_front_rounded_vowel_examples_swedish_syll"
+                }
+            ]
+        },
+        "ipa": "ʏ",
+        "name": "near-close near-front rounded vowel",
+        "sound": "vowels_near_close_near_front_rounded_vowel"
+    },
+    "y": {
+        "examples": {
+            "german": [
+                {
+                    "word": "Psychologie",
+                    "audio": "vowels_close_front_rounded_vowel_examples_german_psychologie"
                 }
             ],
             "french": [
                 {
-                    "word": "tout",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-stop/examples/french/tout"
-                }
-            ]
-        },
-        "ipa": "t",
-        "name": "voiceless alveolar stop",
-        "phonation": "voiceless ",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "stop",
-        "sound": "assets/audio/consonants/voiceless-alveolar-stop/sound"
-    },
-    "ts": {
-        "examples": {
-            "german": [
-                {
-                    "word": "Platz",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-affricate/examples/german/Platz"
+                    "word": "rue",
+                    "audio": "vowels_close_front_rounded_vowel_examples_french_rue"
                 },
                 {
-                    "word": "Zeit",
-                    "audio": "assets/audio/consonants/voiceless-alveolar-affricate/examples/german/Zeit"
+                    "word": "tu",
+                    "audio": "vowels_close_front_rounded_vowel_examples_french_tu"
                 }
             ]
         },
-        "ipa": "ts",
-        "name": "voiceless alveolar affricate",
-        "phonation": "voiceless",
-        "place_of_articulation": "alveolar",
-        "manner_of_articulation": "affricate",
-        "sound": "assets/audio/consonants/voiceless-alveolar-affricate/sound"
+        "ipa": "y",
+        "name": "close front rounded vowel",
+        "sound": "vowels_close_front_rounded_vowel"
     },
-    "tʃ": {
+    "yː": {
+        "examples": {
+            "german": [],
+            "swedish": [
+                {
+                    "word": "syl",
+                    "audio": "vowels_close_front_rounded_vowel_examples_swedish_syl"
+                }
+            ]
+        },
+        "ipa": "yː",
+        "name": "close front rounded vowel",
+        "sound": "vowels_close_front_rounded_vowel"
+    },
+    "ʌ": {
         "examples": {
             "english": [
                 {
-                    "word": "catch",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-affricate/examples/english/catch"
+                    "word": "dull",
+                    "audio": "vowels_open_mid_back_unrounded_vowel_examples_english_dull"
                 },
                 {
-                    "word": "china",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-affricate/examples/english/china"
-                }
-            ],
-            "german": [
+                    "word": "strut",
+                    "audio": "vowels_open_mid_back_unrounded_vowel_examples_english_strut"
+                },
                 {
-                    "word": "Matsch",
-                    "audio": "assets/audio/consonants/voiceless-palato-alveolar-affricate/examples/german/Matsch"
+                    "word": "bud",
+                    "audio": "vowels_open_mid_back_unrounded_vowel_examples_english_bud"
+                },
+                {
+                    "word": "gun",
+                    "audio": "vowels_open_mid_back_unrounded_vowel_examples_english_gun"
                 }
             ]
         },
-        "ipa": "tʃ",
-        "name": "voiceless palato-alveolar affricate",
-        "phonation": "voiceless ",
-        "place_of_articulation": "palato-alveolar",
-        "manner_of_articulation": "affricate",
-        "sound": "assets/audio/consonants/voiceless-palato-alveolar-affricate/sound"
-    },
-    "v": {
-        "examples": {
-            "english": [
-                {
-                    "word": "vie",
-                    "audio": "assets/audio/consonants/voiced-labiodental-fricative/examples/english/vie"
-                },
-                {
-                    "word": "have",
-                    "audio": "assets/audio/consonants/voiced-labiodental-fricative/examples/english/have"
-                }
-            ],
-            "german": [
-                {
-                    "word": "was",
-                    "audio": "assets/audio/consonants/voiced-labiodental-fricative/examples/german/was"
-                }
-            ],
-            "french": [
-                {
-                    "word": "vous",
-                    "audio": "assets/audio/consonants/voiced-labiodental-fricative/examples/french/vous"
-                },
-                {
-                    "word": "wagon",
-                    "audio": "assets/audio/consonants/voiced-labiodental-fricative/examples/french/wagon"
-                },
-                {
-                    "word": "neuf heures",
-                    "audio": "assets/audio/consonants/voiced-labiodental-fricative/examples/french/neuf heures"
-                }
-            ]
-        },
-        "ipa": "v",
-        "name": "voiced labiodental fricative",
-        "phonation": "v ",
-        "place_of_articulation": "labiodental",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiced-labiodental-fricative/sound"
-    },
-    "x": {
-        "examples": {
-            "german": [
-                {
-                    "word": "nach",
-                    "audio": "assets/audio/consonants/voiceless-velar-fricative/examples/german/nach"
-                }
-            ]
-        },
-        "ipa": "x",
-        "name": "voiceless velar fricative",
-        "phonation": "voiceless",
-        "place_of_articulation": "velar",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiceless-velar-fricative/sound"
-    },
-    "z": {
-        "examples": {
-            "english": [
-                {
-                    "word": "has",
-                    "audio": "assets/audio/consonants/voiced-alveolar-fricative/examples/english/has"
-                },
-                {
-                    "word": "zoo",
-                    "audio": "assets/audio/consonants/voiced-alveolar-fricative/examples/english/zoo"
-                }
-            ],
-            "german": [
-                {
-                    "word": "diese",
-                    "audio": "assets/audio/consonants/voiced-alveolar-fricative/examples/german/diese"
-                },
-                {
-                    "word": "Sie",
-                    "audio": "assets/audio/consonants/voiced-alveolar-fricative/examples/german/Sie"
-                }
-            ],
-            "french": [
-                {
-                    "word": "raison",
-                    "audio": "assets/audio/consonants/voiced-alveolar-fricative/examples/french/raison"
-                },
-                {
-                    "word": "chose",
-                    "audio": "assets/audio/consonants/voiced-alveolar-fricative/examples/french/chose"
-                }
-            ]
-        },
-        "ipa": "z",
-        "name": "voiced alveolar fricative",
-        "phonation": "voiced",
-        "place_of_articulation": "alveolar ",
-        "manner_of_articulation": "fricative",
-        "sound": "assets/audio/consonants/voiced-alveolar-fricative/sound"
-    },
-    "ʔ": {
-        "examples": {
-            "german": [
-                {
-                    "word": "beamtet",
-                    "audio": "assets/audio/consonants/glottal-stop/examples/german/beamtet"
-                }
-            ]
-        },
-        "ipa": "ʔ",
-        "name": "glottal stop",
-        "place_of_articulation": "glottal",
-        "manner_of_articulation": "stop",
-        "sound": "assets/audio/consonants/glottal-stop/sound"
-    },
-    "dʒ": {
-        "examples": {
-            "english": [
-                {
-                    "word": "giant",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-affricate/examples/english/giant"
-                },
-                {
-                    "word": "jam",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-affricate/examples/english/jam"
-                },
-                {
-                    "word": "badge",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-affricate/examples/english/badge"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Dschungel",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-affricate/examples/german/Dschungel"
-                }
-            ]
-        },
-        "ipa": "dʒ",
-        "name": "voiced palato-alveolar affricate",
-        "phonation": " voiced",
-        "place_of_articulation": " post-alveolar",
-        "manner_of_articulation": "affricate",
-        "sound": "assets/audio/consonants/voiced-palato-alveolar-affricate/sound"
-    },
-    "ʒ": {
-        "examples": {
-            "english": [
-                {
-                    "word": "vision",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/vision"
-                },
-                {
-                    "word": "pleasure",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/pleasure"
-                },
-                {
-                    "word": "equation",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/equation"
-                },
-                {
-                    "word": "beige",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/english/beige"
-                }
-            ],
-            "german": [
-                {
-                    "word": "Genie",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/german/Genie"
-                }
-            ],
-            "french": [
-                {
-                    "word": "visage",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/french/visage"
-                },
-                {
-                    "word": "jamais",
-                    "audio": "assets/audio/consonants/voiced-palato-alveolar-sibilant/examples/french/jamais"
-                }
-            ]
-        },
-        "ipa": "ʒ",
-        "name": "voiced palato-alveolar sibilant",
-        "phonation": "voiced",
-        "place_of_articulation": "palato-alveolar",
-        "manner_of_articulation": "sibilant",
-        "sound": "assets/audio/consonants/voiced-palato-alveolar-sibilant/sound"
+        "ipa": "ʌ",
+        "name": "open-mid back unrounded vowel",
+        "sound": "vowels_open_mid_back_unrounded_vowel"
     }
 }
