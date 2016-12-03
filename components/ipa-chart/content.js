@@ -37,13 +37,20 @@ class IPASymbols extends Component {
 
     constructor() {
         super()
-        this.state = {
+
+        this.cleanIPASelection = {
             audio: null,
             selectedIPA: '',
             wordExample: '',
-            error: '', 
             nextAudioExecution: null
         }
+
+        this.state = Object.assign({}, this.cleanIPASelection)
+    }
+
+    destroyOldIPASelection() {
+        this.destroyOldAudioExecution()
+        this.setState(Object.assign({}, this.cleanIPASelection))
     }
 
     loadSound({description, audioPath, type}) {
@@ -59,9 +66,8 @@ class IPASymbols extends Component {
         })
     }
 
-    destroyOldAudioExecution(){
+    destroyOldAudioExecution() {
         clearTimeout(this.state.nextAudioExecution)
-        this.setState({nextAudioExecution: null})
     }
 
     loadAllSounds({loadExamples = false, IPASymbol}) {
@@ -115,31 +121,53 @@ class IPASymbols extends Component {
 
         let self = this
 
-       this.releaseLastAudio()
+        this.releaseLastAudio()
 
-        if(audios.length){
-            let {audioResource} = audios[0]
+        if (audios.length) {
+            let {audioResource, type, description} = audios[0]
 
-                , duration = audioResource.getDuration()*1000 
+                , duration = audioResource.getDuration() * 1000 + 100
 
-                , nextAudios = audios.slice(1,audios.length)
+                , nextAudios = audios.slice(1, audios.length)
 
-                , nextAudioExecution 
-           
-            nextAudioExecution =  setTimeout(function(){self.playAudiosSequentially(nextAudios)}, duration)
+                , nextAudioExecution
 
-            this.setState({audio: audioResource, nextAudioExecution}) 
+                , newState = {}
+            
+
+            nextAudioExecution = setTimeout(function () { self.playAudiosSequentially(nextAudios) }, duration)
+
+            this.changeDescription({ description, typeOfDescription: type })
+
+            this.setState({ audio: audioResource, nextAudioExecution })
 
             audioResource.play()
 
+        } else{
+            this.destroyOldIPASelection()
         }
 
     }
 
 
+    changeDescription({description, typeOfDescription}) {
+
+        let stateToAlter = '', newState = {}
+
+        if (typeOfDescription === 'example') stateToAlter = 'wordExample'
+        else if (typeOfDescription === 'ipa') stateToAlter = 'selectedIPA'
+
+        newState[stateToAlter] = description
+
+        this.setState(newState)
+
+    }
+
+
+
     onSelectedSymbol({IPASymbol, playExamples = false}) {
 
-        this.destroyOldAudioExecution() 
+        this.destroyOldIPASelection()
 
         const onLoaded = (audiosLoaded) => {
             this.playAudiosSequentially(audiosLoaded)
@@ -205,8 +233,13 @@ class IPASymbols extends Component {
         const layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap', }
 
         return (
-            <View style={layout}>
-                {this.content()}
+
+            <View>
+                <Text sytle={{ fontSize: 30, marginBotom: 15 }}>{this.state.selectedIPA}</Text>
+                <Text sytle={{ fontSize: 20, marginBotom: 10 }}>{this.state.wordExample}</Text>
+                <View style={layout}>
+                    {this.content()}
+                </View>
             </View>
         )
 
