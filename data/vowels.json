@@ -1,13 +1,14 @@
 {
     "missingWords": [
         {
+            "word": "Lundist",
+            "language": "german",
+            "fileName": "vowels_open_mid_front_rounded_vowel_examples_german_lundist"
+        },
+        {
             "word": "formosos",
             "language": "portuguese",
             "fileName": "vowels_open_mid_back_rounded_vowel_examples_portuguese_formosos"
-        },
-        {
-            "word": "Lundist",
-            "fileName": "vowels_open_mid_front_rounded_vowel_examples_german_lundist"
         },
         {
             "word": "vi-o",

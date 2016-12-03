@@ -11,9 +11,9 @@
             "fileName": "consonants_alveolar_tap_examples_portuguese_por_acaso"
         },
         {
-            "word": "grand-oncle",
-            "language": "french",
-            "fileName": "consonants_voiceless_alveolar_stop_examples_french_grand_oncle"
+            "word": "os amigos",
+            "language": "portuguese",
+            "fileName": "consonants_voiced_alveolar_fricative_examples_portuguese_os_amigos"
         },
         {
             "word": "atchim",
@@ -21,9 +21,9 @@
             "fileName": "consonants_voiceless_palato_alveolar_affricate_examples_portuguese_atchim"
         },
         {
-            "word": "os amigos",
-            "language": "portuguese",
-            "fileName": "consonants_voiced_alveolar_fricative_examples_portuguese_os_amigos"
+            "word": "grand-oncle",
+            "language": "french",
+            "fileName": "consonants_voiceless_alveolar_stop_examples_french_grand_oncle"
         }
     ],
     "b": {

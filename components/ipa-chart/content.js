@@ -27,6 +27,7 @@ export class Content extends Component {
     }
 }
 
+
 Content.propTypes = {
     selectedContent: PropTypes.string.isRequired,
     currentLanguage: PropTypes.string.isRequired
@@ -37,25 +38,30 @@ class IPASymbols extends Component {
     constructor() {
         super()
         this.state = {
-            audio: null
+            audio: null,
+            selectedIPA: '',
+            wordExample: '',
+            error: '', 
+            nextAudioExecution: null
         }
     }
 
-    onPress() {
-        const {storedAudio} = this.state
+    loadSound({description, audioPath, type}) {
 
-        if (storedAudio) storedAudio.release()
+        return new Promise((resolve, reject) => {
 
-        var audio = new Sound('consonants_alveolar_trill_examples_spanish_amor_eterno', '', (error) => {
-            if (error) {
-                console.log('failed to load the sound', error);
-            } else { // loaded successfully
-                this.setState({ audio })
-                audio.setVolume(1);
-                audio.play()
-            }
-        });
+            var audioResource = new Sound(audioPath, '', (error) => {
+                if (error) { reject(error); return }
+                audioResource.setVolume(1)
+                resolve({ description, audioResource, type })
+            });
 
+        })
+    }
+
+    destroyOldAudioExecution(){
+        clearTimeout(this.state.nextAudioExecution)
+        this.setState({nextAudioExecution: null})
     }
 
     loadAllSounds({loadExamples = false, IPASymbol}) {
@@ -64,51 +70,79 @@ class IPASymbols extends Component {
 
             {speechSound, currentLanguage} = this.props
 
-            , {examples = null, name, sound} = objectContent[speechSound]
+            , {examples = null, name, sound} = objectContent[speechSound][IPASymbol]
 
-            , thereAreExamples = examples && examples[currentLanguage] && examples[currentLanguage].length
+            , languageExamples = examples[currentLanguage]
 
-            , soundsLoadingPromises = []
+            , IPAname = name, IPAsound = sound
 
-            , symbolLoading = new Promise((resolve, reject) => {
+            , self = this
 
+            , thereAreExamples = examples && languageExamples && languageExamples.length
+
+
+        let audiosToLoad = [{ description: IPAname, audioPath: IPAsound, type: 'ipa' }]
+
+
+        if (thereAreExamples && loadExamples) {
+
+            let audioExamples = languageExamples.map((example) => {
+                let {audio, word} = example
+
+                return { audioPath: audio, description: word, type: 'example' }
             })
 
-        soundsLoadingPromises.push(symbolLoading)
-
-
-        if (thereAreExamples && playExamples) {
-
-            let examplesLoading = new Promise((resolve, reject) => {
-
-            })
-
-            soundsLoadingPromises.push(examplesLoading)
+            audiosToLoad = Object.assign([], [].concat(audiosToLoad, audioExamples))
 
         }
 
 
-        return Promise.all(soundsLoadingPromises).then(values => {
-            const symbolSound = values[0]
-
-            if (values[1]) {
-                let examplesSound = values[1],
-                return Object.assign({}, symbolSound, examplesSound)
-            }
-
-            return symbolSound
+        let audiosLoading = audiosToLoad.map((audio) => {
+            return this.loadSound(audio)
         })
 
+
+        return Promise.all(audiosLoading).then((loadedAudios) => loadedAudios, (error) => error)
+
     }
 
-    playSequentially(audios) {
+    releaseLastAudio() {
+        const storedAudio = this.state.audio
+        if (storedAudio) storedAudio.release()
+    }
+
+    playAudiosSequentially(audios) {
+
+        let self = this
+
+       this.releaseLastAudio()
+
+        if(audios.length){
+            let {audioResource} = audios[0]
+
+                , duration = audioResource.getDuration()*1000 
+
+                , nextAudios = audios.slice(1,audios.length)
+
+                , nextAudioExecution 
+           
+            nextAudioExecution =  setTimeout(function(){self.playAudiosSequentially(nextAudios)}, duration)
+
+            this.setState({audio: audioResource, nextAudioExecution}) 
+
+            audioResource.play()
+
+        }
 
     }
+
 
     onSelectedSymbol({IPASymbol, playExamples = false}) {
 
-        const onLoaded = (audios) => {
-            this.playSequentially(audios)
+        this.destroyOldAudioExecution() 
+
+        const onLoaded = (audiosLoaded) => {
+            this.playAudiosSequentially(audiosLoaded)
         }
 
         const onError = (error) => {
@@ -128,7 +162,7 @@ class IPASymbols extends Component {
             , symbols = []
             , self = this
 
-        for (var IPASymbol in content) {
+        for (let IPASymbol in content) {
 
             let {examples = null} = content[IPASymbol]
 
