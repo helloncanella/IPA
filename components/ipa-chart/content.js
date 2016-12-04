@@ -1,9 +1,10 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, TouchableHighlight } from 'react-native'
-
+import {H1, H2} from 'components/reusable-components/typography.js'
+ 
 var Sound = require('react-native-sound');
 
-const consonants = require('data/consonants.json')
+const consonants = require('data/consonants.json') 
     , vowels = require('data/vowels.json')
     , objectContent = { consonants, vowels }
 
@@ -203,11 +204,11 @@ class IPASymbols extends Component {
                         key: IPASymbol,
                         style,
                         onPress: function onPress() {
-                            self.onSelectedSymbol({ IPASymbol })
+                            self.onSelectedSymbol({ IPASymbol , playExamples: true  })
                         },
-                        onLongPress: function onLongPress() {
-                            self.onSelectedSymbol({ IPASymbol, playExamples: true })
-                        }
+                        // onLongPress: function onLongPress() {
+                        //     self.onSelectedSymbol({ IPASymbol, playExamples: true })
+                        // }
                     }
 
                     , ipaSound = (
@@ -230,13 +231,22 @@ class IPASymbols extends Component {
 
     render() {
 
-        const layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap', }
+        const layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap'}
+        
+        , boxStyle = {height:110, flex: 1, flexDirection:'column', justifyContent:'space-around'}
+        , headerAligment = {textAlign: 'center'}
+        , textStyle = {position: 'absolute'}
 
         return (
 
-            <View>
-                <Text sytle={{ fontSize: 30, marginBotom: 15 }}>{this.state.selectedIPA}</Text>
-                <Text sytle={{ fontSize: 20, marginBotom: 10 }}>{this.state.wordExample}</Text>
+            <View >
+                <View style={boxStyle}>                    
+                        <H1 style={headerAligment}>{this.state.selectedIPA}</H1>                
+                        <H2 style={headerAligment}>{this.state.wordExample}</H2>
+
+                </View>    
+
+                    
                 <View style={layout}>
                     {this.content()}
                 </View>
