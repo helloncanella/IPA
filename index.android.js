@@ -4,7 +4,6 @@ import {LanguageSelector} from 'components/language-selector/language-selector.j
 import {IPAChart} from 'components/ipa-chart/ipa-chart.js'
 
 const routes = [
-    { id: 'language-selector' },
     { id: 'ipa-chart' }
 ]
 
@@ -14,13 +13,11 @@ export default class IPA extends Component {
 
         let properties = {
             initialRoute: {
-                id: 'language-selector'
+                id: 'ipa-chart'
             },
             renderScene: (route, navigator) => {
-                if (route.id === 'language-selector') {
-                    return <LanguageSelector navigator={navigator}  />
-                } else if (route.id === 'ipa-chart') {
-                    return <IPAChart navigator={navigator} language={route.language}/>
+                if (route.id === 'ipa-chart') {
+                    return <IPAChart navigator={navigator} language='german'/>
                 }
             }
 

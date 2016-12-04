@@ -19,11 +19,12 @@ export class IPAChart extends Component {
 
         const {navigator, language} = this.props
             , {selectedContent} = this.state
-            , layout = { flex: 1, flexDirection: 'column', justifyContent: 'space-between' }
+            , layout = {flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center' }
 
         return (
             <View style={layout}>
-                <Content selectedContent={selectedContent} currentLanguage={language} />
+                    
+                 <Content selectedContent={selectedContent} currentLanguage={language} />
             </View>
         )
     }

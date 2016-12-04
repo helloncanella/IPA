@@ -1,10 +1,10 @@
 import React, { Component, PropTypes } from 'react'
 import { View, Text, TouchableHighlight } from 'react-native'
-import {H1, H2} from 'components/reusable-components/typography.js'
- 
+import { H1, H2 } from 'components/reusable-components/typography.js'
+
 var Sound = require('react-native-sound');
 
-const consonants = require('data/consonants.json') 
+const consonants = require('data/consonants.json')
     , vowels = require('data/vowels.json')
     , objectContent = { consonants, vowels }
 
@@ -127,14 +127,14 @@ class IPASymbols extends Component {
         if (audios.length) {
             let {audioResource, type, description} = audios[0]
 
-                , duration = audioResource.getDuration() * 1000 + 100
+                , duration = audioResource.getDuration() * 1000
 
                 , nextAudios = audios.slice(1, audios.length)
 
                 , nextAudioExecution
 
                 , newState = {}
-            
+
 
             nextAudioExecution = setTimeout(function () { self.playAudiosSequentially(nextAudios) }, duration)
 
@@ -144,7 +144,7 @@ class IPASymbols extends Component {
 
             audioResource.play()
 
-        } else{
+        } else {
             this.destroyOldIPASelection()
         }
 
@@ -187,7 +187,8 @@ class IPASymbols extends Component {
 
         const {currentLanguage, speechSound} = this.props
             , content = objectContent[speechSound]
-            , style = { padding: 10, borderWidth: 1, borderColor: 'black', width: 60, height: 60 }
+            , width = 50
+            , style = { padding: 10, borderWidth: 0, borderColor: 'black', width, height: width }
             , symbols = []
             , self = this
 
@@ -204,17 +205,14 @@ class IPASymbols extends Component {
                         key: IPASymbol,
                         style,
                         onPress: function onPress() {
-                            self.onSelectedSymbol({ IPASymbol , playExamples: true  })
-                        },
-                        // onLongPress: function onLongPress() {
-                        //     self.onSelectedSymbol({ IPASymbol, playExamples: true })
-                        // }
+                            self.onSelectedSymbol({ IPASymbol, playExamples: true })
+                        }
                     }
 
                     , ipaSound = (
                         <TouchableHighlight {...properties}>
                             <View>
-                                <Text style={{ fontSize: 25, textAlign: 'center' }}>{IPASymbol}</Text>
+                                <Text style={{ fontFamily:'Roboto', fontSize: 25, textAlign: 'center', color: '#455A64' }}>{IPASymbol}</Text>
                             </View>
                         </TouchableHighlight>
                     )
@@ -231,22 +229,19 @@ class IPASymbols extends Component {
 
     render() {
 
-        const layout = { flex: 1, flexDirection: 'row', flexWrap: 'wrap'}
-        
-        , boxStyle = {height:110, flex: 1, flexDirection:'column', justifyContent:'space-around'}
-        , headerAligment = {textAlign: 'center'}
-        , textStyle = {position: 'absolute'}
+        const layout = { flex: 2, flexDirection: 'row', flexWrap: 'wrap' }
+            , boxStyle = { flex: 1, flexDirection: 'column', justifyContent: 'center' }
+            , headerAligment = { textAlign: 'center' }
 
         return (
 
-            <View >
-                <View style={boxStyle}>                    
-                        <H1 style={headerAligment}>{this.state.selectedIPA}</H1>                
-                        <H2 style={headerAligment}>{this.state.wordExample}</H2>
+            <View>
 
-                </View>    
+                <View style={boxStyle}>
+                    <H1 style={[headerAligment, {height:35, marginBottom:20, color: '#2196F3', textTransform: 'capitalize'}]}>{this.state.selectedIPA}</H1>
+                    <H2 style={[headerAligment, {height:22,  color: '#455A64' }]}>{this.state.wordExample}</H2>
+                </View>
 
-                    
                 <View style={layout}>
                     {this.content()}
                 </View>
