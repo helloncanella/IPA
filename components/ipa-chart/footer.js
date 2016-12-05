@@ -1,15 +1,63 @@
-import React, {Component} from 'react'
-import {View, Text} from 'react-native'
+import React, { Component } from 'react'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
-export class Footer extends Component{
-    render(){
-        const footerStyle = {backgroundColor:'red'}
+export class Footer extends Component {
+
+    renderTabs() {
+        return tabs.map((item) => {
+
+            const {name, id} = item
+
+                , {tab, tabText, activeTab} = styles
+
+                , {selectedContent} = this.props
+
+                , additionalTabStyle = selectedContent === id ? activeTab : {}
+
+            return (
+                <TouchableOpacity key={id} style={[tab]} onPress={() => this.props.selectContent(id)}>
+                    <Text style={[tabText, additionalTabStyle]}>{name}</Text>
+                </TouchableOpacity>
+            )
+        })
+    }
+
+    render() {
+
+        const {footer} = styles
 
         return (
-            <View style={[footerStyle, this.props.style]}>
-                <Text>oi</Text>
+            <View style={footer}>
+                {this.renderTabs()}
             </View>
         )
+
     }
 }
 
+const tabs = [
+    { id: 'consonants', name: 'Consonants' },
+    { id: 'vowels', name: 'Vowels' },
+]
+
+const styles = StyleSheet.create({
+    footer: {
+        flexDirection: 'row',
+        backgroundColor: '#1976D2'
+    },
+    tab: {
+        flex: 1,
+        paddingTop: 15,
+        paddingBottom: 15,
+        borderTopWidth: 1, 
+        borderTopColor: 'transparent'
+    },
+    tabText: {
+        fontSize: 20,
+        color: 'rgba(255,255,255, 0.5)',
+        textAlign: 'center'
+    },
+    activeTab: {
+        color: 'rgba(255,255,255, 1)'
+    }
+})

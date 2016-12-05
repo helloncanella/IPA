@@ -20,7 +20,11 @@ export class Content extends Component {
             }
 
         return (
-            <View style={style}>
+            <View style={[style, {
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center'
+            }]}>
                 <IPASymbols {...properties} />
             </View>
         )
@@ -125,9 +129,12 @@ class IPASymbols extends Component {
         this.releaseLastAudio()
 
         if (audios.length) {
+
             let {audioResource, type, description} = audios[0]
 
-                , duration = audioResource.getDuration() * 1000
+            this.changeDescription({ description, typeOfDescription: type })
+
+            let duration = audioResource.getDuration() * 1000
 
                 , nextAudios = audios.slice(1, audios.length)
 
@@ -136,16 +143,18 @@ class IPASymbols extends Component {
                 , newState = {}
 
 
-            nextAudioExecution = setTimeout(function () { self.playAudiosSequentially(nextAudios) }, duration)
-
-            this.changeDescription({ description, typeOfDescription: type })
-
-            this.setState({ audio: audioResource, nextAudioExecution })
 
             audioResource.play()
 
+
+            nextAudioExecution = setTimeout(function () { self.playAudiosSequentially(nextAudios) }, duration)
+
+
+            this.setState({ audio: audioResource, nextAudioExecution })
+
+
         } else {
-            this.destroyOldIPASelection()
+            // this.destroyOldIPASelection()
         }
 
     }
@@ -212,7 +221,7 @@ class IPASymbols extends Component {
                     , ipaSound = (
                         <TouchableOpacity {...properties}>
                             <View>
-                                <Text style={{ fontFamily:'Roboto', fontSize: 25, textAlign: 'center', color: '#455A64' }}>{IPASymbol}</Text>
+                                <Text style={{ fontFamily: 'Roboto', fontSize: 25, textAlign: 'center', color: '#455A64' }}>{IPASymbol}</Text>
                             </View>
                         </TouchableOpacity>
                     )
@@ -230,7 +239,7 @@ class IPASymbols extends Component {
     render() {
 
         const layout = { flex: 2, flexDirection: 'row', flexWrap: 'wrap' }
-            , boxStyle = { flex: 1, flexDirection: 'column', justifyContent: 'center' }
+            , boxStyle = { flex: 1.2, flexDirection: 'column', justifyContent: 'center' }
             , headerAligment = { textAlign: 'center' }
 
         return (
@@ -238,8 +247,8 @@ class IPASymbols extends Component {
             <View style={{ alignItems: 'center' }}>
 
                 <View style={boxStyle}>
-                    <H1 style={[headerAligment, {height:35, marginBottom:20, color: '#2196F3'}]}>{this.state.selectedIPA}</H1>
-                    <H2 style={[headerAligment, {height:25,  color: '#455A64' }]}>{this.state.wordExample}</H2>
+                    <H1 style={[headerAligment, { height: 35, marginBottom: 10, color: '#2196F3' }]}>{this.state.selectedIPA}</H1>
+                    <H2 style={[headerAligment, { height: 25, color: '#455A64' }]}>{this.state.wordExample}</H2>
                 </View>
 
                 <View style={layout}>

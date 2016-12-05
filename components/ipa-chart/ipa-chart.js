@@ -42,16 +42,7 @@ const styles = StyleSheet.create({
     },
 
     content: {
-        flex: 1,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-
-    footer: {
-        height: 50,
-        flexDirection: 'row',
-        backgroundColor: 'red'
+        flex: 1
     }
 })
 
