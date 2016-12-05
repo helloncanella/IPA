@@ -247,7 +247,7 @@ class IPASymbols extends Component {
             <View style={{ alignItems: 'center' }}>
 
                 <View style={boxStyle}>
-                    <H1 style={[headerAligment, { height: 35, marginBottom: 10, color: '#2196F3' }]}>{this.state.selectedIPA}</H1>
+                    <H1 style={[headerAligment, { height: 35, marginBottom: 10, color: '#F44336' }]}>{this.state.selectedIPA}</H1>
                     <H2 style={[headerAligment, { height: 25, color: '#455A64' }]}>{this.state.wordExample}</H2>
                 </View>
 
@@ -255,6 +255,7 @@ class IPASymbols extends Component {
                     {this.content()}
                 </View>
             </View>
+
         )
 
     }

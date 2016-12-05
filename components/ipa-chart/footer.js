@@ -43,7 +43,7 @@ const tabs = [
 const styles = StyleSheet.create({
     footer: {
         flexDirection: 'row',
-        backgroundColor: '#1976D2'
+        backgroundColor: '#E53935'
     },
     tab: {
         flex: 1,
