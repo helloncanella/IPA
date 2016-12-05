@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
-import { View, Text, TouchableHighlight } from 'react-native'
+import { View, Text, TouchableHighlight, ScrollView, StyleSheet } from 'react-native'
 import { Content } from 'components/ipa-chart/content.js'
+import { Footer } from 'components/ipa-chart/footer.js'
+
+
 
 export class IPAChart extends Component {
 
@@ -19,17 +22,37 @@ export class IPAChart extends Component {
 
         const {navigator, language} = this.props
             , {selectedContent} = this.state
-            , layout = {flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center' }
+
 
         return (
-            <View style={layout}>
-                    
-                 <Content selectedContent={selectedContent} currentLanguage={language} />
+            <View style={styles.container}>
+                <Content selectedContent={selectedContent} currentLanguage={language} style={styles.content} />
+                <Footer style={styles.footer} selectContent={this.onSelectContent.bind(this)} selectedContent={selectedContent} />
             </View>
         )
     }
 }
 
 
-// <Footer selectContent={this.onSelectContent.bind(this)} selectedContent={selectedContent} />
+const styles = StyleSheet.create({
+
+    container: {
+        flex: 1,
+        flexDirection: 'column'
+    },
+
+    content: {
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+
+    footer: {
+        height: 50,
+        flexDirection: 'row',
+        backgroundColor: 'red'
+    }
+})
+
 // <Header navigator={navigator} currentLanguage={language} />

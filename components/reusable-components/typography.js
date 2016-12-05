@@ -10,14 +10,14 @@ class Header extends Component {
 
     render() {
         const {children, style} = this.props
-        return <Text style={[this.typography, style]}>{this.capitalize(children)}</Text>
+        return <Text style={[this.typography, style, {flexWrap: "wrap"}]}>{this.capitalize(children)}</Text>
     }
 }
 
 export class H1 extends Header {
     constructor() {
         super()
-        this.typography = { fontSize: 28, marginBottom: 5, fontFamily: 'Roboto' }
+        this.typography = { fontSize: 25, marginBottom: 5, fontFamily: 'Roboto' }
     }
 }
 

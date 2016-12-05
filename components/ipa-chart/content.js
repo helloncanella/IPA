@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react'
-import { View, Text, TouchableHighlight } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { H1, H2 } from 'components/reusable-components/typography.js'
 
 var Sound = require('react-native-sound');
@@ -12,7 +12,7 @@ export class Content extends Component {
 
     render() {
 
-        const {selectedContent, currentLanguage} = this.props
+        const {selectedContent, currentLanguage, style} = this.props
 
             , properties = {
                 speechSound: selectedContent,
@@ -20,7 +20,7 @@ export class Content extends Component {
             }
 
         return (
-            <View>
+            <View style={style}>
                 <IPASymbols {...properties} />
             </View>
         )
@@ -187,8 +187,8 @@ class IPASymbols extends Component {
 
         const {currentLanguage, speechSound} = this.props
             , content = objectContent[speechSound]
-            , width = 50
-            , style = { padding: 10, borderWidth: 0, borderColor: 'black', width, height: width }
+            , width = 47
+            , style = { width, height: width }
             , symbols = []
             , self = this
 
@@ -210,11 +210,11 @@ class IPASymbols extends Component {
                     }
 
                     , ipaSound = (
-                        <TouchableHighlight {...properties}>
+                        <TouchableOpacity {...properties}>
                             <View>
                                 <Text style={{ fontFamily:'Roboto', fontSize: 25, textAlign: 'center', color: '#455A64' }}>{IPASymbol}</Text>
                             </View>
-                        </TouchableHighlight>
+                        </TouchableOpacity>
                     )
 
                 symbols.push(ipaSound)
@@ -235,11 +235,11 @@ class IPASymbols extends Component {
 
         return (
 
-            <View>
+            <View style={{ alignItems: 'center' }}>
 
                 <View style={boxStyle}>
-                    <H1 style={[headerAligment, {height:35, marginBottom:20, color: '#2196F3', textTransform: 'capitalize'}]}>{this.state.selectedIPA}</H1>
-                    <H2 style={[headerAligment, {height:22,  color: '#455A64' }]}>{this.state.wordExample}</H2>
+                    <H1 style={[headerAligment, {height:35, marginBottom:20, color: '#2196F3'}]}>{this.state.selectedIPA}</H1>
+                    <H2 style={[headerAligment, {height:25,  color: '#455A64' }]}>{this.state.wordExample}</H2>
                 </View>
 
                 <View style={layout}>
