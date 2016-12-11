@@ -25,10 +25,10 @@ fs.readFile('german.tsv', function (error, data) {
         object[speechSound][ipa] = {
             examples: []
         }
-        
+
         let info = object[speechSound][ipa]
 
-        row.forEach((item, index) => {
+        row.forEach((cell, index) => {
 
             const key = header[index]
 
@@ -36,7 +36,7 @@ fs.readFile('german.tsv', function (error, data) {
 
                 const task = () => {
 
-                    downloadAudio({ url: item, pathToSave: './audio', resourceName: randomName() }, (error, path) => {
+                    downloadAudio({ url: cell, pathToSave: './audio', resourceName: randomName() }, (error, path) => {
                         if (error) console.error(error.message)
                         info.sound = path
                         completeParallelTask()
@@ -49,7 +49,7 @@ fs.readFile('german.tsv', function (error, data) {
 
             } else if (key === 'examples') {
 
-                let examples = item.split(',')
+                let examples = cell.split(',')
 
                 examples.forEach((example) => { 
 
@@ -69,7 +69,7 @@ fs.readFile('german.tsv', function (error, data) {
 
 
             } else if (!(key == 'speech_sound' || key === 'ipa')) {
-                info[key] = item
+                info[key] = cell
             }
 
         })
@@ -101,7 +101,6 @@ function completeParallelTask() {
     completedTasks++;
 
     if (completedTasks === parallelTasks.length) {
-    console.log(completedTasks) 
         fs.writeFile('./oi.json', JSON.stringify(object, null, 4))
     }
 }
