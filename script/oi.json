@@ -1,0 +1,1370 @@
+{
+    "consonants": {
+        "b": {
+            "examples": [
+                {
+                    "word": "berühren",
+                    "sound": "path"
+                },
+                {
+                    "word": "Übung",
+                    "sound": "path"
+                },
+                {
+                    "word": "anhaben",
+                    "sound": "path"
+                },
+                {
+                    "word": "lieben",
+                    "sound": "path"
+                },
+                {
+                    "word": "Februar",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiced bilabial stop",
+            "phonetic_detail": ""
+        },
+        "ç": {
+            "examples": [
+                {
+                    "word": "zwanzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "König",
+                    "sound": "path"
+                },
+                {
+                    "word": "Zeichen",
+                    "sound": "path"
+                },
+                {
+                    "word": "achtzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "siebzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Gewicht",
+                    "sound": "path"
+                },
+                {
+                    "word": "schmutzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless palatal fricative",
+            "phonetic_detail": ""
+        },
+        "d": {
+            "examples": [
+                {
+                    "word": "dünn",
+                    "sound": "path"
+                },
+                {
+                    "word": "Diamant",
+                    "sound": "path"
+                },
+                {
+                    "word": "Donnerstag",
+                    "sound": "path"
+                },
+                {
+                    "word": "Badezimmer",
+                    "sound": "path"
+                },
+                {
+                    "word": "Droge",
+                    "sound": "path"
+                }
+            ],
+            "name": "voiced alveolar stop",
+            "phonetic_detail": ""
+        },
+        "f": {
+            "examples": [
+                {
+                    "word": "kaufen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Fahrrad",
+                    "sound": "path"
+                },
+                {
+                    "word": "Geschäft",
+                    "sound": "path"
+                },
+                {
+                    "word": "Reifen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Familie",
+                    "sound": "path"
+                },
+                {
+                    "word": "Kunststoff",
+                    "sound": "path"
+                },
+                {
+                    "word": "vierzig",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless labiodental fricative",
+            "phonetic_detail": ""
+        },
+        "ɡ": {
+            "examples": [
+                {
+                    "word": "gehen",
+                    "sound": "path"
+                },
+                {
+                    "word": "schlagen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Morgen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Auge",
+                    "sound": "path"
+                },
+                {
+                    "word": "Garten",
+                    "sound": "path"
+                },
+                {
+                    "word": "Programm",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiced velar stop",
+            "phonetic_detail": ""
+        },
+        "h": {
+            "examples": [
+                {
+                    "word": "anheben",
+                    "sound": "path"
+                },
+                {
+                    "word": "Flüghafen",
+                    "sound": "path"
+                },
+                {
+                    "word": "hinten",
+                    "sound": "path"
+                },
+                {
+                    "word": "Handy",
+                    "sound": "path"
+                },
+                {
+                    "word": "Haus",
+                    "sound": "path"
+                },
+                {
+                    "word": "hoch",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless glottal fricative",
+            "phonetic_detail": ""
+        },
+        "k": {
+            "examples": [
+                {
+                    "word": "Sekunde",
+                    "sound": "path"
+                },
+                {
+                    "word": "Dienstag",
+                    "sound": "path"
+                },
+                {
+                    "word": "Samstag",
+                    "sound": "path"
+                },
+                {
+                    "word": "Sekretär",
+                    "sound": "path"
+                },
+                {
+                    "word": "Kind",
+                    "sound": "path"
+                },
+                {
+                    "word": "Königin",
+                    "sound": "path"
+                }
+            ],
+            "name": "zwanzig, König, Zeichen, achtzig, siebzig, Gewicht, schmutzig",
+            "phonetic_detail": ""
+        },
+        "l": {
+            "examples": [
+                {
+                    "word": "lächeln",
+                    "sound": "path"
+                },
+                {
+                    "word": "Gold",
+                    "sound": "path"
+                },
+                {
+                    "word": "Klub",
+                    "sound": "path"
+                },
+                {
+                    "word": "langsam",
+                    "sound": "path"
+                },
+                {
+                    "word": "fliegen",
+                    "sound": "path"
+                },
+                {
+                    "word": "anhalten",
+                    "sound": "path"
+                }
+            ],
+            "name": "alveolar lateral approximant",
+            "phonetic_detail": ""
+        },
+        "l̩": {
+            "examples": [
+                {
+                    "word": "schütteln",
+                    "sound": "path"
+                },
+                {
+                    "word": "lächeln",
+                    "sound": "path"
+                },
+                {
+                    "word": "Schlüssel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hügel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Gabel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Mantel",
+                    "sound": "path"
+                }
+            ],
+            "name": "alveolar lateral approximant",
+            "phonetic_detail": "syllabic"
+        },
+        "m": {
+            "examples": [
+                {
+                    "word": "Milch",
+                    "sound": "path"
+                },
+                {
+                    "word": "umrühren",
+                    "sound": "path"
+                },
+                {
+                    "word": "Mantel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Verkehrsmittel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Motor",
+                    "sound": "path"
+                },
+                {
+                    "word": "Ehemann",
+                    "sound": "path"
+                }
+            ],
+            "name": "Bilabial nasal",
+            "phonetic_detail": ""
+        },
+        "n": {
+            "examples": [
+                {
+                    "word": "Ehemann",
+                    "sound": "path"
+                },
+                {
+                    "word": "zehntausend",
+                    "sound": "path"
+                },
+                {
+                    "word": "Konsonant",
+                    "sound": "path"
+                },
+                {
+                    "word": "vierzehn",
+                    "sound": "path"
+                },
+                {
+                    "word": "Ozean",
+                    "sound": "path"
+                }
+            ],
+            "name": "alveolar nasal",
+            "phonetic_detail": ""
+        },
+        "n̩": {
+            "examples": [
+                {
+                    "word": "Rücken",
+                    "sound": "path"
+                },
+                {
+                    "word": "küssen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Zeichen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Reifen",
+                    "sound": "path"
+                },
+                {
+                    "word": "gebogen",
+                    "sound": "path"
+                },
+                {
+                    "word": "essen",
+                    "sound": "path"
+                }
+            ],
+            "name": "alveolar nasal",
+            "phonetic_detail": "syllabic"
+        },
+        "ŋ": {
+            "examples": [
+                {
+                    "word": "Punkt",
+                    "sound": "path"
+                },
+                {
+                    "word": "jung",
+                    "sound": "path"
+                },
+                {
+                    "word": "Frühling",
+                    "sound": "path"
+                },
+                {
+                    "word": "Übung",
+                    "sound": "path"
+                },
+                {
+                    "word": "Ring",
+                    "sound": "path"
+                },
+                {
+                    "word": "dunkel",
+                    "sound": "path"
+                }
+            ],
+            "name": "Velar nasal",
+            "phonetic_detail": ""
+        },
+        "p": {
+            "examples": [
+                {
+                    "word": "Temperatur",
+                    "sound": "path"
+                },
+                {
+                    "word": "gelb",
+                    "sound": "path"
+                },
+                {
+                    "word": "Spiel",
+                    "sound": "path"
+                },
+                {
+                    "word": "April",
+                    "sound": "path"
+                },
+                {
+                    "word": "Präsident",
+                    "sound": "path"
+                },
+                {
+                    "word": "Polizei",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless bilabial stop",
+            "phonetic_detail": ""
+        },
+        "pf": {
+            "examples": [
+                {
+                    "word": "Kupfer",
+                    "sound": "path"
+                },
+                {
+                    "word": "Apfel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Pfund",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless labiodental affricate",
+            "phonetic_detail": ""
+        },
+        "ʁ": {
+            "examples": [
+                {
+                    "word": "Sport",
+                    "sound": "path"
+                },
+                {
+                    "word": "Norden",
+                    "sound": "path"
+                },
+                {
+                    "word": "hart",
+                    "sound": "path"
+                },
+                {
+                    "word": "Berg",
+                    "sound": "path"
+                },
+                {
+                    "word": "warm",
+                    "sound": "path"
+                },
+                {
+                    "word": "",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiced uvular fricative",
+            "phonetic_detail": ""
+        },
+        "r": {
+            "examples": [
+                {
+                    "word": "",
+                    "sound": "path"
+                }
+            ],
+            "name": "alveolar trill",
+            "phonetic_detail": ""
+        },
+        "s": {
+            "examples": [
+                {
+                    "word": "sechszehn",
+                    "sound": "path"
+                },
+                {
+                    "word": "geradeaus",
+                    "sound": "path"
+                },
+                {
+                    "word": "Schwester",
+                    "sound": "path"
+                },
+                {
+                    "word": "Haus",
+                    "sound": "path"
+                },
+                {
+                    "word": "Dienstag",
+                    "sound": "path"
+                },
+                {
+                    "word": "Samstag",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless alveolar fricative",
+            "phonetic_detail": ""
+        },
+        "ʃ": {
+            "examples": [
+                {
+                    "word": "Stern",
+                    "sound": "path"
+                },
+                {
+                    "word": "stehen",
+                    "sound": "path"
+                },
+                {
+                    "word": "springen",
+                    "sound": "path"
+                },
+                {
+                    "word": "schmelzen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Sport",
+                    "sound": "path"
+                },
+                {
+                    "word": "Stadt",
+                    "sound": "path"
+                },
+                {
+                    "word": "Geschenk",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless palato-alveolar sibilant",
+            "phonetic_detail": ""
+        },
+        "t": {
+            "examples": [
+                {
+                    "word": "Fahrrad",
+                    "sound": "path"
+                },
+                {
+                    "word": "Geld",
+                    "sound": "path"
+                },
+                {
+                    "word": "Geschäft",
+                    "sound": "path"
+                },
+                {
+                    "word": "achtzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hosentasche",
+                    "sound": "path"
+                }
+            ],
+            "name": "voiceless alveolar stop",
+            "phonetic_detail": ""
+        },
+        "ts": {
+            "examples": [
+                {
+                    "word": "einundneunzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Benzin",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hitze",
+                    "sound": "path"
+                },
+                {
+                    "word": "Zeitschrift",
+                    "sound": "path"
+                },
+                {
+                    "word": "neunzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "sechszehn",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless alveolar affricate",
+            "phonetic_detail": ""
+        },
+        "v": {
+            "examples": [
+                {
+                    "word": "Rechtsanwalt",
+                    "sound": "path"
+                },
+                {
+                    "word": "Wein",
+                    "sound": "path"
+                },
+                {
+                    "word": "Wald",
+                    "sound": "path"
+                },
+                {
+                    "word": "werfen",
+                    "sound": "path"
+                },
+                {
+                    "word": "zwei",
+                    "sound": "path"
+                },
+                {
+                    "word": "schwer",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiced labiodental fricative",
+            "phonetic_detail": ""
+        },
+        "x": {
+            "examples": [
+                {
+                    "word": "Nacht",
+                    "sound": "path"
+                },
+                {
+                    "word": "achtzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hochzeit",
+                    "sound": "path"
+                },
+                {
+                    "word": "flach",
+                    "sound": "path"
+                },
+                {
+                    "word": "kochen",
+                    "sound": "path"
+                },
+                {
+                    "word": "hoch",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiceless velar fricative",
+            "phonetic_detail": ""
+        },
+        "z": {
+            "examples": [
+                {
+                    "word": "sechzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Präsident",
+                    "sound": "path"
+                },
+                {
+                    "word": "tausend",
+                    "sound": "path"
+                },
+                {
+                    "word": "Musik",
+                    "sound": "path"
+                },
+                {
+                    "word": "Süden",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiced alveolar fricative",
+            "phonetic_detail": ""
+        },
+        "ʔ": {
+            "examples": [
+                {
+                    "word": "hunderteins",
+                    "sound": "path"
+                },
+                {
+                    "word": "tausendeins",
+                    "sound": "path"
+                },
+                {
+                    "word": "Insel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Himmel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Rechtsanwalt",
+                    "sound": "path"
+                },
+                {
+                    "word": "Abendessen",
+                    "sound": "path"
+                }
+            ],
+            "name": "Glottal stop",
+            "phonetic_detail": ""
+        },
+        "ʒ": {
+            "examples": [
+                {
+                    "word": "Orange",
+                    "sound": "path"
+                }
+            ],
+            "name": "Voiced palato-alveolar sibilant",
+            "phonetic_detail": ""
+        },
+        "j": {
+            "examples": [
+                {
+                    "word": "Junge",
+                    "sound": "path"
+                },
+                {
+                    "word": "Juli",
+                    "sound": "path"
+                },
+                {
+                    "word": "Jahreszeit",
+                    "sound": "path"
+                }
+            ],
+            "name": "Palatal approximant",
+            "phonetic_detail": ""
+        }
+    },
+    "vowels": {
+        "a": {
+            "examples": [
+                {
+                    "word": "braun",
+                    "sound": "path"
+                },
+                {
+                    "word": "Staub",
+                    "sound": "path"
+                },
+                {
+                    "word": "anschauen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Krankenhaus",
+                    "sound": "path"
+                },
+                {
+                    "word": "gemein",
+                    "sound": "path"
+                },
+                {
+                    "word": "krank",
+                    "sound": "path"
+                }
+            ],
+            "name": "Open central unrounded vowels",
+            "phonetic_detail": ""
+        },
+        "aː": {
+            "examples": [
+                {
+                    "word": "Banane",
+                    "sound": "path"
+                },
+                {
+                    "word": "Schlafzimmer",
+                    "sound": "path"
+                },
+                {
+                    "word": "Ventilator",
+                    "sound": "path"
+                },
+                {
+                    "word": "Nachmittag",
+                    "sound": "path"
+                },
+                {
+                    "word": "Fahrkarte",
+                    "sound": "path"
+                },
+                {
+                    "word": "Fahrkarte",
+                    "sound": "path"
+                }
+            ],
+            "name": "Open central unrounded vowels",
+            "phonetic_detail": "long"
+        },
+        "ã": {
+            "examples": [
+                {
+                    "word": "Restaurant",
+                    "sound": "path"
+                },
+                {
+                    "word": "Orange",
+                    "sound": "path"
+                }
+            ],
+            "name": "Open central unrounded vowels",
+            "phonetic_detail": "nasal"
+        },
+        "ɐ": {
+            "examples": [
+                {
+                    "word": "Sommer",
+                    "sound": "path"
+                },
+                {
+                    "word": "Natur",
+                    "sound": "path"
+                },
+                {
+                    "word": "Kugelschreiber",
+                    "sound": "path"
+                },
+                {
+                    "word": "Schauspieler",
+                    "sound": "path"
+                },
+                {
+                    "word": "Zucker",
+                    "sound": "path"
+                },
+                {
+                    "word": "Schulter",
+                    "sound": "path"
+                }
+            ],
+            "name": "Near-open central vowels",
+            "phonetic_detail": ""
+        },
+        "ɛ": {
+            "examples": [
+                {
+                    "word": "Decke",
+                    "sound": "path"
+                },
+                {
+                    "word": "Ventilator",
+                    "sound": "path"
+                },
+                {
+                    "word": "Handy",
+                    "sound": "path"
+                },
+                {
+                    "word": "Schwester",
+                    "sound": "path"
+                },
+                {
+                    "word": "sechzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Präsident",
+                    "sound": "path"
+                }
+            ],
+            "name": "Open-mid front unrounded vowels",
+            "phonetic_detail": ""
+        },
+        "ɛː": {
+            "examples": [
+                {
+                    "word": "zählen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Träne",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hähnchen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Universität",
+                    "sound": "path"
+                },
+                {
+                    "word": "Sekretär",
+                    "sound": "path"
+                },
+                {
+                    "word": "Mädchen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Käse",
+                    "sound": "path"
+                }
+            ],
+            "name": "Open-mid front unrounded vowels",
+            "phonetic_detail": "long"
+        },
+        "e": {
+            "examples": [
+                {
+                    "word": "Ozean",
+                    "sound": "path"
+                },
+                {
+                    "word": "Reporter",
+                    "sound": "path"
+                },
+                {
+                    "word": "Material",
+                    "sound": "path"
+                },
+                {
+                    "word": "Theater",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close-mid front unrounded vowels",
+            "phonetic_detail": ""
+        },
+        "eː": {
+            "examples": [
+                {
+                    "word": "Erde",
+                    "sound": "path"
+                },
+                {
+                    "word": "stehen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Ehe",
+                    "sound": "path"
+                },
+                {
+                    "word": "erste",
+                    "sound": "path"
+                },
+                {
+                    "word": "Telefon",
+                    "sound": "path"
+                },
+                {
+                    "word": "Käse",
+                    "sound": "path"
+                },
+                {
+                    "word": "Regen",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close-mid front unrounded vowels",
+            "phonetic_detail": "long"
+        },
+        "ə": {
+            "examples": [
+                {
+                    "word": "Geschenk",
+                    "sound": "path"
+                },
+                {
+                    "word": "Geschäft",
+                    "sound": "path"
+                },
+                {
+                    "word": "verkaufen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hosentasche",
+                    "sound": "path"
+                },
+                {
+                    "word": "fallen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Erde",
+                    "sound": "path"
+                }
+            ],
+            "name": "Mid central vowels",
+            "phonetic_detail": ""
+        },
+        "ɪ": {
+            "examples": [
+                {
+                    "word": "Schwein",
+                    "sound": "path"
+                },
+                {
+                    "word": "schmutzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "sitzen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Werkzeug",
+                    "sound": "path"
+                },
+                {
+                    "word": "billig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Krankheit",
+                    "sound": "path"
+                }
+            ],
+            "name": "Near-close near-front unrounded vowels",
+            "phonetic_detail": ""
+        },
+        "i": {
+            "examples": [
+                {
+                    "word": "Medizin",
+                    "sound": "path"
+                },
+                {
+                    "word": "Diamant",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close front unrounded vowels",
+            "phonetic_detail": ""
+        },
+        "iː": {
+            "examples": [
+                {
+                    "word": "Spieler",
+                    "sound": "path"
+                },
+                {
+                    "word": "Tier",
+                    "sound": "path"
+                },
+                {
+                    "word": "riechen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Technologie",
+                    "sound": "path"
+                },
+                {
+                    "word": "vierte",
+                    "sound": "path"
+                },
+                {
+                    "word": "Frieden",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close front unrounded vowels",
+            "phonetic_detail": "long"
+        },
+        "ɔ": {
+            "examples": [
+                {
+                    "word": "Reporter",
+                    "sound": "path"
+                },
+                {
+                    "word": "neunzehn",
+                    "sound": "path"
+                },
+                {
+                    "word": "Tochter",
+                    "sound": "path"
+                },
+                {
+                    "word": "Mittwoch",
+                    "sound": "path"
+                },
+                {
+                    "word": "Opfer",
+                    "sound": "path"
+                }
+            ],
+            "name": "Open-mid back rounded vowels",
+            "phonetic_detail": ""
+        },
+        "o": {
+            "examples": [
+                {
+                    "word": "Vokal",
+                    "sound": "path"
+                },
+                {
+                    "word": "Radio",
+                    "sound": "path"
+                },
+                {
+                    "word": "Konsonant",
+                    "sound": "path"
+                },
+                {
+                    "word": "explodieren",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close-mid back rounded vowels",
+            "phonetic_detail": ""
+        },
+        "oː": {
+            "examples": [
+                {
+                    "word": "Mond",
+                    "sound": "path"
+                },
+                {
+                    "word": "Ohr",
+                    "sound": "path"
+                },
+                {
+                    "word": "Telefon",
+                    "sound": "path"
+                },
+                {
+                    "word": "Nomen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hose",
+                    "sound": "path"
+                },
+                {
+                    "word": "Million",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close-mid back rounded vowels",
+            "phonetic_detail": "long"
+        },
+        "œ": {
+            "examples": [
+                {
+                    "word": "Körper",
+                    "sound": "path"
+                },
+                {
+                    "word": "Löffel",
+                    "sound": "path"
+                },
+                {
+                    "word": "zwölf",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hölle",
+                    "sound": "path"
+                },
+                {
+                    "word": "öffnen",
+                    "sound": "path"
+                }
+            ],
+            "name": "Open-mid front rounded vowels",
+            "phonetic_detail": ""
+        },
+        "ø": {
+            "examples": [
+                {
+                    "word": "König",
+                    "sound": "path"
+                },
+                {
+                    "word": "schön",
+                    "sound": "path"
+                },
+                {
+                    "word": "fröhlich",
+                    "sound": "path"
+                },
+                {
+                    "word": "Königin",
+                    "sound": "path"
+                },
+                {
+                    "word": "hören",
+                    "sound": "path"
+                },
+                {
+                    "word": "Öl",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close-mid front rounded vowels",
+            "phonetic_detail": ""
+        },
+        "ʊ": {
+            "examples": [
+                {
+                    "word": "Punkt",
+                    "sound": "path"
+                },
+                {
+                    "word": "Tageszeitung",
+                    "sound": "path"
+                },
+                {
+                    "word": "einundvierzig",
+                    "sound": "path"
+                },
+                {
+                    "word": "aufwachen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Wohnung",
+                    "sound": "path"
+                },
+                {
+                    "word": "sauber",
+                    "sound": "path"
+                }
+            ],
+            "name": "Near-close near-back rounded vowels",
+            "phonetic_detail": ""
+        },
+        "u": {
+            "examples": [
+                {
+                    "word": "kurz",
+                    "sound": "path"
+                },
+                {
+                    "word": "Student",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close back rounded vowels",
+            "phonetic_detail": ""
+        },
+        "uː": {
+            "examples": [
+                {
+                    "word": "Juni",
+                    "sound": "path"
+                },
+                {
+                    "word": "ruhig",
+                    "sound": "path"
+                },
+                {
+                    "word": "Natur",
+                    "sound": "path"
+                },
+                {
+                    "word": "Minute",
+                    "sound": "path"
+                },
+                {
+                    "word": "Bruder",
+                    "sound": "path"
+                },
+                {
+                    "word": "Buch",
+                    "sound": "path"
+                },
+                {
+                    "word": "Zug",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close back rounded vowels",
+            "phonetic_detail": "long"
+        },
+        "ʏ": {
+            "examples": [
+                {
+                    "word": "Rücken",
+                    "sound": "path"
+                },
+                {
+                    "word": "küssen",
+                    "sound": "path"
+                },
+                {
+                    "word": "Fünf",
+                    "sound": "path"
+                },
+                {
+                    "word": "Künstler",
+                    "sound": "path"
+                },
+                {
+                    "word": "fünfzehn",
+                    "sound": "path"
+                },
+                {
+                    "word": "drücken",
+                    "sound": "path"
+                },
+                {
+                    "word": "drücken",
+                    "sound": "path"
+                }
+            ],
+            "name": "Near-close near-front rounded vowels",
+            "phonetic_detail": ""
+        },
+        "y": {
+            "examples": [
+                {
+                    "word": "Büro",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close front rounded vowels",
+            "phonetic_detail": ""
+        },
+        "yː": {
+            "examples": [
+                {
+                    "word": "Frühling",
+                    "sound": "path"
+                },
+                {
+                    "word": "berühren",
+                    "sound": "path"
+                },
+                {
+                    "word": "Übung",
+                    "sound": "path"
+                },
+                {
+                    "word": "Frühstück",
+                    "sound": "path"
+                },
+                {
+                    "word": "Flügel",
+                    "sound": "path"
+                },
+                {
+                    "word": "grün",
+                    "sound": "path"
+                },
+                {
+                    "word": "Hügel",
+                    "sound": "path"
+                },
+                {
+                    "word": "Süden",
+                    "sound": "path"
+                }
+            ],
+            "name": "Close front rounded vowels",
+            "phonetic_detail": ""
+        }
+    }
+}
