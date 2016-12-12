@@ -1,5 +1,6 @@
 const fs = require('fs')
     , request = require('request')
+    , mkdirp = require('mkdirp')
 
 let completedTasks = 0
     , parallelTasks = []
@@ -18,7 +19,7 @@ fs.readFile('german.tsv', function (error, data) {
         const speechSound = row[header.indexOf('speech_sound')]
             , ipa = row[header.indexOf('ipa')]
 
-        if(!object[speechSound]){
+        if (!object[speechSound]) {
             object[speechSound] = {}
         }
 
@@ -34,15 +35,24 @@ fs.readFile('german.tsv', function (error, data) {
 
             if (key === 'sound') {
 
-                const task = () => {
+                const pathname = `./audios/${randomName()}`
 
-                    downloadAudio({ url: cell, pathToSave: './audio', resourceName: randomName() }, (error, path) => {
-                        if (error) console.error(error.message)
-                        info.sound = path
-                        completeParallelTask()
-                    })
+                    , task = () => {
 
-                }
+                        downloadAudio({ url: cell, pathname }, (error) => {
+                            if (error) {
+                                console.error(error.message)
+                            }else{
+                                info.sound = pathname
+                                console.log('downloaded '+cell)
+                            }
+
+                            completeParallelTask()
+                        })
+
+                    }
+
+                console.log(pathname)
 
                 parallelTasks.push(task)
 
@@ -51,17 +61,23 @@ fs.readFile('german.tsv', function (error, data) {
 
                 let examples = cell.split(',')
 
-                examples.forEach((example) => { 
+                examples.forEach((example) => {
 
                     example = example.replace(/\s+/g, '')
 
-                    const task = () => {
-                        copyAudio({ source: './german-source', pathToSave: './audio', resourceName: randomName() }, (error, path) => {
-                            if (error) console.error(error.message)
-                            info.examples.push({ word: example, sound: 'path' })
-                            completeParallelTask()
-                        })
-                    }
+                    const pathname = `./audios/${randomName()}`
+
+                        , task = () => {
+                            copyAudio({ source: `./german-source/${normalize(example)}.mp3`, pathname }, (error) => {
+                                if (error) {
+                                    console.error(error.message)
+                                }else{
+                                    info.examples.push({ word: example, sound: pathname })
+                                }
+
+                                completeParallelTask()
+                            })
+                        }
 
                     parallelTasks.push(task)
 
@@ -89,18 +105,53 @@ function randomName() {
     return randomNumber.slice(2, randomNumber.length)
 }
 
-function downloadAudio({url, pathToSave}, callback) {
-    if (callback) callback()
+function normalize(string){
+    return string.normalize('NFD').replace(/[\u0300-\u036f]/g,"")
 }
 
-function copyAudio({source, pathToSave}, callback) {
-    if (callback) callback()
+function downloadAudio({url, pathname}, callback) {
+
+    createFolderIfNotExist(pathname, () => {
+
+        request
+            .get(url)
+            .on('error', function (err) {
+                if (err && callback) callback(err)
+            })
+            .pipe(fs.createWriteStream(pathname))
+
+        if (callback) callback()
+    })
+
+}
+
+function copyAudio({source, pathname}, callback) {
+
+    if(!fs.existsSync(source)){
+        callback("File "+source+" doesn't exist")
+        return
+    } 
+
+    createFolderIfNotExist(pathname, () => {
+        fs.createReadStream(source).pipe(fs.createWriteStream(pathname))
+        if (callback) callback()
+    })
+
+}
+
+function createFolderIfNotExist(pathname, callback) {
+    const folder = pathname.match(/((\.\/)?\w+)\//)[1]
+
+    mkdirp(folder, function (error) {
+        if (error) throw new Error(error.message)
+        if (callback) callback()
+    })
 }
 
 function completeParallelTask() {
     completedTasks++;
 
     if (completedTasks === parallelTasks.length) {
-        fs.writeFile('./oi.json', JSON.stringify(object, null, 4))
+        fs.writeFile('./german.json', JSON.stringify(object, null, 4))
     }
 }

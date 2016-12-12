@@ -1,0 +1,1159 @@
+{
+    "consonants": {
+        "b": {
+            "examples": [
+                {
+                    "word": "berühren",
+                    "sound": "./audios/2gfh1j4a6ngdc4dge7d95fcfo76a6ak7dcln6kb2ci20l36d"
+                },
+                {
+                    "word": "Übung",
+                    "sound": "./audios/772i29ijf1hnpdknn5c71pn089aen0al48ag1a6ak1m4pa41g6d"
+                },
+                {
+                    "word": "anhaben",
+                    "sound": "./audios/7fdn6ffi774jfo0jbf7ml1mkj7bg73g1ocgb1ado08nif62b9jd"
+                },
+                {
+                    "word": "lieben",
+                    "sound": "./audios/b1oi3ll16fn35np2pm685a03ibm584g886p85giidnjneg6d"
+                },
+                {
+                    "word": "Februar",
+                    "sound": "./audios/a5lbhf331be91n4i2bnk1kn6pf0oegagp6a9ja87150icfb9jd"
+                }
+            ],
+            "name": "Voiced bilabial stop",
+            "phonetic_detail": "",
+            "sound": "./audios/4jhe6lad05dj8e373m03e3ddloi8bm2e5fh5l3co928j2b9jd"
+        },
+        "ç": {
+            "examples": [
+                {
+                    "word": "Zwanzig",
+                    "sound": "./audios/o6k97bneno8570b1ah7p0dh5hpf1l094cgodkg9kl8dl36d"
+                },
+                {
+                    "word": "König",
+                    "sound": "./audios/3h87fb811ia1f3djgl2djiji5j5gjf6e1a2kgf4763ji7836d"
+                },
+                {
+                    "word": "Zeichen",
+                    "sound": "./audios/ob6bng9603npgge1flb7kidgkpp81ki6hgalgg1mm3h1g6d"
+                },
+                {
+                    "word": "siebzig",
+                    "sound": "./audios/ambemgaf5pa4d2fn0i15dkbip96070hgd147o9nkein41g6d"
+                },
+                {
+                    "word": "schmutzig",
+                    "sound": "./audios/ice512old87oijnd00cdfoal047c9ph059imng7446neg6d"
+                }
+            ],
+            "name": "Voiceless palatal fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/mio0fo91bdd9p5dl40jad7lej2c3al19ci6m8bd188dl36d"
+        },
+        "d": {
+            "examples": [
+                {
+                    "word": "dünn",
+                    "sound": "./audios/bk1hjhlc95ofdhjb48mfll9h5ndcm5hfpgomd6capdbmok836d"
+                },
+                {
+                    "word": "Donnerstag",
+                    "sound": "./audios/4bjdoj43fok22ijfb1ia0m7ldnn4ne574191p912e8pi20l36d"
+                },
+                {
+                    "word": "Badezimmer",
+                    "sound": "./audios/h75ao97d6583be4cp7jk8gkbhj4k4dj3ec8193pgji7836d"
+                }
+            ],
+            "name": "voiced alveolar stop",
+            "phonetic_detail": "",
+            "sound": "./audios/591ei86jnjmfe69dhkd44pg1mbo945721o0f229n3abpfb9jd"
+        },
+        "f": {
+            "examples": [
+                {
+                    "word": "kaufen",
+                    "sound": "./audios/5ipi2nfn02g2j51p443hg3ngpnlb8omj6cnf68millj2b9jd"
+                },
+                {
+                    "word": "Fahrrad",
+                    "sound": "./audios/agfdmknoad7dhg3bkmlhd0ij8mh65pdcgehe0fo242of0l36d"
+                },
+                {
+                    "word": "Geschäft",
+                    "sound": "./audios/0b1ik2h9f167o76h12ll3i8af2hhh56cbb1inlcmbj89m3h1g6d"
+                },
+                {
+                    "word": "Reifen",
+                    "sound": "./audios/4ag373ac0b0647lekanoc56ee5akdk5n6ii5a9k56427ajneg6d"
+                },
+                {
+                    "word": "Familie",
+                    "sound": "./audios/jk9ig4g00kmfh1ogb38h6o45fdnhm4f3bd8lekmgm8o9jd"
+                }
+            ],
+            "name": "Voiceless labiodental fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/8imki38b1kkp3kobpfgbf056e7ckfa88m12jeoom38cckihmjd"
+        },
+        "ɡ": {
+            "examples": [
+                {
+                    "word": "gehen",
+                    "sound": "./audios/cpg0453ig2e0ifm6bjmcof2epf93anomf0hd30826jfgh1g6d"
+                },
+                {
+                    "word": "schlagen",
+                    "sound": "./audios/g7ookoamkcm9add4ln1p4kjaaffjg34o94ak3c0jc8lj2b9jd"
+                },
+                {
+                    "word": "Morgen",
+                    "sound": "./audios/hhhljf7f4lhjp3hkpc7ikopc29881ahjfc46o2elma6i7836d"
+                },
+                {
+                    "word": "Garten",
+                    "sound": "./audios/6a9di9pboa11085a306ai3j518ddn66e3g1l2l63faif62b9jd"
+                }
+            ],
+            "name": "Voiced velar stop",
+            "phonetic_detail": "",
+            "sound": "./audios/79481fdo8lo96l7p36cj11pf9bl7b6h4k731k0o1akn80flo9jd"
+        },
+        "h": {
+            "examples": [
+                {
+                    "word": "anheben",
+                    "sound": "./audios/kpmi0cgpeijmolhohbm7o261ci82ahkje009h0gd2gh1g6d"
+                },
+                {
+                    "word": "Flüghafen",
+                    "sound": "./audios/8jph4emp0157cgm4d1ajn613j8objphcmafhmib2l75cfb9jd"
+                },
+                {
+                    "word": "hinten",
+                    "sound": "./audios/g1fla0ka3jmmaljih8plhiccb6ga79c8m9h09dkooo72lo9jd"
+                },
+                {
+                    "word": "Haus",
+                    "sound": "./audios/fb20nebl6514gj5i4lk52bkan56jekp90g9215m485n41g6d"
+                },
+                {
+                    "word": "hoch",
+                    "sound": "./audios/ceg0hni4dhl5j16fb77n21ojlek2i2omim0p1i3m0967ihmjd"
+                }
+            ],
+            "name": "Voiceless glottal fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/5oo9eefjeknfif1581o6ief4e65lnnh8kf986aeia79bf0l36d"
+        },
+        "k": {
+            "examples": [
+                {
+                    "word": "Sekunde",
+                    "sound": "./audios/h4m14ndeo293h0h5e3i7933c5b90heg36n35nbemdedflo9jd"
+                },
+                {
+                    "word": "Dienstag",
+                    "sound": "./audios/i4ha015k14knf1693ppme467feb9cfd1e6kp8193pgji7836d"
+                },
+                {
+                    "word": "Samstag",
+                    "sound": "./audios/ajglcla4cg4pccpag9748hp93jldhioegpj7of76c8lj2b9jd"
+                },
+                {
+                    "word": "Sekretär",
+                    "sound": "./audios/0hmonghc537cf6ag0mf4083knl8jbpka9ifaa02gh1g6d"
+                },
+                {
+                    "word": "Kind",
+                    "sound": "./audios/ag7j87hkijm1o66l36436j012ig1hdpj6mi2dhlb4c4mjd"
+                },
+                {
+                    "word": "Königin",
+                    "sound": "./audios/o7d92l0nno04k1pn5nc636okmjpd8eh6d9h0gd2gh1g6d"
+                }
+            ],
+            "name": "zwanzig, König, Zeichen, achtzig, siebzig, Gewicht, schmutzig",
+            "phonetic_detail": "",
+            "sound": "./audios/1pi8gc795najdbo3gn9g9fi913h25db9ol3nkjeac84eldl36d"
+        },
+        "l": {
+            "examples": [
+                {
+                    "word": "lächeln",
+                    "sound": "./audios/l85cp17533mm9ijkkl30bgh1jfnlg8ld12n8f29n3abpfb9jd"
+                },
+                {
+                    "word": "Gold",
+                    "sound": "./audios/3438259kbk1ipnnk2ko0c1ek2f2nilfkhj378h1fieagfj7ihmjd"
+                },
+                {
+                    "word": "Klub",
+                    "sound": "./audios/p9eaa8i0024mdon89cko3hee39jeeoabpi199n16hg3m8o9jd"
+                },
+                {
+                    "word": "langsam",
+                    "sound": "./audios/3i248koj2o6k9fh6n17e7moj2flik46d26a91p21kmgm8o9jd"
+                },
+                {
+                    "word": "fliegen",
+                    "sound": "./audios/2aa35d25i6150kcc28165pnk2apnnejae1a9jo6maf7ajneg6d"
+                },
+                {
+                    "word": "anhalten",
+                    "sound": "./audios/pc80he7j2loi0fc25koji8j0a1kc5jk4nhel6llekmgm8o9jd"
+                }
+            ],
+            "name": "alveolar lateral approximant",
+            "phonetic_detail": "",
+            "sound": "./audios/khc5mmpfb77522ledi5g5jj9cbefdm5iigh64kdem4pa41g6d"
+        },
+        "l̩": {
+            "examples": [
+                {
+                    "word": "schütteln",
+                    "sound": "./audios/019op41662jj1i79m83hheg702if0i6i536ee2bh6j71dflo9jd"
+                },
+                {
+                    "word": "lächeln",
+                    "sound": "./audios/26pc48fh07gdl5dp4mlhfk4697a24mj2gn3a1dgnlec7daeg6d"
+                },
+                {
+                    "word": "Schlüssel",
+                    "sound": "./audios/bo9a2ak417em89mb3n871gjj9i2eaf9fgfddklj6ioca41g6d"
+                },
+                {
+                    "word": "Hügel",
+                    "sound": "./audios/6jen6he0g47oj8k68c93dbg08a8hm2n76mna670bih5f62b9jd"
+                },
+                {
+                    "word": "Gabel",
+                    "sound": "./audios/9fbk86gm7mjo647b9ihm1a2aj4hiko96epld8kcnho1ldl36d"
+                },
+                {
+                    "word": "Mantel",
+                    "sound": "./audios/k8lo823ge7c8ad6pk1egn9oflk78289e6a4gni8kj910aeg6d"
+                }
+            ],
+            "name": "alveolar lateral approximant",
+            "phonetic_detail": "syllabic",
+            "sound": "./audios/pg59lb95g4o7gk72lb8el9pgf31ag9p456dc8jf81o4c4mjd"
+        },
+        "m": {
+            "examples": [
+                {
+                    "word": "umrühren",
+                    "sound": "./audios/an22odkb2e37bc2n9f7j6b72j6g277gm02700pja98o9jd"
+                },
+                {
+                    "word": "Mantel",
+                    "sound": "./audios/p1lc88plop1293fe9je1nl25mgan9koj5h6dgg8855pkihmjd"
+                },
+                {
+                    "word": "Motor",
+                    "sound": "./audios/jff75f1pei4mke0jm8ok44aa1im6g60f7ap3dn0fd967ihmjd"
+                },
+                {
+                    "word": "Ehemann",
+                    "sound": "./audios/3n75i884og9b7n2kfjma579okm8a4hf967m4df91heldl36d"
+                }
+            ],
+            "name": "Bilabial nasal",
+            "phonetic_detail": "",
+            "sound": "./audios/b6chic9jnb7p1250nj6a7g1o4nod0kg848ee0llch27ajneg6d"
+        },
+        "n": {
+            "examples": [
+                {
+                    "word": "Ehemann",
+                    "sound": "./audios/k08ch768a3ogfboko1g6c21alhj45j4oe47ab8b4c4mjd"
+                },
+                {
+                    "word": "zehntausend",
+                    "sound": "./audios/fni52oe4g02fd8g86aef1l8dbf4lj5dd60196o904oipkihmjd"
+                },
+                {
+                    "word": "Konsonant",
+                    "sound": "./audios/abbfeg218kfh9k4o2p7jbic60c901hijab1a3c1l9dedflo9jd"
+                },
+                {
+                    "word": "Ozean",
+                    "sound": "./audios/6onp4cdng2pg2c1j6piggmndf0i3j4j0bna2nm6ibfhpa41g6d"
+                }
+            ],
+            "name": "alveolar nasal",
+            "phonetic_detail": "",
+            "sound": "./audios/pj3fc84im853p5h3ijd4ijj4p3oaikhllh79gae39kl8dl36d"
+        },
+        "n̩": {
+            "examples": [
+                {
+                    "word": "küssen",
+                    "sound": "./audios/oolg5o7h57o5nd1c3ck1np1e17m8dc9e1md7e8466a98o9jd"
+                },
+                {
+                    "word": "Zeichen",
+                    "sound": "./audios/1e1mc8p1o1f8e599dcffnm1kllol2gn6mi9cpd37l8dl36d"
+                },
+                {
+                    "word": "Reifen",
+                    "sound": "./audios/goc78565792aa7278l0cchg7970olem9mgkj2fh85n41g6d"
+                },
+                {
+                    "word": "gebogen",
+                    "sound": "./audios/bl5kl80cidhmn38o9i71k8pjfc67ojihjm2j8dfjkfa1ap4mjd"
+                }
+            ],
+            "name": "alveolar nasal",
+            "phonetic_detail": "syllabic",
+            "sound": "./audios/5c3ic7ml084bhpj6h12ik2l1jnm705fog2np740d7b2ci20l36d"
+        },
+        "ŋ": {
+            "examples": [
+                {
+                    "word": "Punkt",
+                    "sound": "./audios/h1bok9lelpne2313bn4a8dgh1hahm01enkmneh8a4ikdaeg6d"
+                },
+                {
+                    "word": "jung",
+                    "sound": "./audios/ma41bn9pgk53jgpeka72e864ghdd875dnb4odg8l1o4c4mjd"
+                },
+                {
+                    "word": "Übung",
+                    "sound": "./audios/ikgbgbej17kn3mdgom19cj2kpb5dem01nm27a5op6m67ihmjd"
+                },
+                {
+                    "word": "dunkel",
+                    "sound": "./audios/gl6kbc3e8he1cb6ff4i525mda4hg2ih0aelcc6k2d967ihmjd"
+                }
+            ],
+            "name": "Velar nasal",
+            "phonetic_detail": "",
+            "sound": "./audios/abg236fi4a1a62old19ae100kkn5pf04m23d34fgpgji7836d"
+        },
+        "p": {
+            "examples": [
+                {
+                    "word": "Temperatur",
+                    "sound": "./audios/1h6l931nlb9gbabja34l4hc674flkmpld01ml1jmnbpfb9jd"
+                },
+                {
+                    "word": "Spiel",
+                    "sound": "./audios/onmcdgbdnm2g7f1hamg5ak9k69jkie9ecn71h9c1nd7np4mjd"
+                },
+                {
+                    "word": "April",
+                    "sound": "./audios/038afokolafkela24c5gi1dihbc844kj7g7k27893ncp8lj2b9jd"
+                },
+                {
+                    "word": "Präsident",
+                    "sound": "./audios/286p4j6nbjmn4b8a12gdp361aip878lg287ki7ojel55pkihmjd"
+                },
+                {
+                    "word": "Polizei",
+                    "sound": "./audios/jdl2312mpljjb1kgi365a4l9ah7b14fb4m698dglhk2lo9jd"
+                }
+            ],
+            "name": "Voiceless bilabial stop",
+            "phonetic_detail": "",
+            "sound": "./audios/4oghoeg3jcl1769p3b2gppa4id9fd02blpgfhhmnkein41g6d"
+        },
+        "pf": {
+            "examples": [
+                {
+                    "word": "Pfund",
+                    "sound": "./audios/ne22mej7d54l775bif76a2g1m8lp7pg41hdg3pefnnme5hmjd"
+                }
+            ],
+            "name": "Voiceless labiodental affricate",
+            "phonetic_detail": "",
+            "sound": "./audios/85md9pgn5ajenghn232aemlo5ha4f04m7kkphi9kcja98o9jd"
+        },
+        "ʁ": {
+            "examples": [
+                {
+                    "word": "Sport",
+                    "sound": "./audios/4ape1np4oecn9nlo6o349mg1h50jbgp47c1456gopfb9jd"
+                },
+                {
+                    "word": "hart",
+                    "sound": "./audios/ooco9hc09edmp2opjen8cki65jhpn28mmclmpl3akein41g6d"
+                },
+                {
+                    "word": "Berg",
+                    "sound": "./audios/27en86kkp0dl79ald2mlmj4m4fehl5olb1bj7lne7h9e5hmjd"
+                },
+                {
+                    "word": "warm",
+                    "sound": "./audios/be53a9mifni9jhn0a6ega5ec1ge2bl2fcbaf2877g9kl8dl36d"
+                }
+            ],
+            "name": "Voiced uvular fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/io8010d3bookn9gakm4h10bdhhpi228k9edj1fnnme5hmjd"
+        },
+        "r": {
+            "examples": [],
+            "name": "alveolar trill",
+            "phonetic_detail": "",
+            "sound": "./audios/9eenl44n7pbd4p78hb7ipp890e6h2ao7ag3ocij520l36d"
+        },
+        "s": {
+            "examples": [
+                {
+                    "word": "geradeaus",
+                    "sound": "./audios/gi3n43g9c1mo5ddmkenhc10ph4mn7h15g54acn519gm8o9jd"
+                },
+                {
+                    "word": "Schwester",
+                    "sound": "./audios/el4fhe2hd2d1cmfk4n053lbgoe2031lge453483j9i4hc4mjd"
+                },
+                {
+                    "word": "Haus",
+                    "sound": "./audios/33c4a4pcace0427mdki9kifa4ddg559amno0d1kh7ab8b4c4mjd"
+                },
+                {
+                    "word": "Dienstag",
+                    "sound": "./audios/1gmbb82b8dbhgb4l52o9ol35l65i0pcgogag04mf5b72lo9jd"
+                },
+                {
+                    "word": "Samstag",
+                    "sound": "./audios/2hbh21cpfp0b9ccgcjlbd80gl662if81gjlnbfoaj6a98o9jd"
+                }
+            ],
+            "name": "Voiceless alveolar fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/am52bagd8nag812l2pkbo6ig52m9304a1be0389734dd57836d"
+        },
+        "ʃ": {
+            "examples": [
+                {
+                    "word": "stehen",
+                    "sound": "./audios/7lofjdggimg6hag4oapphplkijpfmick1mjkginn9hdd57836d"
+                },
+                {
+                    "word": "springen",
+                    "sound": "./audios/m96j2e6mhpdm7bam097h3fe5pg0e524in0k59niaodicfb9jd"
+                },
+                {
+                    "word": "schmelzen",
+                    "sound": "./audios/jglj3k1jf6pohk93264377k1817d6m6hop2b4nphjbhhc4mjd"
+                },
+                {
+                    "word": "Sport",
+                    "sound": "./audios/0c8k141fk2583ppn0c1fknob4oo6a96hfcgk0po5mh4o1ldl36d"
+                },
+                {
+                    "word": "Stadt",
+                    "sound": "./audios/5f9go94io4b2iog4mon372impaii855c1kg8pnbcij520l36d"
+                },
+                {
+                    "word": "Geschenk",
+                    "sound": "./audios/9n9gh319ljh7393ifcbb2abb8j6l63hb33cjh1h8a4ikdaeg6d"
+                }
+            ],
+            "name": "Voiceless palato-alveolar sibilant",
+            "phonetic_detail": "",
+            "sound": "./audios/boanl95i3k3m0bg8m3om3k2ome35ck5albonmgnalec7daeg6d"
+        },
+        "t": {
+            "examples": [
+                {
+                    "word": "Fahrrad",
+                    "sound": "./audios/l89ene9fdbafghgn1j0f9dp7gfkcfk04ofd3mll1o4c4mjd"
+                },
+                {
+                    "word": "Geld",
+                    "sound": "./audios/anc6eapmhlef8618fpm67g326lpkc569jkoemkdl7e1in41g6d"
+                },
+                {
+                    "word": "Geschäft",
+                    "sound": "./audios/np80ibgmgbcm5d7n0730k61obac94d0dl2ieagfj7ihmjd"
+                },
+                {
+                    "word": "Hosentasche",
+                    "sound": "./audios/7kk2274404k8elbojjf3dhl8ph3cnk8cpi7djhi7gi9ok836d"
+                }
+            ],
+            "name": "voiceless alveolar stop",
+            "phonetic_detail": "",
+            "sound": "./audios/p3p60m4c25llfie5nn7b7bhjo59k0i9n728ki73lhk2lo9jd"
+        },
+        "ts": {
+            "examples": [
+                {
+                    "word": "Benzin",
+                    "sound": "./audios/4pg31acimpeil2eckj25coac4c862c7h7bj869cl5eeo4c4mjd"
+                },
+                {
+                    "word": "Hitze",
+                    "sound": "./audios/9944jeign4okj12oe8cpae2957d173lhmocmg7maapm10aeg6d"
+                },
+                {
+                    "word": "Zeitschrift",
+                    "sound": "./audios/7ji1paach7i7ablb1p36hkfljea20cdhifome1a80flo9jd"
+                }
+            ],
+            "name": "Voiceless alveolar affricate",
+            "phonetic_detail": "",
+            "sound": "./audios/fhj82eim8nf3kf320jba7h8d45g36jc8f539ag97og93h1g6d"
+        },
+        "v": {
+            "examples": [
+                {
+                    "word": "Rechtsanwalt",
+                    "sound": "./audios/bpj7f7kf1pakn21l98ojckpc9o78en25p0nehf9cacgji7836d"
+                },
+                {
+                    "word": "Wald",
+                    "sound": "./audios/e1eac0fc0ibi794chpc7l984de6l0epe6al5ci32i7p7daeg6d"
+                },
+                {
+                    "word": "werfen",
+                    "sound": "./audios/28598ehpb3e230am2bi738744l81e90323f8i7dciafof0l36d"
+                },
+                {
+                    "word": "schwer",
+                    "sound": "./audios/heghla5cnaaed8aabebgpbifehh7p9lpeimg30n2j7ihmjd"
+                }
+            ],
+            "name": "Voiced labiodental fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/1gj0gpg81h6ng401d62nd6n3omp01e957gen7oc1eo4c4mjd"
+        },
+        "x": {
+            "examples": [
+                {
+                    "word": "Nacht",
+                    "sound": "./audios/ci8ijh55n5fnjkk051k7j09k0o17bb8c8e0g51bkgi9ok836d"
+                },
+                {
+                    "word": "Hochzeit",
+                    "sound": "./audios/ieg1b6lkhh440ka3kfaapp9lak708kd395o8gdo2ci20l36d"
+                },
+                {
+                    "word": "flach",
+                    "sound": "./audios/mi20e4gh92eo07b5cn2eci491coee0ied32ilnmmkl8dl36d"
+                },
+                {
+                    "word": "kochen",
+                    "sound": "./audios/51110bfm60e58oh0g2bbdi83gj3bmanahbi577f7ngfj7ihmjd"
+                },
+                {
+                    "word": "hoch",
+                    "sound": "./audios/po2e7k92apio63lf16n6o12joj0bh4gkhn5ljf81o4c4mjd"
+                }
+            ],
+            "name": "Voiceless velar fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/jo3d1g2pen2lco44k0cbn3akfbfoem4j1m7dgc0jc8lj2b9jd"
+        },
+        "z": {
+            "examples": [
+                {
+                    "word": "Präsident",
+                    "sound": "./audios/5nijjhmh73ahkc8b9ccndfdgm82p9o638apeo620glhk2lo9jd"
+                },
+                {
+                    "word": "Musik",
+                    "sound": "./audios/kp7jmign739akj07n3m8ah2plch3k06mcnb26khdlkajneg6d"
+                }
+            ],
+            "name": "Voiced alveolar fricative",
+            "phonetic_detail": "",
+            "sound": "./audios/2ck34kld48fg3dgkao82e80ae46m5c8jl512e20aa8hk2lo9jd"
+        },
+        "ʔ": {
+            "examples": [
+                {
+                    "word": "Insel",
+                    "sound": "./audios/0pk3998b23i4e5l0d3ep724l70cn8bl370d6jh6clib72lo9jd"
+                },
+                {
+                    "word": "Himmel",
+                    "sound": "./audios/mcc6k3gan7g6ngb7jo84agbgp2d6fl8mg98je64jbhhc4mjd"
+                },
+                {
+                    "word": "Rechtsanwalt",
+                    "sound": "./audios/a5ijcm7h97old8o8imhm8p7eghp85jfk7gbe3jblp0njneg6d"
+                },
+                {
+                    "word": "Abendessen",
+                    "sound": "./audios/k748dgiil434nf1ekhjai31242fl92acm4nd8pm9fe0aeg6d"
+                }
+            ],
+            "name": "Glottal stop",
+            "phonetic_detail": "",
+            "sound": "./audios/g216cfa0cmc0n0pbn948o1kdkkb8m9p4l9jma18lad7np4mjd"
+        },
+        "ʒ": {
+            "examples": [
+                {
+                    "word": "Orange",
+                    "sound": "./audios/3popn22e76lb2ejh19o0ljfn7n647dfhpdgic2eheldl36d"
+                }
+            ],
+            "name": "Voiced palato-alveolar sibilant",
+            "phonetic_detail": "",
+            "sound": "./audios/4kj6hij96f3p1m6fe4pd48o1kkeeln77ldfb1p7b6k6knp4mjd"
+        },
+        "j": {
+            "examples": [
+                {
+                    "word": "Junge",
+                    "sound": "./audios/ecc8279lfpmcce0i0hadce4mb0b7g7eggjie7ao5393h1g6d"
+                },
+                {
+                    "word": "Juli",
+                    "sound": "./audios/456521bh9cfie4jjfhiejl9d5f90ahi1ce6ffm3j5afof0l36d"
+                },
+                {
+                    "word": "Jahreszeit",
+                    "sound": "./audios/ej2ghg9lpn0cn45847igcic8dna0614h736kk5ej5j520l36d"
+                }
+            ],
+            "name": "Palatal approximant",
+            "phonetic_detail": "",
+            "sound": "./audios/cij7n01lnh48cc9o30cf7b5hlmmjm67fm5l6bgff03opfb9jd"
+        }
+    },
+    "vowels": {
+        "a": {
+            "examples": [
+                {
+                    "word": "Staub",
+                    "sound": "./audios/j10g4badeddh68b5mg37fmp3p69bh9a393330n2j7ihmjd"
+                },
+                {
+                    "word": "anschauen",
+                    "sound": "./audios/6efjaek89pffhakh6fp1h27ln5cfp7767h6a7c37pg2e0aeg6d"
+                },
+                {
+                    "word": "Krankenhaus",
+                    "sound": "./audios/6ah30l70onm2iiph712i8hek3al371ff6pk0bih5f62b9jd"
+                },
+                {
+                    "word": "gemein",
+                    "sound": "./audios/p18k7cnh42cp36p8hlbm7oo5enmggopii97ceem0hlb4c4mjd"
+                },
+                {
+                    "word": "krank",
+                    "sound": "./audios/5pn0gh8k5pp71fam85gkl8j0clfgjj8cn65ml5dd0pja98o9jd"
+                }
+            ],
+            "name": "Open central unrounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/l2k47aonh4hmffcbnmk6fc99kkn0onlnim5a31mm3h1g6d"
+        },
+        "aː": {
+            "examples": [
+                {
+                    "word": "Banane",
+                    "sound": "./audios/8g22b2p16ime0bk884495oildcfa40c1lfg4plomg54hc4mjd"
+                },
+                {
+                    "word": "Ventilator",
+                    "sound": "./audios/8379knljg6m78cnfk9d27c0p655864bc8p337fb383nh6neg6d"
+                },
+                {
+                    "word": "Nachmittag",
+                    "sound": "./audios/3enofj29060gneb8i3hg91mkl62b4g9a4410437446neg6d"
+                },
+                {
+                    "word": "Fahrkarte",
+                    "sound": "./audios/29ai1ol05ad63dd9b50d106kpcemdk457ialicmog0edflo9jd"
+                },
+                {
+                    "word": "Fahrkarte",
+                    "sound": "./audios/ghcf031b9ke111g5ba1ek1o8fpk9gcfojdflab43fj7ihmjd"
+                }
+            ],
+            "name": "Open central unrounded vowels",
+            "phonetic_detail": "long",
+            "sound": "./audios/8kb3jlkpiof792k76l6cpke5i328f3njnjm5jk2d967ihmjd"
+        },
+        "ã": {
+            "examples": [
+                {
+                    "word": "Restaurant",
+                    "sound": "./audios/90kj3n9i2bjem05hddc15l9900oog9emli8bn67ea80flo9jd"
+                },
+                {
+                    "word": "Orange",
+                    "sound": "./audios/94mfm1b25g4ee6lae27m120e88alh91cf4el394iokp7daeg6d"
+                }
+            ],
+            "name": "Open central unrounded vowels",
+            "phonetic_detail": "nasal",
+            "sound": "./audios/6lh4ml5elkni06lhlma62i9j2k1gcc9ci39hfgpgji7836d"
+        },
+        "ɐ": {
+            "examples": [
+                {
+                    "word": "Sommer",
+                    "sound": "./audios/n0l0c4bmc2padfhj2c4bfeoe3eig3boj4g6037l8dl36d"
+                },
+                {
+                    "word": "Schauspieler",
+                    "sound": "./audios/kdme9og247oec9aj6a6kkg92lbpj42daeimcga16hg3m8o9jd"
+                },
+                {
+                    "word": "Schulter",
+                    "sound": "./audios/ij6ll60i9cdg7i98h42ihhnoah5mbg7fk76m6lh763ji7836d"
+                }
+            ],
+            "name": "Near-open central vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/4bgf81lk3227ae316306e4c7ph53a2l1m94k5o3720ce315hmjd"
+        },
+        "ɛ": {
+            "examples": [
+                {
+                    "word": "Ventilator",
+                    "sound": "./audios/nplf02j2oa3ebknhjl8lhkjifa2323a8a8fn7k4cm10aeg6d"
+                },
+                {
+                    "word": "Schwester",
+                    "sound": "./audios/o7cbpo34o2jkp597o8an42e43b0deo06kkmppapdbmok836d"
+                },
+                {
+                    "word": "Präsident",
+                    "sound": "./audios/n4khhif9b7cjngln4dgb8f2m1c4fbb79k9a648ijm67ihmjd"
+                }
+            ],
+            "name": "Open-mid front unrounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/8164o51cc8o7gddm68c103f8n3kil8f2c1kb30gha59ok836d"
+        },
+        "ɛː": {
+            "examples": [
+                {
+                    "word": "zählen",
+                    "sound": "./audios/bm3komemojdaca2eg202afjlmp1693cm38peimg30n2j7ihmjd"
+                },
+                {
+                    "word": "Träne",
+                    "sound": "./audios/aiiebkje0e4ha23h5kbk8oe6j7oh7lg76mb4p8e5m485n41g6d"
+                },
+                {
+                    "word": "Universität",
+                    "sound": "./audios/p1ahn1acecbbg09k874ncdgij3e26j0fj4nc72hgl0flo9jd"
+                },
+                {
+                    "word": "Sekretär",
+                    "sound": "./audios/1e0p1oo65eej0j1gfl1ihn50kdcffm0j7pp0a27cnho1ldl36d"
+                },
+                {
+                    "word": "Mädchen",
+                    "sound": "./audios/ii6afedae44ddh0l16325f1jpbllg5nk7cg4hkk057836d"
+                },
+                {
+                    "word": "Käse",
+                    "sound": "./audios/k96n8ji18m5lm3b76820hm99f9pm9geo2b0co80be9gm8o9jd"
+                }
+            ],
+            "name": "Open-mid front unrounded vowels",
+            "phonetic_detail": "long",
+            "sound": "./audios/8fjp4jd91ggocb2eph5h0eek3dinbd8mbc22mjlf3bk836d"
+        },
+        "e": {
+            "examples": [
+                {
+                    "word": "Ozean",
+                    "sound": "./audios/hfj1nfocoboicch87n8740i1omio4nhg36h0fb5bo72lo9jd"
+                },
+                {
+                    "word": "Reporter",
+                    "sound": "./audios/pagifeg6c4ida15emh38n98klghjmeljl3j2impk1dflo9jd"
+                },
+                {
+                    "word": "Material",
+                    "sound": "./audios/bk2j9370m0a9ib9l3han2hhkak10nmpdm73pba69i4hc4mjd"
+                },
+                {
+                    "word": "Theater",
+                    "sound": "./audios/pe853ljb4516cme1kd2d30mdhm0nkkh486b2gpgji7836d"
+                }
+            ],
+            "name": "Close-mid front unrounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/g06b0nm94584bfpoapne4ag65cefbh4k78j1nb43fj7ihmjd"
+        },
+        "eː": {
+            "examples": [
+                {
+                    "word": "Erde",
+                    "sound": "./audios/likbllla05jh0h7igjaj901d70gb475jojh9bdonodicfb9jd"
+                },
+                {
+                    "word": "stehen",
+                    "sound": "./audios/bh1ecjnfcl6fm1pl4gi1ig47c84gm7ejbdpf9jninl5n41g6d"
+                },
+                {
+                    "word": "Ehe",
+                    "sound": "./audios/ig0lal1b38gpoai9el51pk2589bfbaflid5h634hkk057836d"
+                },
+                {
+                    "word": "erste",
+                    "sound": "./audios/3mfd243n46cll72llf8pfpo206g2mm9k0fbahndmobipkihmjd"
+                },
+                {
+                    "word": "Käse",
+                    "sound": "./audios/3o5fnao83dk420g1p8np0569ohhn42d7g677lc7b6k6knp4mjd"
+                }
+            ],
+            "name": "Close-mid front unrounded vowels",
+            "phonetic_detail": "long",
+            "sound": "./audios/6p75d5jb4ogoe38p9plhaimcp1m1jmd47e7ee8g11a80flo9jd"
+        },
+        "ə": {
+            "examples": [
+                {
+                    "word": "Geschenk",
+                    "sound": "./audios/gm3a99n33d4hjmpjme218pjf5m0a5j46hfcb2j3b33m8o9jd"
+                },
+                {
+                    "word": "Geschäft",
+                    "sound": "./audios/64dfda00kpmbabcennjh6ogjn9p5ajdn7312fhm4cdbmok836d"
+                },
+                {
+                    "word": "verkaufen",
+                    "sound": "./audios/0c2e6f96kj1goibe41h9ncdhf27ed8j6mmblj3d6o5kdaeg6d"
+                },
+                {
+                    "word": "Hosentasche",
+                    "sound": "./audios/fap1kfa18mga44kg65fab69jfo0f86ka54ciamnmid6fgh1g6d"
+                },
+                {
+                    "word": "fallen",
+                    "sound": "./audios/fojfdbcnhfaonkl16imk8dlpi9kec9enba665dlg354hc4mjd"
+                },
+                {
+                    "word": "Erde",
+                    "sound": "./audios/e1lj45phme4fgmlhnfgp99pda488fogdl6ab5jbd9nbpfb9jd"
+                }
+            ],
+            "name": "Mid central vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/h6f5icn6lhbo9ocboo8eene172nm136pa1f36okkpohhc4mjd"
+        },
+        "ɪ": {
+            "examples": [
+                {
+                    "word": "Schwein",
+                    "sound": "./audios/fj79paoka9bmk0nk3pe8m7fkjo18p2kj5kndkdi1mdedflo9jd"
+                },
+                {
+                    "word": "schmutzig",
+                    "sound": "./audios/a092ai8pbe822943adm5mbbig79b90h2f2kl74ogm0967ihmjd"
+                },
+                {
+                    "word": "sitzen",
+                    "sound": "./audios/agdm25dp5d5bh2dgpam96mh7ii43ohj9goapak3pp8lj2b9jd"
+                },
+                {
+                    "word": "Werkzeug",
+                    "sound": "./audios/o72iebf2la9787pp1n1ba5j7p89fec323df9mfbmg54hc4mjd"
+                },
+                {
+                    "word": "billig",
+                    "sound": "./audios/9ih0l66kj5b522969f6d0j0ndoodfhpal1dm084adp262b9jd"
+                },
+                {
+                    "word": "Krankheit",
+                    "sound": "./audios/ga1lbdolifc37m6ga7mdpoem25minkbj2f1g82lk24k2lo9jd"
+                }
+            ],
+            "name": "Near-close near-front unrounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/4aaiambm69ch1f25k2f58h8n3hce58fdl2m11cbkp7daeg6d"
+        },
+        "i": {
+            "examples": [
+                {
+                    "word": "Medizin",
+                    "sound": "./audios/2jihg220jf34mjlp0eam71ihhchddgmppf8ld50mk446neg6d"
+                }
+            ],
+            "name": "Close front unrounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/9n6gf0ma6dag2ab4jfp174lpkp8iknpo9l1p2mijhoipkihmjd"
+        },
+        "iː": {
+            "examples": [
+                {
+                    "word": "Spieler",
+                    "sound": "./audios/0k09p0017g32gn4o51c4kb985gac80p910l0ek150icfb9jd"
+                },
+                {
+                    "word": "Tier",
+                    "sound": "./audios/2kifhidl3bde1ceae8nlkleml41bmn43m5dc61m96omok836d"
+                },
+                {
+                    "word": "riechen",
+                    "sound": "./audios/6c6k70eo4pjcij1706772jc1fa4b0m021k1ip7lpi20l36d"
+                },
+                {
+                    "word": "Technologie",
+                    "sound": "./audios/l19ofcnj4mg5ml6lje5fb8oebi2ckaa3o030826jfgh1g6d"
+                },
+                {
+                    "word": "Frieden",
+                    "sound": "./audios/pk1g5m9an6aaof8lknied5d184h8kpb8phmklmcacgji7836d"
+                }
+            ],
+            "name": "Close front unrounded vowels",
+            "phonetic_detail": "long",
+            "sound": "./audios/i7ijf92m9d8ogejff0fli6d92b83gdd246eidd0pja98o9jd"
+        },
+        "ɔ": {
+            "examples": [
+                {
+                    "word": "Reporter",
+                    "sound": "./audios/mg426bn8jjdj8l849l2ocop9bndbk6im9cbld62jomok836d"
+                },
+                {
+                    "word": "neunzehn",
+                    "sound": "./audios/oab6cfol0fb50nl5ijp5if26e2jdb7j1kjb4kk057836d"
+                },
+                {
+                    "word": "Tochter",
+                    "sound": "./audios/96j6fpah44fk9k6ll7kl6jp44i23e453483j9i4hc4mjd"
+                },
+                {
+                    "word": "Opfer",
+                    "sound": "./audios/2edhdp8c5opfddhaom3gob99iceg8cpo1h731ekokgi9ok836d"
+                }
+            ],
+            "name": "Open-mid back rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/7cbmj5ha3266dao0fc10m09f06ch0j2gob9mihe49e5hmjd"
+        },
+        "o": {
+            "examples": [
+                {
+                    "word": "Konsonant",
+                    "sound": "./audios/6o0mg7g3mi0dn3oo3p1bph15bel9k352e340nca894pa41g6d"
+                },
+                {
+                    "word": "explodieren",
+                    "sound": "./audios/gc7ek36pklf61i6997871a6hn2k5422h5f0mc2pacgji7836d"
+                }
+            ],
+            "name": "Close-mid back rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/59d7e2o5255loj06gfg106l2a644h68pngihpp4e49e5hmjd"
+        },
+        "oː": {
+            "examples": [
+                {
+                    "word": "Ohr",
+                    "sound": "./audios/gbjgnp2fbgk5n2c35g776nmai3p8hlieml00ecdojgopfb9jd"
+                },
+                {
+                    "word": "Hose",
+                    "sound": "./audios/ln1h0oi2cn7o8m53gecij0i76fjgamgjo4ig5llj2b9jd"
+                },
+                {
+                    "word": "Million",
+                    "sound": "./audios/65hjg68jfjijdi57noi921e5jkj67087b557i16b4kk057836d"
+                }
+            ],
+            "name": "Close-mid back rounded vowels",
+            "phonetic_detail": "long",
+            "sound": "./audios/m1hg5g8a82felbf472ghogook2ffn0d6deg0ffd0h46neg6d"
+        },
+        "œ": {
+            "examples": [
+                {
+                    "word": "Körper",
+                    "sound": "./audios/keahdp9kee0jk65eajbd8m2o6mh6b90l1p9m0ba223bk836d"
+                },
+                {
+                    "word": "Löffel",
+                    "sound": "./audios/ngcip3o3h19e6elbkikemn8am0f80l7kfhp34joe9gm8o9jd"
+                },
+                {
+                    "word": "öffnen",
+                    "sound": "./audios/a0fc2h2c7hmalmo2g16044p5cdnbgfpdd7pnj6o7o7k057836d"
+                }
+            ],
+            "name": "Open-mid front rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/6hfj7ijm1kdo7km5ne61521c1oj4ah4i9b8ki04e01pckihmjd"
+        },
+        "ø": {
+            "examples": [
+                {
+                    "word": "König",
+                    "sound": "./audios/48o930elnegik3pamf52aeiglo1c9a9mmdk7di1mdedflo9jd"
+                },
+                {
+                    "word": "schön",
+                    "sound": "./audios/7nn2c100nj61k00626il2hhpl3ko4n898n9fgi3db5kdaeg6d"
+                },
+                {
+                    "word": "fröhlich",
+                    "sound": "./audios/4p6j44pha1033720jdgdkoiih6b6lklokpcj9la90967ihmjd"
+                },
+                {
+                    "word": "Königin",
+                    "sound": "./audios/mh7oc0ldf7o5o1ca2p063lie4mcf1iodkjmbh4fci20l36d"
+                },
+                {
+                    "word": "Öl",
+                    "sound": "./audios/e5mljmfacn3k3ch200eidl1jif09j5f87ja83ee4manme5hmjd"
+                }
+            ],
+            "name": "Close-mid front rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/1l3pm79l0ln7kp2e4l3kp6em95mngl8ao48b6fp6520l36d"
+        },
+        "ʊ": {
+            "examples": [
+                {
+                    "word": "Punkt",
+                    "sound": "./audios/gmg0foiefgll87kl12pn0km43if6p7e2gm98li0e50icfb9jd"
+                },
+                {
+                    "word": "Tageszeitung",
+                    "sound": "./audios/16p81ce76o7d0p4ihohnf8gpcn27dgbmcpobne8j6ioca41g6d"
+                },
+                {
+                    "word": "einundvierzig",
+                    "sound": "./audios/n4h5hm6jfeola5bimmp3l3l2n5eed3gpo61n44lo149e5hmjd"
+                },
+                {
+                    "word": "aufwachen",
+                    "sound": "./audios/a9jn4pmboc6lec1pdc08j6dbi185nd930dcf8b16d8f3bk836d"
+                },
+                {
+                    "word": "Wohnung",
+                    "sound": "./audios/gaj3bo98ogd2m28b9cjecij00bcd96aphaj1em0hlb4c4mjd"
+                },
+                {
+                    "word": "sauber",
+                    "sound": "./audios/2i2ia005l3o618p5o626ngpmc23i3o69hfan07c49mkl8dl36d"
+                }
+            ],
+            "name": "Near-close near-back rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/40icca34j9pakln3pkha1log0b9jb9hlhpg5lb73nlec7daeg6d"
+        },
+        "u": {
+            "examples": [
+                {
+                    "word": "kurz",
+                    "sound": "./audios/203me6aj2cd2e09e4j52dh283camm16co0977me4fpek5cfb9jd"
+                },
+                {
+                    "word": "Student",
+                    "sound": "./audios/5lhg19ljb7ofd6hpg1c3ok37m5f0h9hk7i895d8jb0d57836d"
+                }
+            ],
+            "name": "Close back rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/nl980k7d9f5n71g63d2a4m5jo4gp9mcapihm5eagfj7ihmjd"
+        },
+        "uː": {
+            "examples": [
+                {
+                    "word": "Juni",
+                    "sound": "./audios/4mj3ko5j50d813ca371cdif7hia127nc96n8m8gmd5oca41g6d"
+                },
+                {
+                    "word": "ruhig",
+                    "sound": "./audios/2fla0p7d7200n7f86mkg2nl50e2opaidli7m58d62jomok836d"
+                },
+                {
+                    "word": "Bruder",
+                    "sound": "./audios/fnh4hig9be2ljj8i72jofd4n2olakpe6ibd1pjk09emm3h1g6d"
+                },
+                {
+                    "word": "Buch",
+                    "sound": "./audios/218endfgbjlbiikb9kioh1c6bj31ogilf1je5ie4j5689m3h1g6d"
+                },
+                {
+                    "word": "Zug",
+                    "sound": "./audios/nd161n7h434cp5f0figlhbd96gof5g2acn1eil076knp4mjd"
+                }
+            ],
+            "name": "Close back rounded vowels",
+            "phonetic_detail": "long",
+            "sound": "./audios/9enen9feicl5jd55bf57fh0pdpb64jicihcg72eb3cbca41g6d"
+        },
+        "ʏ": {
+            "examples": [
+                {
+                    "word": "küssen",
+                    "sound": "./audios/m997l6olj9jm4a2mda4o3al7d04nkko3fo36037l8dl36d"
+                },
+                {
+                    "word": "Fünf",
+                    "sound": "./audios/2jmaogobip7oanhi2l7l97019d9h0nf5p7bdjecg2e0aeg6d"
+                },
+                {
+                    "word": "Künstler",
+                    "sound": "./audios/2fildem71l4jaj0dnfp4kgkbhnnni6l5bpl57fgck1dflo9jd"
+                },
+                {
+                    "word": "fünfzehn",
+                    "sound": "./audios/hd0jmj17d8336mc66bjfejob83lob61ke55dpnho1ldl36d"
+                },
+                {
+                    "word": "drücken",
+                    "sound": "./audios/8m2ejne60n2ck8nk54eh8cfoiajd0fnf24kgkdj3ji7836d"
+                },
+                {
+                    "word": "drücken",
+                    "sound": "./audios/4jp76b5gp6ch30d4dlo999c0fjbd7hj8lkmgbmpm57p7daeg6d"
+                }
+            ],
+            "name": "Near-close near-front rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/fb90dklkehi9bhlglek2pb7p2g49bpefkme82gag7446neg6d"
+        },
+        "y": {
+            "examples": [
+                {
+                    "word": "Büro",
+                    "sound": "./audios/ne6gp3ke985kd7ehpe0lk7n1i6dedjl8gki453b7bb1ldl36d"
+                }
+            ],
+            "name": "Close front rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/da4c7k87cancf5kcdj38ci43m5dednj829k15eh1olgbk836d"
+        },
+        "yː": {
+            "examples": [
+                {
+                    "word": "berühren",
+                    "sound": "./audios/n38f22bko92inedlbbeij99j8341l9c99bf47k291heldl36d"
+                },
+                {
+                    "word": "Übung",
+                    "sound": "./audios/458bhnndmcpnao0335n0jd57ffd9cp5ld4lgkna4a59ok836d"
+                },
+                {
+                    "word": "Frühstück",
+                    "sound": "./audios/kjio5hm1b0llb19e1h489enpd0936glc7fg28301gnh6neg6d"
+                },
+                {
+                    "word": "Flügel",
+                    "sound": "./audios/1f8eeg77kk8im9ddh2pjgap5e8p2hip4n1k7cn3pcc3eap4mjd"
+                },
+                {
+                    "word": "Hügel",
+                    "sound": "./audios/697j15cp7dpdec8l3bhm0ef6l3j78ejhi9a0kml3nh6neg6d"
+                }
+            ],
+            "name": "Close front rounded vowels",
+            "phonetic_detail": "",
+            "sound": "./audios/gc1c42dkhjmh02nhpdgdp4khmpdgan5km1babj427ajneg6d"
+        }
+    }
+}
